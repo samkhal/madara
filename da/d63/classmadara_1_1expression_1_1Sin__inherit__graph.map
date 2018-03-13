@@ -1,0 +1,6 @@
+<map id="madara::expression::Sin" name="madara::expression::Sin">
+<area shape="rect" id="node2" href="$d9/d19/classmadara_1_1expression_1_1SystemCall.html" title="Abstract base class for operators with 3+ potential subnodes. " alt="" coords="19,273,155,315"/>
+<area shape="rect" id="node3" href="$d2/da9/classmadara_1_1expression_1_1TernaryOperator.html" title="Abstract base class for operators with 3+ potential subnodes. " alt="" coords="19,184,155,225"/>
+<area shape="rect" id="node4" href="$d4/d48/classmadara_1_1expression_1_1Operator.html" title="Abstract base class for all parse tree node operators. " alt="" coords="19,95,155,136"/>
+<area shape="rect" id="node5" href="$d0/de0/classmadara_1_1expression_1_1Symbol.html" title="Abstract base class of all parse tree nodes. " alt="" coords="19,5,155,47"/>
+</map>

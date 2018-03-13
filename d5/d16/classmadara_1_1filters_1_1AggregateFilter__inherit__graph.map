@@ -1,0 +1,7 @@
+<map id="madara::filters::AggregateFilter" name="madara::filters::AggregateFilter">
+<area shape="rect" id="node2" href="$d6/d6f/classmadara_1_1filters_1_1ClearRecords.html" title="Filter for clearing records from a filter. " alt="" coords="228,5,421,32"/>
+<area shape="rect" id="node3" href="$d3/d03/classmadara_1_1filters_1_1CounterFilter.html" title="Filter for discovering neighboring peers. " alt="" coords="245,57,404,98"/>
+<area shape="rect" id="node4" href="$d8/de4/classmadara_1_1filters_1_1EndpointClear.html" title="Filter for deleting endpoints, usually when new endpoints have been discovered. " alt="" coords="243,122,407,163"/>
+<area shape="rect" id="node5" href="$de/dd0/classmadara_1_1filters_1_1EndpointDiscovery.html" title="Filter for discovering remote hosts that have sent messages. " alt="" coords="243,187,407,229"/>
+<area shape="rect" id="node6" href="$de/d0e/classmadara_1_1filters_1_1PeerDiscovery.html" title="Filter for discovering neighboring peers. " alt="" coords="225,253,424,280"/>
+</map>

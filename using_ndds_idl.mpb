@@ -1,3 +1,0 @@
-feature (ndds) {
-  prebuild += $(NDDSHOME)/bin/rtiddsgen -replace -language C++ -d $(MADARA_ROOT)/include/madara/transport/ndds $(MADARA_ROOT)/include/madara/transport/ndds/Ndds_Knowledge_Update.idl
-}

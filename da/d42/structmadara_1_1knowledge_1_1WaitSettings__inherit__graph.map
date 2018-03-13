@@ -1,0 +1,5 @@
+<map id="madara::knowledge::WaitSettings" name="madara::knowledge::WaitSettings">
+<area shape="rect" id="node2" href="$d3/d0d/structmadara_1_1knowledge_1_1EvalSettings.html" title="Encapsulates settings for an evaluation statement. " alt="" coords="31,184,174,225"/>
+<area shape="rect" id="node3" href="$d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html" title="Settings for applying knowledge updates. " alt="" coords="15,95,191,136"/>
+<area shape="rect" id="node4" href="$da/dc7/classmadara_1_1knowledge_1_1KnowledgeReferenceSettings.html" title="Settings for applying knowledge updates. " alt="" coords="5,5,200,47"/>
+</map>

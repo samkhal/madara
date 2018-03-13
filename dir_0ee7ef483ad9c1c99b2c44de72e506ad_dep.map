@@ -1,0 +1,33 @@
+<map id="include/madara/knowledge" name="include/madara/knowledge">
+<area shape="rect" id="node4" href="dir_61e16ab42239ded6f91818cda81d001a.html" title="filters" alt="" coords="257,5,329,53"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000006_000003.html" title="7" alt="" coords="276,63,284,78"/>
+<area shape="rect" id="node5" href="dir_244ce806b9473902b08c57948d74a946.html" title="transport" alt="" coords="331,101,405,149"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000006_000012.html" title="13" alt="" coords="325,151,340,166"/>
+<area shape="rect" id="node6" href="dir_ce85246d1f88e636c7b1227efdfbff3f.html" title="utility" alt="" coords="275,303,347,351"/>
+<area shape="rect" id="edge9-headlabel" href="dir_000006_000020.html" title="28" alt="" coords="292,275,307,290"/>
+<area shape="rect" id="node8" href="dir_830c3aa57b9dff9ea5b523b9f962dab5.html" title="expression" alt="" coords="412,207,497,255"/>
+<area shape="rect" id="edge10-headlabel" href="dir_000006_000002.html" title="15" alt="" coords="386,215,401,230"/>
+<area shape="rect" id="node2" href="dir_fcbc2b8a579a36d4599a3b2a327edbf3.html" title="containers" alt="" coords="41,207,124,255"/>
+<area shape="rect" id="node7" href="dir_ae1e36bee980f367fac0a50a2e56ae18.html" title="logger" alt="" coords="275,399,347,447"/>
+<area shape="rect" id="edge19-headlabel" href="dir_000007_000009.html" title="4" alt="" coords="271,373,279,388"/>
+<area shape="rect" id="node3" href="dir_5e0eb35698cd2f6acb13c0c9495ca7f7.html" title="rcw" alt="" coords="148,207,220,255"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000008_000020.html" title="5" alt="" coords="260,280,268,295"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000003_000006.html" title="30" alt="" coords="289,181,304,196"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000003_000007.html" title="5" alt="" coords="112,189,120,204"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000003_000012.html" title="7" alt="" coords="332,75,340,89"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000003_000020.html" title="13" alt="" coords="359,320,373,335"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000003_000009.html" title="2" alt="" coords="255,396,263,411"/>
+<area shape="rect" id="edge14-headlabel" href="dir_000012_000007.html" title="6" alt="" coords="107,188,115,203"/>
+<area shape="rect" id="edge11-headlabel" href="dir_000012_000003.html" title="3" alt="" coords="321,66,329,80"/>
+<area shape="rect" id="edge12-headlabel" href="dir_000012_000020.html" title="52" alt="" coords="340,285,355,300"/>
+<area shape="rect" id="edge13-headlabel" href="dir_000012_000009.html" title="10" alt="" coords="360,400,374,415"/>
+<area shape="rect" id="edge15-headlabel" href="dir_000012_000002.html" title="20" alt="" coords="423,180,438,195"/>
+<area shape="rect" id="edge16-headlabel" href="dir_000020_000006.html" title="2" alt="" coords="294,268,302,282"/>
+<area shape="rect" id="edge17-headlabel" href="dir_000020_000009.html" title="1" alt="" coords="306,373,314,387"/>
+<area shape="rect" id="edge18-headlabel" href="dir_000009_000020.html" title="2" alt="" coords="308,362,316,377"/>
+<area shape="rect" id="edge20-headlabel" href="dir_000002_000006.html" title="98" alt="" coords="340,232,355,246"/>
+<area shape="rect" id="edge21-headlabel" href="dir_000002_000020.html" title="60" alt="" coords="360,295,374,310"/>
+<area shape="rect" id="edge22-headlabel" href="dir_000002_000009.html" title="2" alt="" coords="342,382,350,396"/>
+<area shape="rect" id="clust2" href="dir_0ee7ef483ad9c1c99b2c44de72e506ad.html" alt="" coords="31,196,340,265"/>
+<area shape="rect" id="clust1" href="dir_81813d25d32ad4956e594fea3120bc8f.html" title="madara" alt="" coords="20,160,351,276"/>
+</map>

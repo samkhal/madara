@@ -1,0 +1,4 @@
+<map id="madara::transport::MessageHeader" name="madara::transport::MessageHeader">
+<area shape="rect" id="node2" href="$d6/d41/classmadara_1_1transport_1_1FragmentMessageHeader.html" title="Defines a fragmentation header which allows for multi&#45;part messages that are only applied once all fr..." alt="" coords="5,95,177,136"/>
+<area shape="rect" id="node3" href="$de/d6c/classmadara_1_1transport_1_1ReducedMessageHeader.html" title="Defines a simple, smaller message header of 29 bytes that supports less QoS. " alt="" coords="201,95,371,136"/>
+</map>

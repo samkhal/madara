@@ -1,0 +1,27 @@
+var classmadara_1_1knowledge_1_1containers_1_1Collection =
+[
+    [ "Collection", "d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#a1c1210d996a1d4404562959d5dde63c5", null ],
+    [ "Collection", "d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#a218ab9b24cead080cf1efdcdf2123b41", null ],
+    [ "~Collection", "d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#a8d163cfa475a111dbd2bfc652d7567ec", null ],
+    [ "add", "d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#a7896187bd7fd36294eefd15a09ff98df", null ],
+    [ "clear", "d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#a8af43e98cca32e6ed9b28ea92df72bc2", null ],
+    [ "clone", "d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#a637aa9751ac2e81cc157db431f967c87", null ],
+    [ "get_debug_info", "d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#a934b2842b3cfafb4904090f6779c0d3b", null ],
+    [ "get_debug_info_", "d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#a1e13c99882eb7bac1a6240f39ecae1d6", null ],
+    [ "get_name", "d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#a455382a3a3a96a11b2ab5b9fbfa76768", null ],
+    [ "is_false", "d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#a1d3aab5865d5d4fa8c0fd957703553be", null ],
+    [ "is_false_", "d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#ae6b45aefce17ec7c23ba7688f747e0d8", null ],
+    [ "is_true", "d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#a49b0b74fc7d73c4499323c510697279f", null ],
+    [ "is_true_", "d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#a0805e7e2bb016a5e3fcf70a6b45e5204", null ],
+    [ "modify", "d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#a6a1e3d91cead7928fe4def898e7b2a73", null ],
+    [ "modify_", "d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#aa474c39f47f531b630ab0c37345de531", null ],
+    [ "modify_if_false", "d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#a7701e2d0f9a9449dec5b44828931f907", null ],
+    [ "modify_if_true", "d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#a7998ce3e8c6b2e95974d1609e2ad469e", null ],
+    [ "set_settings", "d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#ab2052ad3bc42402f2fb7b6fd9a5691b4", null ],
+    [ "size", "d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#aa16d535509ff7f4b497534220d04f578", null ],
+    [ "context_", "d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#a100a48935fb8daa1d38e84d751f04c95", null ],
+    [ "mutex_", "d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#abdf18e898cbfd72d8db2dd199f6b2e0e", null ],
+    [ "name_", "d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#a62b53f23fba537ca1389148a6cabab04", null ],
+    [ "settings_", "d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#a54045ec6faffa2c21fa3d38074054381", null ],
+    [ "vector_", "d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#a2eea7fe3520c9ddbf4a608b38a1e32a1", null ]
+];

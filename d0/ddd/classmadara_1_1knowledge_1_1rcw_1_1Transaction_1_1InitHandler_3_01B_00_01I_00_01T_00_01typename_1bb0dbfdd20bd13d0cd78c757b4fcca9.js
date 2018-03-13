@@ -1,0 +1,5 @@
+var classmadara_1_1knowledge_1_1rcw_1_1Transaction_1_1InitHandler_3_01B_00_01I_00_01T_00_01typename_1bb0dbfdd20bd13d0cd78c757b4fcca9 =
+[
+    [ "V", "d0/ddd/classmadara_1_1knowledge_1_1rcw_1_1Transaction_1_1InitHandler_3_01B_00_01I_00_01T_00_01typename_1bb0dbfdd20bd13d0cd78c757b4fcca9.html#aa1c17663d3dc05c9d6f4455444887d7d", null ],
+    [ "init", "d0/ddd/classmadara_1_1knowledge_1_1rcw_1_1Transaction_1_1InitHandler_3_01B_00_01I_00_01T_00_01typename_1bb0dbfdd20bd13d0cd78c757b4fcca9.html#a1ab0ea48753bfdb280b89dc5c23821ef", null ]
+];
