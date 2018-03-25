@@ -1,5 +1,10 @@
 var NAVTREEINDEX27 =
 {
+"de/d9d/Collection_8inl_source.html":[3,0,0,0,2,0,9],
+"de/d9d/SpliceSubscriberListener_8cpp.html":[3,0,0,0,5,3,6],
+"de/d9d/SpliceSubscriberListener_8cpp_source.html":[3,0,0,0,5,3,6],
+"de/da6/filters_2AggregateFilter_8cpp.html":[3,0,0,0,1,2],
+"de/da6/filters_2AggregateFilter_8cpp_source.html":[3,0,0,0,1,2],
 "de/daf/MADARA__Logger__export_8h.html":[3,0,0,0,6,9],
 "de/daf/MADARA__Logger__export_8h.html#a3d8744732a1b4d21923d01525dbbf403":[3,0,0,0,6,9,5],
 "de/daf/MADARA__Logger__export_8h.html#a725b52d0be664515e9585081cfaa9241":[3,0,0,0,6,9,1],
@@ -202,8 +207,8 @@ var NAVTREEINDEX27 =
 "df/d3f/BroadcastTransportReadThread_8h_source.html":[3,0,0,0,5,0,3],
 "df/d41/SystemCallSin_8h.html":[3,0,0,0,0,128],
 "df/d41/SystemCallSin_8h_source.html":[3,0,0,0,0,128],
-"df/d43/namespacemadara_1_1knowledge.html":[2,0,0,2],
 "df/d43/namespacemadara_1_1knowledge.html":[1,0,0,2],
+"df/d43/namespacemadara_1_1knowledge.html":[2,0,0,2],
 "df/d44/SystemCallSetClock_8cpp.html":[3,0,0,0,0,119],
 "df/d44/SystemCallSetClock_8cpp_source.html":[3,0,0,0,0,119],
 "df/d57/EvalSettings_8cpp.html":[3,0,0,0,2,8],
@@ -244,10 +249,5 @@ var NAVTREEINDEX27 =
 "df/d6d/classmadara_1_1knowledge_1_1rcw_1_1TrackedCollection.html#a84277706739e065b99021b8f22e93bdb":[2,0,0,2,1,26,3],
 "df/d6d/classmadara_1_1knowledge_1_1rcw_1_1TrackedCollection.html#a87dfc669e865e14f4d5766ea22479c12":[2,0,0,2,1,26,4],
 "df/d6d/classmadara_1_1knowledge_1_1rcw_1_1TrackedCollection.html#a880ea8cf99df6906de063a70625f0f77":[2,0,0,2,1,26,11],
-"df/d6d/classmadara_1_1knowledge_1_1rcw_1_1TrackedCollection.html#a99224aaddbb9129998268d8bc419e28e":[2,0,0,2,1,26,5],
-"df/d6d/classmadara_1_1knowledge_1_1rcw_1_1TrackedCollection.html#a9e1ada7a2f749775b47e1e2f29c556ab":[2,0,0,2,1,26,8],
-"df/d6d/classmadara_1_1knowledge_1_1rcw_1_1TrackedCollection.html#ab92ef19246f55ce22344f8aa513e18bd":[2,0,0,2,1,26,21],
-"df/d6d/classmadara_1_1knowledge_1_1rcw_1_1TrackedCollection.html#abbaea2eec882d89b1d8095603c5f14da":[2,0,0,2,1,26,19],
-"df/d6d/classmadara_1_1knowledge_1_1rcw_1_1TrackedCollection.html#abe35b2bbacf8d75909b718e6e6453bc0":[2,0,0,2,1,26,2],
-"df/d6d/classmadara_1_1knowledge_1_1rcw_1_1TrackedCollection.html#acd34d5aa7d50d78bbf50069bb576d217":[2,0,0,2,1,26,20]
+"df/d6d/classmadara_1_1knowledge_1_1rcw_1_1TrackedCollection.html#a99224aaddbb9129998268d8bc419e28e":[2,0,0,2,1,26,5]
 };

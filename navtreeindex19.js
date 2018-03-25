@@ -1,5 +1,10 @@
 var NAVTREEINDEX19 =
 {
+"d9/d84/classmadara_1_1expression_1_1CompositeInequalityNode.html#abe0716e5e48b9b8c317c835561129f98":[2,0,0,0,21,10],
+"d9/d84/classmadara_1_1expression_1_1CompositeInequalityNode.html#ad4299bc16338985638d5ee40210a41a4":[2,0,0,0,21,0],
+"d9/d84/classmadara_1_1expression_1_1CompositeInequalityNode.html#ad99e92e177955207f65c84491c4bed67":[2,0,0,0,21,8],
+"d9/d9b/DoubleStaged_8inl.html":[3,0,0,0,2,0,16],
+"d9/d9b/DoubleStaged_8inl.html#af829344d384d5c72d8db52b0132d563a":[3,0,0,0,2,0,16,0],
 "d9/d9b/DoubleStaged_8inl_source.html":[3,0,0,0,2,0,16],
 "d9/d9e/structTypeHelper.html":[2,0,9],
 "d9/d9e/structTypeHelper.html#a1f1b957a9b64579f4f135a9f92c01964":[2,0,9,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX19 =
 "da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#a9ce77112f288f274ed4dd4dabf1a4d57":[2,0,0,2,11,38],
 "da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#aa3b662d7712f8564a53f2fa75c51b4de":[2,0,0,2,11,43],
 "da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#aaca66eb2f292a667eb4e4e17831082b1":[2,0,0,2,11,77],
-"da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#aaeb2d3381e80d642f9f660989e690213":[2,0,0,2,11,24],
-"da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#ab0ee9fa195dec8f3d685e51d0a53f4cf":[2,0,0,2,11,19],
-"da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#ab16792ee4a3d2281dbe55b875309fb9c":[2,0,0,2,11,45],
-"da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#ab1686b8f67f21582d86f24573cdbe745":[2,0,0,2,11,44],
-"da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#ab17a7dcf906270c817130063a79f7e7f":[2,0,0,2,11,60],
-"da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#ab19baba60ad7984c9e35644518049481":[2,0,0,2,11,11]
+"da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#aaeb2d3381e80d642f9f660989e690213":[2,0,0,2,11,24]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"d3/d03/classmadara_1_1filters_1_1CounterFilter.html":[2,0,0,1,3],
+"d3/d03/classmadara_1_1filters_1_1CounterFilter.html#a27fa897a52463957904529dc1a2fe621":[2,0,0,1,3,3],
 "d3/d03/classmadara_1_1filters_1_1CounterFilter.html#a33a677a9ca691cbeb057e16a2f8a943a":[2,0,0,1,3,5],
 "d3/d03/classmadara_1_1filters_1_1CounterFilter.html#a49eae4b04f4e4783a521152a7182d4ca":[2,0,0,1,3,6],
 "d3/d03/classmadara_1_1filters_1_1CounterFilter.html#a50aa7d8723e4584e365f147782289306":[2,0,0,1,3,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "d3/da1/classmadara_1_1threads_1_1WorkerThread.html#acdded17ccb8ff49c2a018d46347d4140":[2,0,0,4,4,12],
 "d3/da1/classmadara_1_1threads_1_1WorkerThread.html#ad09d2ec297dcfea2b46f77cce3364d86":[2,0,0,4,4,10],
 "d3/da1/classmadara_1_1threads_1_1WorkerThread.html#af474ba5c6dbd1bb91a2ae2366259ff83":[2,0,0,4,4,13],
-"d3/da3/classmadara_1_1knowledge_1_1containers_1_1String.html":[2,0,0,2,0,18],
-"d3/da3/classmadara_1_1knowledge_1_1containers_1_1String.html#a0436fc09a99a50a245940ec28cc6b8a6":[2,0,0,2,0,18,6],
-"d3/da3/classmadara_1_1knowledge_1_1containers_1_1String.html#a05d4ed7e0ff3de50f3a6f69a41ff8f46":[2,0,0,2,0,18,42]
+"d3/da3/classmadara_1_1knowledge_1_1containers_1_1String.html":[2,0,0,2,0,18]
 };

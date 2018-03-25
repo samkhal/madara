@@ -1,5 +1,10 @@
 var NAVTREEINDEX15 =
 {
+"d7/d5e/classmadara_1_1knowledge_1_1containers_1_1DoubleStaged.html#a5be0069bac8e3edf05f78f701d914bb3":[2,0,0,2,0,6,54],
+"d7/d5e/classmadara_1_1knowledge_1_1containers_1_1DoubleStaged.html#a5cca8aa6b676511493f0ab4b0bc8fd6b":[2,0,0,2,0,6,3],
+"d7/d5e/classmadara_1_1knowledge_1_1containers_1_1DoubleStaged.html#a62b53f23fba537ca1389148a6cabab04":[2,0,0,2,0,6,51],
+"d7/d5e/classmadara_1_1knowledge_1_1containers_1_1DoubleStaged.html#a752a812b2aa767f4068d244465e801ef":[2,0,0,2,0,6,22],
+"d7/d5e/classmadara_1_1knowledge_1_1containers_1_1DoubleStaged.html#a7569bac3a82fb4afcaa7821829f9b897":[2,0,0,2,0,6,39],
 "d7/d5e/classmadara_1_1knowledge_1_1containers_1_1DoubleStaged.html#a7701e2d0f9a9449dec5b44828931f907":[2,0,0,2,0,6,20],
 "d7/d5e/classmadara_1_1knowledge_1_1containers_1_1DoubleStaged.html#a78db84d9372c445ea8081b8b5f9dd781":[2,0,0,2,0,6,28],
 "d7/d5e/classmadara_1_1knowledge_1_1containers_1_1DoubleStaged.html#a7998ce3e8c6b2e95974d1609e2ad469e":[2,0,0,2,0,6,21],
@@ -244,10 +249,5 @@ var NAVTREEINDEX15 =
 "d8/d37/classmadara_1_1knowledge_1_1ContextGuard.html#ae2e00b2ef4af2614a926265d99660dcf":[2,0,0,2,4,3],
 "d8/d37/classmadara_1_1knowledge_1_1ContextGuard.html#af84f8e71f9ceeae70895024fbd63d943":[2,0,0,2,4,0],
 "d8/d3a/LeafNode_8h.html":[3,0,0,0,0,78],
-"d8/d3a/LeafNode_8h_source.html":[3,0,0,0,0,78],
-"d8/d42/classmadara_1_1knowledge_1_1rcw_1_1BaseTracker.html":[2,0,0,2,1,0],
-"d8/d42/classmadara_1_1knowledge_1_1rcw_1_1BaseTracker.html#a06fa7fca425e4f1425ab0943982dba7b":[2,0,0,2,1,0,4],
-"d8/d42/classmadara_1_1knowledge_1_1rcw_1_1BaseTracker.html#a0916debbc9127539d8270491b8fbd9dd":[2,0,0,2,1,0,10],
-"d8/d42/classmadara_1_1knowledge_1_1rcw_1_1BaseTracker.html#a1c5a159b4892e4ab5990558f94be8c6e":[2,0,0,2,1,0,0],
-"d8/d42/classmadara_1_1knowledge_1_1rcw_1_1BaseTracker.html#a2494222c1428cead9c8e6d6e71edd4b6":[2,0,0,2,1,0,5]
+"d8/d3a/LeafNode_8h_source.html":[3,0,0,0,0,78]
 };

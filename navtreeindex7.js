@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"d3/da3/classmadara_1_1knowledge_1_1containers_1_1String.html#a0436fc09a99a50a245940ec28cc6b8a6":[2,0,0,2,0,18,6],
+"d3/da3/classmadara_1_1knowledge_1_1containers_1_1String.html#a05d4ed7e0ff3de50f3a6f69a41ff8f46":[2,0,0,2,0,18,42],
 "d3/da3/classmadara_1_1knowledge_1_1containers_1_1String.html#a08dc1ebef9f0d9feba4d02a2913f5eb1":[2,0,0,2,0,18,0],
 "d3/da3/classmadara_1_1knowledge_1_1containers_1_1String.html#a144cde27b3c5917250f1739893edd72a":[2,0,0,2,0,18,41],
 "d3/da3/classmadara_1_1knowledge_1_1containers_1_1String.html#a14e684b57d41510017cb629622210783":[2,0,0,2,0,18,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "d3/dca/classmadara_1_1knowledge_1_1containers_1_1StringStaged.html#a7998ce3e8c6b2e95974d1609e2ad469e":[2,0,0,2,0,19,21],
 "d3/dca/classmadara_1_1knowledge_1_1containers_1_1StringStaged.html#a80f2552ab91af67944468d2840456c24":[2,0,0,2,0,19,51],
 "d3/dca/classmadara_1_1knowledge_1_1containers_1_1StringStaged.html#a81566877075cdf6d37f31f736c61e8e5":[2,0,0,2,0,19,5],
-"d3/dca/classmadara_1_1knowledge_1_1containers_1_1StringStaged.html#a82b38a8ea57a96943fcd6184965eba3e":[2,0,0,2,0,19,14],
-"d3/dca/classmadara_1_1knowledge_1_1containers_1_1StringStaged.html#a8398bfa54c89748eb8d684b3e992afb2":[2,0,0,2,0,19,38],
-"d3/dca/classmadara_1_1knowledge_1_1containers_1_1StringStaged.html#a883dd7e58b7c3d2279b22a22540c95b3":[2,0,0,2,0,19,6]
+"d3/dca/classmadara_1_1knowledge_1_1containers_1_1StringStaged.html#a82b38a8ea57a96943fcd6184965eba3e":[2,0,0,2,0,19,14]
 };

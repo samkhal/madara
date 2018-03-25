@@ -1,5 +1,10 @@
 var NAVTREEINDEX20 =
 {
+"da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#ab0ee9fa195dec8f3d685e51d0a53f4cf":[2,0,0,2,11,19],
+"da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#ab16792ee4a3d2281dbe55b875309fb9c":[2,0,0,2,11,45],
+"da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#ab1686b8f67f21582d86f24573cdbe745":[2,0,0,2,11,44],
+"da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#ab17a7dcf906270c817130063a79f7e7f":[2,0,0,2,11,60],
+"da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#ab19baba60ad7984c9e35644518049481":[2,0,0,2,11,11],
 "da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#ab1a3b37fd042426e822247c82269e16e":[2,0,0,2,11,79],
 "da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#ab593fbe3e36a97d6be1c8a007af024a1":[2,0,0,2,11,81],
 "da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#ab594d92d726741b465a4dc3763d2b7f1":[2,0,0,2,11,49],
@@ -244,10 +249,5 @@ var NAVTREEINDEX20 =
 "da/dab/classmadara_1_1expression_1_1SystemCallEval.html#af33416d4431c9fa69ca376d964d2d831":[2,0,0,0,107,4],
 "da/dac/Transport_8cpp.html":[3,0,0,0,5,20],
 "da/dac/Transport_8cpp_source.html":[3,0,0,0,5,20],
-"da/db2/classmadara_1_1utility_1_1LStack.html":[2,0,0,6,5],
-"da/db2/classmadara_1_1utility_1_1LStack.html#a027754ba88fd1e124c876c5980785751":[2,0,0,6,5,8],
-"da/db2/classmadara_1_1utility_1_1LStack.html#a0309f693ce48b52491b417e3da83edc9":[2,0,0,6,5,21],
-"da/db2/classmadara_1_1utility_1_1LStack.html#a10f7f173d261b002a8010b508901a031":[2,0,0,6,5,13],
-"da/db2/classmadara_1_1utility_1_1LStack.html#a13ef17bcbd6a5684e0dacf7458900211":[2,0,0,6,5,19],
-"da/db2/classmadara_1_1utility_1_1LStack.html#a248f3cafb3c8dd20abe5979b15648a75":[2,0,0,6,5,23]
+"da/db2/classmadara_1_1utility_1_1LStack.html":[2,0,0,6,5]
 };
