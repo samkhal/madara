@@ -26,7 +26,7 @@ var classmadara_1_1knowledge_1_1rcw_1_1TrackedExtra_3_01std_1_1basic__string_3_0
     [ "impl", "de/de8/classmadara_1_1knowledge_1_1rcw_1_1TrackedExtra_3_01std_1_1basic__string_3_01Char_01_4_00_01Impl_01_4.html#aec600f0591099efc229509d8fa46f70f", null ],
     [ "is_dirty", "de/de8/classmadara_1_1knowledge_1_1rcw_1_1TrackedExtra_3_01std_1_1basic__string_3_01Char_01_4_00_01Impl_01_4.html#a4328ef3832b1f3ea2207e5fdf349b5e6", null ],
     [ "max_size", "de/de8/classmadara_1_1knowledge_1_1rcw_1_1TrackedExtra_3_01std_1_1basic__string_3_01Char_01_4_00_01Impl_01_4.html#abbaea2eec882d89b1d8095603c5f14da", null ],
-    [ "modify", "de/de8/classmadara_1_1knowledge_1_1rcw_1_1TrackedExtra_3_01std_1_1basic__string_3_01Char_01_4_00_01Impl_01_4.html#a8df389597b7c368926ed41b012b79e00", null ],
+    [ "modify", "de/de8/classmadara_1_1knowledge_1_1rcw_1_1TrackedExtra_3_01std_1_1basic__string_3_01Char_01_4_00_01Impl_01_4.html#a1644022cc39a6ae96e0a2b16aaffbc80", null ],
     [ "operator[]", "de/de8/classmadara_1_1knowledge_1_1rcw_1_1TrackedExtra_3_01std_1_1basic__string_3_01Char_01_4_00_01Impl_01_4.html#acd34d5aa7d50d78bbf50069bb576d217", null ],
     [ "pop_back", "de/de8/classmadara_1_1knowledge_1_1rcw_1_1TrackedExtra_3_01std_1_1basic__string_3_01Char_01_4_00_01Impl_01_4.html#a5a37bebc4d162b10ef742d35a144c3c3", null ],
     [ "push_back", "de/de8/classmadara_1_1knowledge_1_1rcw_1_1TrackedExtra_3_01std_1_1basic__string_3_01Char_01_4_00_01Impl_01_4.html#a1d7b813804c924a955713f12cf69d2a3", null ],

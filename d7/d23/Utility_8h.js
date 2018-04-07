@@ -8,7 +8,6 @@ var Utility_8h =
     [ "bitmask_remove", "d7/d23/Utility_8h.html#a5868fb7d56b2f014017fa32efa933ae4", null ],
     [ "clean_dir_name", "d7/d23/Utility_8h.html#ad6deb30e640a89973911aa2d13799374", null ],
     [ "dds_topicify", "d7/d23/Utility_8h.html#a9f51db4a6d132b64872e1805c8b8d3d3", null ],
-    [ "duff_copy", "d7/d23/Utility_8h.html#a4ec4241b3964b97e4810aa877aea3ac5", null ],
     [ "endian_swap", "d7/d23/Utility_8h.html#a0c9851129f09d29cf76b4bfbdac51b88", null ],
     [ "endian_swap", "d7/d23/Utility_8h.html#a6132e01d784f3bd0609019773c5f25de", null ],
     [ "endian_swap", "d7/d23/Utility_8h.html#af0d525f27620c7826ca19b491601b59b", null ],

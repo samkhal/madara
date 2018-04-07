@@ -113,6 +113,9 @@ var NAVTREEINDEX1 =
 "d0/d79/classmadara_1_1expression_1_1RandDouble.html#ab897add8a8a820988511f5656916c75f":[2,0,0,0,87,5],
 "d0/d79/classmadara_1_1expression_1_1RandDouble.html#ab8face97e60182f4e4de6200c809dc24":[2,0,0,0,87,0],
 "d0/d79/classmadara_1_1expression_1_1RandDouble.html#af48d3aef5a9f95ff19f35e58dd11990d":[2,0,0,0,87,2],
+"d0/d7d/DoubleVectorVector_8h.html":[3,0,0,0,2,0,20],
+"d0/d7d/DoubleVectorVector_8h.html#a96ea6f4175bf01b02a0b2e77e5383d86":[3,0,0,0,2,0,20,2],
+"d0/d7d/DoubleVectorVector_8h_source.html":[3,0,0,0,2,0,20],
 "d0/d80/structmadara_1_1knowledge_1_1rcw_1_1supports__size__impl.html":[2,0,0,2,1,23],
 "d0/d80/structmadara_1_1knowledge_1_1rcw_1_1supports__size__impl.html#acaeab9dffc7211dfa78f7ac3e66548ea":[2,0,0,2,1,23,1],
 "d0/d80/structmadara_1_1knowledge_1_1rcw_1_1supports__size__impl.html#ae39dcbb6134f7ea19a813ea0e3085d95":[2,0,0,2,1,23,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX1 =
 "d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#ad2d5f420160ca57fe81b8753ee697cf8":[2,0,0,2,13,118],
 "d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#ad303074ac27302618a636f574513bb2a":[2,0,0,2,13,64],
 "d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#ad45653647ab35f8f7f96a53f7e66c08e":[2,0,0,2,13,119],
-"d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#ad758b036c84ce3a4e50c36c1573c8b5c":[2,0,0,2,13,57],
-"d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#ad7a27d1a4cef75a4d3e7cc68138ded2c":[2,0,0,2,13,48],
-"d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#ad8897ce498452906af2e2a4fec632faa":[2,0,0,2,13,101],
-"d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#ad8f7fd33b061700c333b605c3bb1523d":[2,0,0,2,13,66]
+"d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#ad758b036c84ce3a4e50c36c1573c8b5c":[2,0,0,2,13,57]
 };

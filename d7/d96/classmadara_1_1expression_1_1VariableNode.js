@@ -6,6 +6,7 @@ var classmadara_1_1expression_1_1VariableNode =
     [ "dec", "d7/d96/classmadara_1_1expression_1_1VariableNode.html#aed2c14ab43f9a5d7b199469e8ea50d02", null ],
     [ "evaluate", "d7/d96/classmadara_1_1expression_1_1VariableNode.html#a3ce77f087cbad7acaa2b044f4c10c794", null ],
     [ "expand_key", "d7/d96/classmadara_1_1expression_1_1VariableNode.html#a6429164ac0b86a151dc0545890c6f540", null ],
+    [ "expand_opener", "d7/d96/classmadara_1_1expression_1_1VariableNode.html#a288b30a4c97103e528c11d15442625c4", null ],
     [ "get_record", "d7/d96/classmadara_1_1expression_1_1VariableNode.html#a933dfaed90666deec0c1fa57bee52f17", null ],
     [ "inc", "d7/d96/classmadara_1_1expression_1_1VariableNode.html#aee97fa5db8c598e79d0582115a140019", null ],
     [ "item", "d7/d96/classmadara_1_1expression_1_1VariableNode.html#a5e7f6ac994b640e4d15e07969c5d12e9", null ],
@@ -22,8 +23,6 @@ var classmadara_1_1expression_1_1VariableNode =
     [ "key_", "d7/d96/classmadara_1_1expression_1_1VariableNode.html#a7b1229e19d922d704f22cc5587d1ef4b", null ],
     [ "key_expansion_necessary_", "d7/d96/classmadara_1_1expression_1_1VariableNode.html#aa8c00aec2319f6deb9c2fa3d4969db15", null ],
     [ "logger_", "d7/d96/classmadara_1_1expression_1_1VariableNode.html#a825fa2f63821f260dc5871865b810ce9", null ],
-    [ "pivot_list_", "d7/d96/classmadara_1_1expression_1_1VariableNode.html#a16902d05ba4664fb30f70f9eab6ad470", null ],
-    [ "record_", "d7/d96/classmadara_1_1expression_1_1VariableNode.html#a703838d8f9124bfce71f029415565d05", null ],
-    [ "splitters_", "d7/d96/classmadara_1_1expression_1_1VariableNode.html#a308ba1fcf171395180c3da26ec7a94ce", null ],
-    [ "tokens_", "d7/d96/classmadara_1_1expression_1_1VariableNode.html#a7e99f325a25fbb7d1e3d956089af01c5", null ]
+    [ "markers_", "d7/d96/classmadara_1_1expression_1_1VariableNode.html#ac22090ec92ce7c43ae7cf921ce03d5b2", null ],
+    [ "record_", "d7/d96/classmadara_1_1expression_1_1VariableNode.html#a703838d8f9124bfce71f029415565d05", null ]
 ];

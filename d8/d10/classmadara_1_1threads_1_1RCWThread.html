@@ -164,13 +164,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a800f9f8bde118580965f5e402120057d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d10/classmadara_1_1threads_1_1RCWThread.html#a800f9f8bde118580965f5e402120057d">~RCWThread</a> ()</td></tr>
 <tr class="memdesc:a800f9f8bde118580965f5e402120057d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a800f9f8bde118580965f5e402120057d">More...</a><br /></td></tr>
 <tr class="separator:a800f9f8bde118580965f5e402120057d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a913d0db5ac63f2dbb08888a77b568193"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d10/classmadara_1_1threads_1_1RCWThread.html#a913d0db5ac63f2dbb08888a77b568193">compute</a> (const <a class="el" href="../../d5/d95/classmadara_1_1knowledge_1_1rcw_1_1Transaction.html">knowledge::rcw::Transaction</a> &amp;tx)=0</td></tr>
-<tr class="separator:a913d0db5ac63f2dbb08888a77b568193"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad7affba624e3073f72d3defd51bb6f4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d10/classmadara_1_1threads_1_1RCWThread.html#aad7affba624e3073f72d3defd51bb6f4">finalize</a> (<a class="el" href="../../d5/d95/classmadara_1_1knowledge_1_1rcw_1_1Transaction.html">knowledge::rcw::Transaction</a> &amp;tx)</td></tr>
-<tr class="memdesc:aad7affba624e3073f72d3defd51bb6f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cleans up any thread residue (usually instances created in setup).  <a href="#aad7affba624e3073f72d3defd51bb6f4">More...</a><br /></td></tr>
-<tr class="separator:aad7affba624e3073f72d3defd51bb6f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fc6804a60b00d3c8331399d065c992c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d10/classmadara_1_1threads_1_1RCWThread.html#a8fc6804a60b00d3c8331399d065c992c">setup</a> (<a class="el" href="../../d5/d95/classmadara_1_1knowledge_1_1rcw_1_1Transaction.html">knowledge::rcw::Transaction</a> &amp;tx)</td></tr>
-<tr class="separator:a8fc6804a60b00d3c8331399d065c992c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab44db0b142eee80fa6ac309d4799b1ff"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d10/classmadara_1_1threads_1_1RCWThread.html#ab44db0b142eee80fa6ac309d4799b1ff">compute</a> (const <a class="el" href="../../d5/d95/classmadara_1_1knowledge_1_1rcw_1_1Transaction.html">knowledge::rcw::Transaction</a> &amp;)=0</td></tr>
+<tr class="memdesc:ab44db0b142eee80fa6ac309d4799b1ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes the compute porition of a read-compute-write loop.  <a href="#ab44db0b142eee80fa6ac309d4799b1ff">More...</a><br /></td></tr>
+<tr class="separator:ab44db0b142eee80fa6ac309d4799b1ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4dc3f0b2a67c714990e30c783b79c90"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d10/classmadara_1_1threads_1_1RCWThread.html#ac4dc3f0b2a67c714990e30c783b79c90">finalize</a> (<a class="el" href="../../d5/d95/classmadara_1_1knowledge_1_1rcw_1_1Transaction.html">knowledge::rcw::Transaction</a> &amp;)</td></tr>
+<tr class="memdesc:ac4dc3f0b2a67c714990e30c783b79c90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cleans up any thread residue (usually instances created in setup).  <a href="#ac4dc3f0b2a67c714990e30c783b79c90">More...</a><br /></td></tr>
+<tr class="separator:ac4dc3f0b2a67c714990e30c783b79c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab79b38164fdba1a3697d1aafacd7287f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d10/classmadara_1_1threads_1_1RCWThread.html#ab79b38164fdba1a3697d1aafacd7287f">setup</a> (<a class="el" href="../../d5/d95/classmadara_1_1knowledge_1_1rcw_1_1Transaction.html">knowledge::rcw::Transaction</a> &amp;)</td></tr>
+<tr class="memdesc:ab79b38164fdba1a3697d1aafacd7287f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup the thread for later read-compute-write loops.  <a href="#ab79b38164fdba1a3697d1aafacd7287f">More...</a><br /></td></tr>
+<tr class="separator:ab79b38164fdba1a3697d1aafacd7287f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -280,7 +282,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a913d0db5ac63f2dbb08888a77b568193"></a>
+<a class="anchor" id="ab44db0b142eee80fa6ac309d4799b1ff"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -291,7 +293,7 @@ Friends</h2></td></tr>
           <td class="memname">virtual void madara::threads::RCWThread::compute </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../d5/d95/classmadara_1_1knowledge_1_1rcw_1_1Transaction.html">knowledge::rcw::Transaction</a> &amp;&#160;</td>
-          <td class="paramname"><em>tx</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -302,9 +304,11 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Executes the compute porition of a read-compute-write loop. </p>
+
 </div>
 </div>
-<a class="anchor" id="aad7affba624e3073f72d3defd51bb6f4"></a>
+<a class="anchor" id="ac4dc3f0b2a67c714990e30c783b79c90"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -315,7 +319,7 @@ Friends</h2></td></tr>
           <td class="memname">virtual void madara::threads::RCWThread::finalize </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d5/d95/classmadara_1_1knowledge_1_1rcw_1_1Transaction.html">knowledge::rcw::Transaction</a> &amp;&#160;</td>
-          <td class="paramname"><em>tx</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -329,7 +333,7 @@ Friends</h2></td></tr>
 <p>Cleans up any thread residue (usually instances created in setup). </p>
 <p>It's important to note that the only things that would need to be cleaned up are generally ports opened, memory initialized with new/malloc, etc. Anything MADARA related is generally cleaned up for you. </p>
 
-<p>Definition at line <a class="el" href="../../d1/ddf/RCWThread_8h_source.html#l00074">74</a> of file <a class="el" href="../../d1/ddf/RCWThread_8h_source.html">RCWThread.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/ddf/RCWThread_8h_source.html#l00076">76</a> of file <a class="el" href="../../d1/ddf/RCWThread_8h_source.html">RCWThread.h</a>.</p>
 
 </div>
 </div>
@@ -356,6 +360,12 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Initializes thread with a MADARA context. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">kb</td><td>the knowledge base to interact with </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented from <a class="el" href="../../de/dcd/classmadara_1_1threads_1_1BaseThread.html#acca5606b6793b22d0e327ce2de06c84b">madara::threads::BaseThread</a>.</p>
 
@@ -430,7 +440,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8fc6804a60b00d3c8331399d065c992c"></a>
+<a class="anchor" id="ab79b38164fdba1a3697d1aafacd7287f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -441,7 +451,7 @@ Friends</h2></td></tr>
           <td class="memname">virtual void madara::threads::RCWThread::setup </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d5/d95/classmadara_1_1knowledge_1_1rcw_1_1Transaction.html">knowledge::rcw::Transaction</a> &amp;&#160;</td>
-          <td class="paramname"><em>tx</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -452,7 +462,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/ddf/RCWThread_8h_source.html#l00059">59</a> of file <a class="el" href="../../d1/ddf/RCWThread_8h_source.html">RCWThread.h</a>.</p>
+<p>Setup the thread for later read-compute-write loops. </p>
+
+<p>Definition at line <a class="el" href="../../d1/ddf/RCWThread_8h_source.html#l00060">60</a> of file <a class="el" href="../../d1/ddf/RCWThread_8h_source.html">RCWThread.h</a>.</p>
 
 </div>
 </div>
@@ -594,7 +606,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/ddf/RCWThread_8h_source.html#l00099">99</a> of file <a class="el" href="../../d1/ddf/RCWThread_8h_source.html">RCWThread.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/ddf/RCWThread_8h_source.html#l00102">102</a> of file <a class="el" href="../../d1/ddf/RCWThread_8h_source.html">RCWThread.h</a>.</p>
 
 </div>
 </div>
@@ -608,7 +620,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/da9/namespacemadara.html">madara</a></li><li class="navelem"><a class="el" href="../../db/d6e/namespacemadara_1_1threads.html">threads</a></li><li class="navelem"><a class="el" href="../../d8/d10/classmadara_1_1threads_1_1RCWThread.html">RCWThread</a></li>
-    <li class="footer">Generated on Sun Mar 25 2018 13:44:31 for MADARA by
+    <li class="footer">Generated on Sat Apr 7 2018 04:49:09 for MADARA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

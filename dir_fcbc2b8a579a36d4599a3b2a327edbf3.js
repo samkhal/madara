@@ -31,6 +31,8 @@ var dir_fcbc2b8a579a36d4599a3b2a327edbf3 =
     [ "DoubleStaged.inl", "d9/d9b/DoubleStaged_8inl.html", "d9/d9b/DoubleStaged_8inl" ],
     [ "DoubleVector.cpp", "d4/d37/DoubleVector_8cpp.html", null ],
     [ "DoubleVector.h", "d2/dd4/DoubleVector_8h.html", "d2/dd4/DoubleVector_8h" ],
+    [ "DoubleVectorVector.cpp", "d0/dd9/DoubleVectorVector_8cpp.html", null ],
+    [ "DoubleVectorVector.h", "d0/d7d/DoubleVectorVector_8h.html", "d0/d7d/DoubleVectorVector_8h" ],
     [ "FlexMap.cpp", "d4/dc0/FlexMap_8cpp.html", null ],
     [ "FlexMap.h", "d2/d98/FlexMap_8h.html", [
       [ "FlexMap", "d7/d57/classmadara_1_1knowledge_1_1containers_1_1FlexMap.html", "d7/d57/classmadara_1_1knowledge_1_1containers_1_1FlexMap" ]
@@ -47,6 +49,8 @@ var dir_fcbc2b8a579a36d4599a3b2a327edbf3 =
     [ "IntegerStaged.inl", "d9/d64/IntegerStaged_8inl.html", "d9/d64/IntegerStaged_8inl" ],
     [ "IntegerVector.cpp", "dc/dc4/IntegerVector_8cpp.html", null ],
     [ "IntegerVector.h", "d5/d3c/IntegerVector_8h.html", "d5/d3c/IntegerVector_8h" ],
+    [ "IntegerVectorVector.cpp", "d8/dce/IntegerVectorVector_8cpp.html", null ],
+    [ "IntegerVectorVector.h", "d5/d59/IntegerVectorVector_8h.html", "d5/d59/IntegerVectorVector_8h" ],
     [ "Map.cpp", "d3/d92/Map_8cpp.html", null ],
     [ "Map.h", "df/d79/Map_8h.html", [
       [ "Map", "da/da1/classmadara_1_1knowledge_1_1containers_1_1Map.html", "da/da1/classmadara_1_1knowledge_1_1containers_1_1Map" ]

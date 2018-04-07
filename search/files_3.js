@@ -7,5 +7,7 @@ var searchData=
   ['doublestaged_2eh',['DoubleStaged.h',['../da/db7/DoubleStaged_8h.html',1,'']]],
   ['doublestaged_2einl',['DoubleStaged.inl',['../d9/d9b/DoubleStaged_8inl.html',1,'']]],
   ['doublevector_2ecpp',['DoubleVector.cpp',['../d4/d37/DoubleVector_8cpp.html',1,'']]],
-  ['doublevector_2eh',['DoubleVector.h',['../d2/dd4/DoubleVector_8h.html',1,'']]]
+  ['doublevector_2eh',['DoubleVector.h',['../d2/dd4/DoubleVector_8h.html',1,'']]],
+  ['doublevectorvector_2ecpp',['DoubleVectorVector.cpp',['../d0/dd9/DoubleVectorVector_8cpp.html',1,'']]],
+  ['doublevectorvector_2eh',['DoubleVectorVector.h',['../d0/d7d/DoubleVectorVector_8h.html',1,'']]]
 ];
