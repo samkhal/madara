@@ -31,8 +31,21 @@ var dir_fcbc2b8a579a36d4599a3b2a327edbf3 =
     [ "DoubleStaged.inl", "d9/d9b/DoubleStaged_8inl.html", "d9/d9b/DoubleStaged_8inl" ],
     [ "DoubleVector.cpp", "d4/d37/DoubleVector_8cpp.html", null ],
     [ "DoubleVector.h", "d2/dd4/DoubleVector_8h.html", "d2/dd4/DoubleVector_8h" ],
+    [ "DoubleVector2D.cpp", "d4/db0/DoubleVector2D_8cpp.html", null ],
+    [ "DoubleVector2D.h", "d8/dc5/DoubleVector2D_8h.html", [
+      [ "DoubleVector2D", "d6/df5/classmadara_1_1knowledge_1_1containers_1_1DoubleVector2D.html", "d6/df5/classmadara_1_1knowledge_1_1containers_1_1DoubleVector2D" ],
+      [ "Indices", "d0/da3/structmadara_1_1knowledge_1_1containers_1_1DoubleVector2D_1_1Indices.html", "d0/da3/structmadara_1_1knowledge_1_1containers_1_1DoubleVector2D_1_1Indices" ]
+    ] ],
+    [ "DoubleVector3D.cpp", "db/de1/DoubleVector3D_8cpp.html", null ],
+    [ "DoubleVector3D.h", "d7/db6/DoubleVector3D_8h.html", [
+      [ "DoubleVector3D", "dc/d5b/classmadara_1_1knowledge_1_1containers_1_1DoubleVector3D.html", "dc/d5b/classmadara_1_1knowledge_1_1containers_1_1DoubleVector3D" ],
+      [ "Indices", "db/d83/structmadara_1_1knowledge_1_1containers_1_1DoubleVector3D_1_1Indices.html", "db/d83/structmadara_1_1knowledge_1_1containers_1_1DoubleVector3D_1_1Indices" ]
+    ] ],
     [ "DoubleVectorVector.cpp", "d0/dd9/DoubleVectorVector_8cpp.html", null ],
-    [ "DoubleVectorVector.h", "d0/d7d/DoubleVectorVector_8h.html", "d0/d7d/DoubleVectorVector_8h" ],
+    [ "DoubleVectorVector.h", "d0/d7d/DoubleVectorVector_8h.html", [
+      [ "DoubleVectorVector", "d9/d6b/classmadara_1_1knowledge_1_1containers_1_1DoubleVectorVector.html", "d9/d6b/classmadara_1_1knowledge_1_1containers_1_1DoubleVectorVector" ],
+      [ "Indices", "d5/db2/structmadara_1_1knowledge_1_1containers_1_1DoubleVectorVector_1_1Indices.html", "d5/db2/structmadara_1_1knowledge_1_1containers_1_1DoubleVectorVector_1_1Indices" ]
+    ] ],
     [ "FlexMap.cpp", "d4/dc0/FlexMap_8cpp.html", null ],
     [ "FlexMap.h", "d2/d98/FlexMap_8h.html", [
       [ "FlexMap", "d7/d57/classmadara_1_1knowledge_1_1containers_1_1FlexMap.html", "d7/d57/classmadara_1_1knowledge_1_1containers_1_1FlexMap" ]
@@ -50,7 +63,10 @@ var dir_fcbc2b8a579a36d4599a3b2a327edbf3 =
     [ "IntegerVector.cpp", "dc/dc4/IntegerVector_8cpp.html", null ],
     [ "IntegerVector.h", "d5/d3c/IntegerVector_8h.html", "d5/d3c/IntegerVector_8h" ],
     [ "IntegerVectorVector.cpp", "d8/dce/IntegerVectorVector_8cpp.html", null ],
-    [ "IntegerVectorVector.h", "d5/d59/IntegerVectorVector_8h.html", "d5/d59/IntegerVectorVector_8h" ],
+    [ "IntegerVectorVector.h", "d5/d59/IntegerVectorVector_8h.html", [
+      [ "Indices", "da/d3a/structmadara_1_1knowledge_1_1containers_1_1IntegerVectorVector_1_1Indices.html", "da/d3a/structmadara_1_1knowledge_1_1containers_1_1IntegerVectorVector_1_1Indices" ],
+      [ "IntegerVectorVector", "d1/de4/classmadara_1_1knowledge_1_1containers_1_1IntegerVectorVector.html", "d1/de4/classmadara_1_1knowledge_1_1containers_1_1IntegerVectorVector" ]
+    ] ],
     [ "Map.cpp", "d3/d92/Map_8cpp.html", null ],
     [ "Map.h", "df/d79/Map_8h.html", [
       [ "Map", "da/da1/classmadara_1_1knowledge_1_1containers_1_1Map.html", "da/da1/classmadara_1_1knowledge_1_1containers_1_1Map" ]

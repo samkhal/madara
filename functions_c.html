@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MADARA
-   &#160;<span id="projectnumber">3.1.1</span>
+   &#160;<span id="projectnumber">3.1.2</span>
    </div>
   </td>
  </tr>
@@ -113,6 +113,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_v.html#index_v"><span>v</span></a></li>
       <li><a href="functions_w.html#index_w"><span>w</span></a></li>
       <li><a href="functions_x.html#index_x"><span>x</span></a></li>
+      <li><a href="functions_y.html#index_y"><span>y</span></a></li>
       <li><a href="functions_z.html#index_z"><span>z</span></a></li>
       <li><a href="functions_0x7e.html#index_0x7e"><span>~</span></a></li>
     </ul>
@@ -345,6 +346,8 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 , <a class="el" href="d4/d66/classmadara_1_1knowledge_1_1containers_1_1Counter.html#a3b1356bd7c802e2c15456b2ace1db0cb">madara::knowledge::containers::Counter</a>
 , <a class="el" href="de/d5e/classmadara_1_1knowledge_1_1containers_1_1Double.html#aef18095722eab466a389254cab9a7e5f">madara::knowledge::containers::Double</a>
 , <a class="el" href="d7/d5e/classmadara_1_1knowledge_1_1containers_1_1DoubleStaged.html#ac28a2450f261a4dae8bdb843f782f817">madara::knowledge::containers::DoubleStaged</a>
+, <a class="el" href="d6/df5/classmadara_1_1knowledge_1_1containers_1_1DoubleVector2D.html#afea8608fdf89a3985addc5c547bee120">madara::knowledge::containers::DoubleVector2D</a>
+, <a class="el" href="dc/d5b/classmadara_1_1knowledge_1_1containers_1_1DoubleVector3D.html#a97cce4e5ca186976cfce3321a0fc0c73">madara::knowledge::containers::DoubleVector3D</a>
 , <a class="el" href="d6/d3d/classmadara_1_1knowledge_1_1containers_1_1DoubleVector.html#a490a22f85e6144455114de007639e43c">madara::knowledge::containers::DoubleVector</a>
 , <a class="el" href="d9/d6b/classmadara_1_1knowledge_1_1containers_1_1DoubleVectorVector.html#a82f85157713d5819dc135a2a528d3b71">madara::knowledge::containers::DoubleVectorVector</a>
 , <a class="el" href="d7/d57/classmadara_1_1knowledge_1_1containers_1_1FlexMap.html#a48c4e4782cc4c193a9b1dd61447059b6">madara::knowledge::containers::FlexMap</a>
@@ -497,7 +500,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 : <a class="el" href="da/dde/classmadara_1_1expression_1_1CompositeSubtractNode.html#a41d398ce9cf8905d20d54ffdabb7e0c5">madara::expression::CompositeSubtractNode</a>
 </li>
 <li>CompositeTernaryNode()
-: <a class="el" href="d2/d3f/classmadara_1_1expression_1_1CompositeTernaryNode.html#ab3125b4cf22c03fad50a1af9de82debd">madara::expression::CompositeTernaryNode</a>
+: <a class="el" href="d2/d3f/classmadara_1_1expression_1_1CompositeTernaryNode.html#afc6b4ff89e9dc148efb7a38460eebfe7">madara::expression::CompositeTernaryNode</a>
 </li>
 <li>CompositeUnaryNode()
 : <a class="el" href="d4/d4b/classmadara_1_1expression_1_1CompositeUnaryNode.html#aeb42e79aff31edb7fd72e275a02568b8">madara::expression::CompositeUnaryNode</a>
@@ -553,6 +556,8 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 , <a class="el" href="d4/d66/classmadara_1_1knowledge_1_1containers_1_1Counter.html#ae93b72fb8e47654fa193fb3eca455c32">madara::knowledge::containers::Counter</a>
 , <a class="el" href="de/d5e/classmadara_1_1knowledge_1_1containers_1_1Double.html#a9a2a696cfd16016bce223bd6cf182341">madara::knowledge::containers::Double</a>
 , <a class="el" href="d7/d5e/classmadara_1_1knowledge_1_1containers_1_1DoubleStaged.html#aa992b53be922fcc1edca11f239b2c130">madara::knowledge::containers::DoubleStaged</a>
+, <a class="el" href="d6/df5/classmadara_1_1knowledge_1_1containers_1_1DoubleVector2D.html#a1baca821a01c201e83cfe8432b5ad695">madara::knowledge::containers::DoubleVector2D</a>
+, <a class="el" href="dc/d5b/classmadara_1_1knowledge_1_1containers_1_1DoubleVector3D.html#ade19e63ccff3345214cc961aaf84c244">madara::knowledge::containers::DoubleVector3D</a>
 , <a class="el" href="d6/d3d/classmadara_1_1knowledge_1_1containers_1_1DoubleVector.html#ad597061418860c19e761c2226ba6afae">madara::knowledge::containers::DoubleVector</a>
 , <a class="el" href="d9/d6b/classmadara_1_1knowledge_1_1containers_1_1DoubleVectorVector.html#ac2461e55cb5bdbe0f8fdfdfce5cfbf00">madara::knowledge::containers::DoubleVectorVector</a>
 , <a class="el" href="d7/d57/classmadara_1_1knowledge_1_1containers_1_1FlexMap.html#a5cf649664bec3ebfc9edbe5ae7e9cc1b">madara::knowledge::containers::FlexMap</a>
@@ -613,15 +618,17 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 </li>
 <li>copy_to()
 : <a class="el" href="d1/d19/classmadara_1_1knowledge_1_1containers_1_1BufferVector.html#a5cdab05f1e25689ba816951b226f6d20">madara::knowledge::containers::BufferVector</a>
-, <a class="el" href="d6/d3d/classmadara_1_1knowledge_1_1containers_1_1DoubleVector.html#aab5ff718520fdee9c5077965db21e629">madara::knowledge::containers::DoubleVector</a>
+, <a class="el" href="d6/df5/classmadara_1_1knowledge_1_1containers_1_1DoubleVector2D.html#aa45f3ac5cb17d85d213f9c42fae3d4b6">madara::knowledge::containers::DoubleVector2D</a>
+, <a class="el" href="dc/d5b/classmadara_1_1knowledge_1_1containers_1_1DoubleVector3D.html#af2fcb4468fd5a067f51211f4dbd58ba6">madara::knowledge::containers::DoubleVector3D</a>
+, <a class="el" href="d6/d3d/classmadara_1_1knowledge_1_1containers_1_1DoubleVector.html#a2cf0597fb66a551e95f642f6cde5d34b">madara::knowledge::containers::DoubleVector</a>
 , <a class="el" href="d9/d6b/classmadara_1_1knowledge_1_1containers_1_1DoubleVectorVector.html#a2204ba0aee9dce65df86789c49b0f644">madara::knowledge::containers::DoubleVectorVector</a>
 , <a class="el" href="d8/d56/classmadara_1_1knowledge_1_1containers_1_1IntegerVector.html#afe8ba51dc3d94d3ad9b455cbd410b8af">madara::knowledge::containers::IntegerVector</a>
-, <a class="el" href="d1/de4/classmadara_1_1knowledge_1_1containers_1_1IntegerVectorVector.html#a2961251a08d85e3c5bd41ba498cdd289">madara::knowledge::containers::IntegerVectorVector</a>
+, <a class="el" href="d1/de4/classmadara_1_1knowledge_1_1containers_1_1IntegerVectorVector.html#ab1376dd9b1b89ebac1b47297228a5adf">madara::knowledge::containers::IntegerVectorVector</a>
 , <a class="el" href="d2/da3/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVector.html#a1e608b0b504bddcc5b1e287e2e2b8ace">madara::knowledge::containers::NativeDoubleVector</a>
 , <a class="el" href="d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html#a8524af4dfb66c1e180b257e54ec1f10c">madara::knowledge::containers::NativeDoubleVectorStaged</a>
 , <a class="el" href="df/d70/classmadara_1_1knowledge_1_1containers_1_1NativeIntegerVector.html#aadba988cdc2fae869834c057b1a4c845">madara::knowledge::containers::NativeIntegerVector</a>
 , <a class="el" href="d9/da0/classmadara_1_1knowledge_1_1containers_1_1NativeIntegerVectorStaged.html#ae6a85c3f8fbc2e929abfd56eeec478ea">madara::knowledge::containers::NativeIntegerVectorStaged</a>
-, <a class="el" href="da/dd0/classmadara_1_1knowledge_1_1containers_1_1StringVector.html#acfe68ecac5c28f0394b4fcedefb6c7f8">madara::knowledge::containers::StringVector</a>
+, <a class="el" href="da/dd0/classmadara_1_1knowledge_1_1containers_1_1StringVector.html#a29f80aabdfe7a3a41cdd26e502e53d29">madara::knowledge::containers::StringVector</a>
 , <a class="el" href="d5/dc0/classmadara_1_1knowledge_1_1containers_1_1Vector.html#acd569f84b5491eb60748f3228b3c9dc4">madara::knowledge::containers::Vector</a>
 </li>
 <li>Cos()
@@ -636,7 +643,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 , <a class="el" href="da/db2/classmadara_1_1utility_1_1LStack.html#abf72b54844f8386130cb0cf29b660372">madara::utility::LStack&lt; T &gt;</a>
 </li>
 <li>Counter()
-: <a class="el" href="d4/d66/classmadara_1_1knowledge_1_1containers_1_1Counter.html#a50ee92786777a53ffb6d607f32bdc798">madara::knowledge::containers::Counter</a>
+: <a class="el" href="d4/d66/classmadara_1_1knowledge_1_1containers_1_1Counter.html#a93066b58e4ec5a653b03b5d68880e8cd">madara::knowledge::containers::Counter</a>
 </li>
 <li>CounterFilter()
 : <a class="el" href="d3/d03/classmadara_1_1filters_1_1CounterFilter.html#ae410a50b95d9f9e8b3e5c126d732e9ce">madara::filters::CounterFilter</a>
@@ -659,7 +666,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Apr 7 2018 04:49:10 for MADARA by
+    <li class="footer">Generated on Sun Apr 8 2018 19:43:02 for MADARA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

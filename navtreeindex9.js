@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"d4/d4b/classmadara_1_1expression_1_1CompositeUnaryNode.html":[2,0,0,0,38],
+"d4/d4b/classmadara_1_1expression_1_1CompositeUnaryNode.html#a23788642fbb9b7fd65cfe49c53bac8fe":[2,0,0,0,38,6],
 "d4/d4b/classmadara_1_1expression_1_1CompositeUnaryNode.html#a2eeea61ba3588fec3cfdbe271ae3c729":[2,0,0,0,38,5],
 "d4/d4b/classmadara_1_1expression_1_1CompositeUnaryNode.html#a610ab093ff0a634ded39e5508ad9aa95":[2,0,0,0,38,2],
 "d4/d4b/classmadara_1_1expression_1_1CompositeUnaryNode.html#a7503e744b42f77af6427ac61463c31c9":[2,0,0,0,38,7],
@@ -150,6 +152,8 @@ var NAVTREEINDEX9 =
 "d4/da2/classmadara_1_1expression_1_1CompositeBothNode.html#ae6ab4aebfb9b386e8a61751aae4ed2a8":[2,0,0,0,12,3],
 "d4/da8/BroadcastTransportReadThread_8cpp.html":[3,0,0,0,5,0,2],
 "d4/da8/BroadcastTransportReadThread_8cpp_source.html":[3,0,0,0,5,0,2],
+"d4/db0/DoubleVector2D_8cpp.html":[3,0,0,0,2,0,19],
+"d4/db0/DoubleVector2D_8cpp_source.html":[3,0,0,0,2,0,19],
 "d4/db4/classmadara_1_1expression_1_1ReadFile.html":[2,0,0,0,89],
 "d4/db4/classmadara_1_1expression_1_1ReadFile.html#a104cdbcd2e7087864d55d2fad16c53ec":[2,0,0,0,89,10],
 "d4/db4/classmadara_1_1expression_1_1ReadFile.html#a28e560612ec0d795f9b73ed4d5c9428d":[2,0,0,0,89,8],
@@ -168,8 +172,8 @@ var NAVTREEINDEX9 =
 "d4/dba/Threader_8inl.html":[3,0,0,0,4,7],
 "d4/dba/Threader_8inl.html#a334ab5a351b0aee84f0bcb65e1a12933":[3,0,0,0,4,7,0],
 "d4/dba/Threader_8inl_source.html":[3,0,0,0,4,7],
-"d4/dc0/FlexMap_8cpp.html":[3,0,0,0,2,0,21],
-"d4/dc0/FlexMap_8cpp_source.html":[3,0,0,0,2,0,21],
+"d4/dc0/FlexMap_8cpp.html":[3,0,0,0,2,0,25],
+"d4/dc0/FlexMap_8cpp_source.html":[3,0,0,0,2,0,25],
 "d4/dc0/structmadara_1_1knowledge_1_1rcw_1_1supports__is__all__dirty.html":[2,0,0,2,1,12],
 "d4/dcb/ThreadSafeContext_8h.html":[3,0,0,0,2,39],
 "d4/dcb/ThreadSafeContext_8h.html#a013024916ff064a73acab2bc0cf373f5":[3,0,0,0,2,39,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX9 =
 "d5/d09/classmadara_1_1knowledge_1_1rcw_1_1Tracker_3_01T_00_01VariableReference_00_01true_00_01true_00_01d64f255b241eedf8cec982ee93a141c.html#ae61295af4a2e8114a844351155c9c9cc":[2,0,0,2,1,36,3],
 "d5/d09/classmadara_1_1knowledge_1_1rcw_1_1Tracker_3_01T_00_01VariableReference_00_01true_00_01true_00_01d64f255b241eedf8cec982ee93a141c.html#afef7337f7f26813b252f3885c1bdd5b7":[2,0,0,2,1,36,1],
 "d5/d11/KnowledgeUpdateSettings_8cpp.html":[3,0,0,0,2,36],
-"d5/d11/KnowledgeUpdateSettings_8cpp_source.html":[3,0,0,0,2,36],
-"d5/d15/classmadara_1_1knowledge_1_1rcw_1_1Tracker_3_01T_00_01VariableReference_00_01false_00_01true_00_8ca82862b903ddccbe0da378fc078ba6.html":[2,0,0,2,1,32],
-"d5/d15/classmadara_1_1knowledge_1_1rcw_1_1Tracker_3_01T_00_01VariableReference_00_01false_00_01true_00_8ca82862b903ddccbe0da378fc078ba6.html#a083bbc853baf2aba407ada7a82005db5":[2,0,0,2,1,32,8],
-"d5/d15/classmadara_1_1knowledge_1_1rcw_1_1Tracker_3_01T_00_01VariableReference_00_01false_00_01true_00_8ca82862b903ddccbe0da378fc078ba6.html#a13692a5bb0bb3c6333621fa16a106543":[2,0,0,2,1,32,1],
-"d5/d15/classmadara_1_1knowledge_1_1rcw_1_1Tracker_3_01T_00_01VariableReference_00_01false_00_01true_00_8ca82862b903ddccbe0da378fc078ba6.html#a47d288f98c7b6bb42431cf41fa31b663":[2,0,0,2,1,32,0]
+"d5/d11/KnowledgeUpdateSettings_8cpp_source.html":[3,0,0,0,2,36]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX10 =
 {
+"d5/d15/classmadara_1_1knowledge_1_1rcw_1_1Tracker_3_01T_00_01VariableReference_00_01false_00_01true_00_8ca82862b903ddccbe0da378fc078ba6.html":[2,0,0,2,1,32],
+"d5/d15/classmadara_1_1knowledge_1_1rcw_1_1Tracker_3_01T_00_01VariableReference_00_01false_00_01true_00_8ca82862b903ddccbe0da378fc078ba6.html#a083bbc853baf2aba407ada7a82005db5":[2,0,0,2,1,32,8],
+"d5/d15/classmadara_1_1knowledge_1_1rcw_1_1Tracker_3_01T_00_01VariableReference_00_01false_00_01true_00_8ca82862b903ddccbe0da378fc078ba6.html#a13692a5bb0bb3c6333621fa16a106543":[2,0,0,2,1,32,1],
+"d5/d15/classmadara_1_1knowledge_1_1rcw_1_1Tracker_3_01T_00_01VariableReference_00_01false_00_01true_00_8ca82862b903ddccbe0da378fc078ba6.html#a47d288f98c7b6bb42431cf41fa31b663":[2,0,0,2,1,32,0],
 "d5/d15/classmadara_1_1knowledge_1_1rcw_1_1Tracker_3_01T_00_01VariableReference_00_01false_00_01true_00_8ca82862b903ddccbe0da378fc078ba6.html#a49982aa325e19f0956d42fde9132caa2":[2,0,0,2,1,32,7],
 "d5/d15/classmadara_1_1knowledge_1_1rcw_1_1Tracker_3_01T_00_01VariableReference_00_01false_00_01true_00_8ca82862b903ddccbe0da378fc078ba6.html#a4d9ad15688bdcdb50bb141a86176d1ac":[2,0,0,2,1,32,2],
 "d5/d15/classmadara_1_1knowledge_1_1rcw_1_1Tracker_3_01T_00_01VariableReference_00_01false_00_01true_00_8ca82862b903ddccbe0da378fc078ba6.html#a6bbe513bd90cd797b0691bc0d84e3915":[2,0,0,2,1,32,9],
@@ -91,9 +95,9 @@ var NAVTREEINDEX10 =
 "d5/d38/classmadara_1_1expression_1_1Divide.html#aaf8edf49b5c25e9a8e955dc15a27a55b":[2,0,0,0,42,1],
 "d5/d38/classmadara_1_1expression_1_1Divide.html#ab46b5210f1f417ffef15c366e8b287c2":[2,0,0,0,42,6],
 "d5/d38/classmadara_1_1expression_1_1Divide.html#acb8e0e8d67d487078f81bfad74e91172":[2,0,0,0,42,3],
-"d5/d3c/IntegerVector_8h.html":[3,0,0,0,2,0,30],
-"d5/d3c/IntegerVector_8h.html#a34f4586c5049b64ea0d3c79e9540e070":[3,0,0,0,2,0,30,1],
-"d5/d3c/IntegerVector_8h_source.html":[3,0,0,0,2,0,30],
+"d5/d3c/IntegerVector_8h.html":[3,0,0,0,2,0,34],
+"d5/d3c/IntegerVector_8h.html#a34f4586c5049b64ea0d3c79e9540e070":[3,0,0,0,2,0,34,1],
+"d5/d3c/IntegerVector_8h_source.html":[3,0,0,0,2,0,34],
 "d5/d3f/TransportContext_8cpp.html":[3,0,0,0,5,23],
 "d5/d3f/TransportContext_8cpp_source.html":[3,0,0,0,5,23],
 "d5/d47/classmadara_1_1expression_1_1SquareRootUnary.html":[2,0,0,0,100],
@@ -236,9 +240,8 @@ var NAVTREEINDEX10 =
 "d5/d57/classmadara_1_1expression_1_1CompositeAssignmentNode.html#abe0716e5e48b9b8c317c835561129f98":[2,0,0,0,10,10],
 "d5/d57/classmadara_1_1expression_1_1CompositeAssignmentNode.html#aca43bea2da061e58065724eab5b7722d":[2,0,0,0,10,1],
 "d5/d57/classmadara_1_1expression_1_1CompositeAssignmentNode.html#ade460ce7c6f6fc7420b87f1105de1a74":[2,0,0,0,10,11],
-"d5/d59/IntegerVectorVector_8h.html":[3,0,0,0,2,0,32],
-"d5/d59/IntegerVectorVector_8h.html#ae6dbc8b7c75f5c5ddecc35f74930f227":[3,0,0,0,2,0,32,2],
-"d5/d59/IntegerVectorVector_8h_source.html":[3,0,0,0,2,0,32],
+"d5/d59/IntegerVectorVector_8h.html":[3,0,0,0,2,0,36],
+"d5/d59/IntegerVectorVector_8h_source.html":[3,0,0,0,2,0,36],
 "d5/d59/classmadara_1_1expression_1_1SetPrecision.html":[2,0,0,0,94],
 "d5/d59/classmadara_1_1expression_1_1SetPrecision.html#a0afd99cb2669e15088ad2a5721a0e3e3":[2,0,0,0,94,0],
 "d5/d59/classmadara_1_1expression_1_1SetPrecision.html#a104cdbcd2e7087864d55d2fad16c53ec":[2,0,0,0,94,10],
@@ -246,8 +249,5 @@ var NAVTREEINDEX10 =
 "d5/d59/classmadara_1_1expression_1_1SetPrecision.html#a3bbc5c4904dd126004c0a083d7e0944d":[2,0,0,0,94,3],
 "d5/d59/classmadara_1_1expression_1_1SetPrecision.html#a80f5e6ef5db63ea6876fea93955b948d":[2,0,0,0,94,6],
 "d5/d59/classmadara_1_1expression_1_1SetPrecision.html#a97cbdd2464ff705e1e93c1b4af6bf8c9":[2,0,0,0,94,4],
-"d5/d59/classmadara_1_1expression_1_1SetPrecision.html#aa055f686e2020f83da48c13db7196937":[2,0,0,0,94,9],
-"d5/d59/classmadara_1_1expression_1_1SetPrecision.html#aa6c33ac67fac5e3a56ac36d355fdc918":[2,0,0,0,94,2],
-"d5/d59/classmadara_1_1expression_1_1SetPrecision.html#ab46b5210f1f417ffef15c366e8b287c2":[2,0,0,0,94,7],
-"d5/d59/classmadara_1_1expression_1_1SetPrecision.html#ab897add8a8a820988511f5656916c75f":[2,0,0,0,94,5]
+"d5/d59/classmadara_1_1expression_1_1SetPrecision.html#aa055f686e2020f83da48c13db7196937":[2,0,0,0,94,9]
 };

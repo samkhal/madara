@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MADARA
-   &#160;<span id="projectnumber">3.1.1</span>
+   &#160;<span id="projectnumber">3.1.2</span>
    </div>
   </td>
  </tr>
@@ -106,8 +106,7 @@ $(document).ready(function(){initNavTree('d0/d7d/DoubleVectorVector_8h.html','..
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
 <div class="title">DoubleVectorVector.h File Reference</div>  </div>
 </div><!--header-->
@@ -200,7 +199,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d6b/classmadara_1_1knowledge_1_1containers_1_1DoubleVectorVector.html">madara::knowledge::containers::DoubleVectorVector</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class stores a vector of doubles inside of KaRL.  <a href="../../d9/d6b/classmadara_1_1knowledge_1_1containers_1_1DoubleVectorVector.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class stores a vector of NativeDoubleVectors.  <a href="../../d9/d6b/classmadara_1_1knowledge_1_1containers_1_1DoubleVectorVector.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db2/structmadara_1_1knowledge_1_1containers_1_1DoubleVectorVector_1_1Indices.html">madara::knowledge::containers::DoubleVectorVector::Indices</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">two dimensional indexing  <a href="../../d5/db2/structmadara_1_1knowledge_1_1containers_1_1DoubleVectorVector_1_1Indices.html#details">More...</a><br /></td></tr>
@@ -217,12 +216,6 @@ Namespaces</h2></td></tr>
 <tr class="memitem:d8/dfd/namespacemadara_1_1knowledge_1_1containers"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfd/namespacemadara_1_1knowledge_1_1containers.html">madara::knowledge::containers</a></td></tr>
 <tr class="memdesc:d8/dfd/namespacemadara_1_1knowledge_1_1containers"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides container classes for fast knowledge base access and mutation. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a96ea6f4175bf01b02a0b2e77e5383d86"><td class="memItemLeft" align="right" valign="top">typedef DoubleVectorVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfd/namespacemadara_1_1knowledge_1_1containers.html#a96ea6f4175bf01b02a0b2e77e5383d86">madara::knowledge::containers::DoubleVector2D</a></td></tr>
-<tr class="memdesc:a96ea6f4175bf01b02a0b2e77e5383d86"><td class="mdescLeft">&#160;</td><td class="mdescRight">provide the Array alias for the <a class="el" href="../../d9/d6b/classmadara_1_1knowledge_1_1containers_1_1DoubleVectorVector.html" title="This class stores a vector of doubles inside of KaRL. ">DoubleVectorVector</a> class  <a href="../../d8/dfd/namespacemadara_1_1knowledge_1_1containers.html#a96ea6f4175bf01b02a0b2e77e5383d86">More...</a><br /></td></tr>
-<tr class="separator:a96ea6f4175bf01b02a0b2e77e5383d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>James Edmondson <a href="#" onclick="location.href='mai'+'lto:'+'jed'+'mo'+'nds'+'on'+'@gm'+'ai'+'l.c'+'om'; return false;">jedmo<span style="display: none;">.nosp@m.</span>ndso<span style="display: none;">.nosp@m.</span>n@gma<span style="display: none;">.nosp@m.</span>il.c<span style="display: none;">.nosp@m.</span>om</a></dd></dl>
@@ -235,7 +228,7 @@ Typedefs</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="../../dir_81813d25d32ad4956e594fea3120bc8f.html">madara</a></li><li class="navelem"><a class="el" href="../../dir_0ee7ef483ad9c1c99b2c44de72e506ad.html">knowledge</a></li><li class="navelem"><a class="el" href="../../dir_fcbc2b8a579a36d4599a3b2a327edbf3.html">containers</a></li><li class="navelem"><a class="el" href="../../d0/d7d/DoubleVectorVector_8h.html">DoubleVectorVector.h</a></li>
-    <li class="footer">Generated on Sat Apr 7 2018 04:49:07 for MADARA by
+    <li class="footer">Generated on Sun Apr 8 2018 19:42:59 for MADARA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

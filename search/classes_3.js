@@ -6,5 +6,7 @@ var searchData=
   ['double',['Double',['../de/d5e/classmadara_1_1knowledge_1_1containers_1_1Double.html',1,'madara::knowledge::containers']]],
   ['doublestaged',['DoubleStaged',['../d7/d5e/classmadara_1_1knowledge_1_1containers_1_1DoubleStaged.html',1,'madara::knowledge::containers']]],
   ['doublevector',['DoubleVector',['../d6/d3d/classmadara_1_1knowledge_1_1containers_1_1DoubleVector.html',1,'madara::knowledge::containers']]],
+  ['doublevector2d',['DoubleVector2D',['../d6/df5/classmadara_1_1knowledge_1_1containers_1_1DoubleVector2D.html',1,'madara::knowledge::containers']]],
+  ['doublevector3d',['DoubleVector3D',['../dc/d5b/classmadara_1_1knowledge_1_1containers_1_1DoubleVector3D.html',1,'madara::knowledge::containers']]],
   ['doublevectorvector',['DoubleVectorVector',['../d9/d6b/classmadara_1_1knowledge_1_1containers_1_1DoubleVectorVector.html',1,'madara::knowledge::containers']]]
 ];

@@ -8,6 +8,8 @@ var namespacemadara_1_1knowledge_1_1containers =
     [ "Double", "de/d5e/classmadara_1_1knowledge_1_1containers_1_1Double.html", "de/d5e/classmadara_1_1knowledge_1_1containers_1_1Double" ],
     [ "DoubleStaged", "d7/d5e/classmadara_1_1knowledge_1_1containers_1_1DoubleStaged.html", "d7/d5e/classmadara_1_1knowledge_1_1containers_1_1DoubleStaged" ],
     [ "DoubleVector", "d6/d3d/classmadara_1_1knowledge_1_1containers_1_1DoubleVector.html", "d6/d3d/classmadara_1_1knowledge_1_1containers_1_1DoubleVector" ],
+    [ "DoubleVector2D", "d6/df5/classmadara_1_1knowledge_1_1containers_1_1DoubleVector2D.html", "d6/df5/classmadara_1_1knowledge_1_1containers_1_1DoubleVector2D" ],
+    [ "DoubleVector3D", "dc/d5b/classmadara_1_1knowledge_1_1containers_1_1DoubleVector3D.html", "dc/d5b/classmadara_1_1knowledge_1_1containers_1_1DoubleVector3D" ],
     [ "DoubleVectorVector", "d9/d6b/classmadara_1_1knowledge_1_1containers_1_1DoubleVectorVector.html", "d9/d6b/classmadara_1_1knowledge_1_1containers_1_1DoubleVectorVector" ],
     [ "FlexMap", "d7/d57/classmadara_1_1knowledge_1_1containers_1_1FlexMap.html", "d7/d57/classmadara_1_1knowledge_1_1containers_1_1FlexMap" ],
     [ "Integer", "d3/d0b/classmadara_1_1knowledge_1_1containers_1_1Integer.html", "d3/d0b/classmadara_1_1knowledge_1_1containers_1_1Integer" ],

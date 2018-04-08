@@ -6,19 +6,21 @@
 <area shape="rect" id="node6" href="$de/d5e/classmadara_1_1knowledge_1_1containers_1_1Double.html" title="This class stores a double within a variable context. " alt="" coords="261,267,404,308"/>
 <area shape="rect" id="node7" href="$d7/d5e/classmadara_1_1knowledge_1_1containers_1_1DoubleStaged.html" title="Stages an integer value to and from the knowledge base. " alt="" coords="247,332,419,373"/>
 <area shape="rect" id="node8" href="$d6/d3d/classmadara_1_1knowledge_1_1containers_1_1DoubleVector.html" title="This class stores a vector of doubles inside of KaRL. " alt="" coords="248,397,417,439"/>
-<area shape="rect" id="node9" href="$d9/d6b/classmadara_1_1knowledge_1_1containers_1_1DoubleVectorVector.html" title="This class stores a vector of doubles inside of KaRL. " alt="" coords="229,463,436,504"/>
-<area shape="rect" id="node10" href="$d7/d57/classmadara_1_1knowledge_1_1containers_1_1FlexMap.html" title="This class stores a flexible map of strings and ints to KaRL variables FlexMap differs from Map in th..." alt="" coords="261,528,404,569"/>
-<area shape="rect" id="node11" href="$d3/d0b/classmadara_1_1knowledge_1_1containers_1_1Integer.html" title="This class stores an integer within a variable context. " alt="" coords="261,593,404,635"/>
-<area shape="rect" id="node12" href="$dd/d2a/classmadara_1_1knowledge_1_1containers_1_1IntegerStaged.html" title="Stages an integer value to and from the knowledge base. " alt="" coords="247,659,418,700"/>
-<area shape="rect" id="node13" href="$d8/d56/classmadara_1_1knowledge_1_1containers_1_1IntegerVector.html" title="This class stores a vector of integers inside of KaRL. " alt="" coords="249,724,417,765"/>
-<area shape="rect" id="node14" href="$d1/de4/classmadara_1_1knowledge_1_1containers_1_1IntegerVectorVector.html" title="This class stores a vector of doubles inside of KaRL. " alt="" coords="229,789,436,831"/>
-<area shape="rect" id="node15" href="$da/da1/classmadara_1_1knowledge_1_1containers_1_1Map.html" title="This class stores a map of strings to KaRL variables. " alt="" coords="261,855,404,896"/>
-<area shape="rect" id="node16" href="$d2/da3/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVector.html" title="This class stores a vector of doubles inside of KaRL. " alt="" coords="229,920,436,961"/>
-<area shape="rect" id="node17" href="$d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html" title="This class stores a vector of doubles inside of KaRL. " alt="" coords="229,985,436,1041"/>
-<area shape="rect" id="node18" href="$df/d70/classmadara_1_1knowledge_1_1containers_1_1NativeIntegerVector.html" title="This class stores a vector of doubles inside of KaRL. " alt="" coords="229,1064,436,1105"/>
-<area shape="rect" id="node19" href="$d9/da0/classmadara_1_1knowledge_1_1containers_1_1NativeIntegerVectorStaged.html" title="This class stores a vector of doubles inside of KaRL. " alt="" coords="229,1129,436,1185"/>
-<area shape="rect" id="node20" href="$d3/da3/classmadara_1_1knowledge_1_1containers_1_1String.html" title="This class stores a string within a variable context. " alt="" coords="261,1208,404,1249"/>
-<area shape="rect" id="node21" href="$d3/dca/classmadara_1_1knowledge_1_1containers_1_1StringStaged.html" title="Stages a string value to and from the knowledge base. " alt="" coords="250,1273,415,1315"/>
-<area shape="rect" id="node22" href="$da/dd0/classmadara_1_1knowledge_1_1containers_1_1StringVector.html" title="This class stores a vector of strings inside of KaRL. " alt="" coords="251,1339,414,1380"/>
-<area shape="rect" id="node23" href="$d5/dc0/classmadara_1_1knowledge_1_1containers_1_1Vector.html" title="This class stores a vector of KaRL variables. " alt="" coords="261,1404,404,1445"/>
+<area shape="rect" id="node9" href="$d6/df5/classmadara_1_1knowledge_1_1containers_1_1DoubleVector2D.html" title="This class stores MxN array of doubles. " alt="" coords="239,463,426,504"/>
+<area shape="rect" id="node10" href="$dc/d5b/classmadara_1_1knowledge_1_1containers_1_1DoubleVector3D.html" title="This class stores MxN array of doubles. " alt="" coords="239,528,426,569"/>
+<area shape="rect" id="node11" href="$d9/d6b/classmadara_1_1knowledge_1_1containers_1_1DoubleVectorVector.html" title="This class stores a vector of NativeDoubleVectors. " alt="" coords="229,593,436,635"/>
+<area shape="rect" id="node12" href="$d7/d57/classmadara_1_1knowledge_1_1containers_1_1FlexMap.html" title="This class stores a flexible map of strings and ints to KaRL variables FlexMap differs from Map in th..." alt="" coords="261,659,404,700"/>
+<area shape="rect" id="node13" href="$d3/d0b/classmadara_1_1knowledge_1_1containers_1_1Integer.html" title="This class stores an integer within a variable context. " alt="" coords="261,724,404,765"/>
+<area shape="rect" id="node14" href="$dd/d2a/classmadara_1_1knowledge_1_1containers_1_1IntegerStaged.html" title="Stages an integer value to and from the knowledge base. " alt="" coords="247,789,418,831"/>
+<area shape="rect" id="node15" href="$d8/d56/classmadara_1_1knowledge_1_1containers_1_1IntegerVector.html" title="This class stores a vector of integers inside of KaRL. " alt="" coords="249,855,417,896"/>
+<area shape="rect" id="node16" href="$d1/de4/classmadara_1_1knowledge_1_1containers_1_1IntegerVectorVector.html" title="This class stores a vector of NativeIntegerVectors. " alt="" coords="229,920,436,961"/>
+<area shape="rect" id="node17" href="$da/da1/classmadara_1_1knowledge_1_1containers_1_1Map.html" title="This class stores a map of strings to KaRL variables. " alt="" coords="261,985,404,1027"/>
+<area shape="rect" id="node18" href="$d2/da3/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVector.html" title="This class stores a vector of doubles inside of KaRL. " alt="" coords="229,1051,436,1092"/>
+<area shape="rect" id="node19" href="$d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html" title="This class stores a vector of doubles inside of KaRL. " alt="" coords="229,1115,436,1171"/>
+<area shape="rect" id="node20" href="$df/d70/classmadara_1_1knowledge_1_1containers_1_1NativeIntegerVector.html" title="This class stores a vector of doubles inside of KaRL. " alt="" coords="229,1195,436,1236"/>
+<area shape="rect" id="node21" href="$d9/da0/classmadara_1_1knowledge_1_1containers_1_1NativeIntegerVectorStaged.html" title="This class stores a vector of doubles inside of KaRL. " alt="" coords="229,1259,436,1315"/>
+<area shape="rect" id="node22" href="$d3/da3/classmadara_1_1knowledge_1_1containers_1_1String.html" title="This class stores a string within a variable context. " alt="" coords="261,1339,404,1380"/>
+<area shape="rect" id="node23" href="$d3/dca/classmadara_1_1knowledge_1_1containers_1_1StringStaged.html" title="Stages a string value to and from the knowledge base. " alt="" coords="250,1404,415,1445"/>
+<area shape="rect" id="node24" href="$da/dd0/classmadara_1_1knowledge_1_1containers_1_1StringVector.html" title="This class stores a vector of strings inside of KaRL. " alt="" coords="251,1469,414,1511"/>
+<area shape="rect" id="node25" href="$d5/dc0/classmadara_1_1knowledge_1_1containers_1_1Vector.html" title="This class stores a vector of KaRL variables. " alt="" coords="261,1535,404,1576"/>
 </map>

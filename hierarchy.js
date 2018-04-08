@@ -34,6 +34,8 @@ var hierarchy =
       [ "madara::knowledge::containers::Double", "de/d5e/classmadara_1_1knowledge_1_1containers_1_1Double.html", null ],
       [ "madara::knowledge::containers::DoubleStaged", "d7/d5e/classmadara_1_1knowledge_1_1containers_1_1DoubleStaged.html", null ],
       [ "madara::knowledge::containers::DoubleVector", "d6/d3d/classmadara_1_1knowledge_1_1containers_1_1DoubleVector.html", null ],
+      [ "madara::knowledge::containers::DoubleVector2D", "d6/df5/classmadara_1_1knowledge_1_1containers_1_1DoubleVector2D.html", null ],
+      [ "madara::knowledge::containers::DoubleVector3D", "dc/d5b/classmadara_1_1knowledge_1_1containers_1_1DoubleVector3D.html", null ],
       [ "madara::knowledge::containers::DoubleVectorVector", "d9/d6b/classmadara_1_1knowledge_1_1containers_1_1DoubleVectorVector.html", null ],
       [ "madara::knowledge::containers::FlexMap", "d7/d57/classmadara_1_1knowledge_1_1containers_1_1FlexMap.html", null ],
       [ "madara::knowledge::containers::Integer", "d3/d0b/classmadara_1_1knowledge_1_1containers_1_1Integer.html", null ],
@@ -182,6 +184,8 @@ var hierarchy =
     [ "madara::knowledge::FileSettings", "d1/d70/classmadara_1_1knowledge_1_1FileSettings.html", null ],
     [ "madara::knowledge::Function", "d2/d83/classmadara_1_1knowledge_1_1Function.html", null ],
     [ "FunctionMap", "d2/dfb/classFunctionMap.html", null ],
+    [ "madara::knowledge::containers::DoubleVector2D::Indices", "d0/da3/structmadara_1_1knowledge_1_1containers_1_1DoubleVector2D_1_1Indices.html", null ],
+    [ "madara::knowledge::containers::DoubleVector3D::Indices", "db/d83/structmadara_1_1knowledge_1_1containers_1_1DoubleVector3D_1_1Indices.html", null ],
     [ "madara::knowledge::containers::DoubleVectorVector::Indices", "d5/db2/structmadara_1_1knowledge_1_1containers_1_1DoubleVectorVector_1_1Indices.html", null ],
     [ "madara::knowledge::containers::IntegerVectorVector::Indices", "da/d3a/structmadara_1_1knowledge_1_1containers_1_1IntegerVectorVector_1_1Indices.html", null ],
     [ "madara::knowledge::rcw::Transaction::InitHandler< B, I, T, dummy >", "d3/d7d/classmadara_1_1knowledge_1_1rcw_1_1Transaction_1_1InitHandler.html", null ],
@@ -224,8 +228,8 @@ var hierarchy =
       [ "madara::transport::FragmentMessageHeader", "d6/d41/classmadara_1_1transport_1_1FragmentMessageHeader.html", null ],
       [ "madara::transport::ReducedMessageHeader", "de/d6c/classmadara_1_1transport_1_1ReducedMessageHeader.html", null ]
     ] ],
-    [ "madara::utility::LStack< T >::Overflow", "d3/d5a/classmadara_1_1utility_1_1LStack_1_1Overflow.html", null ],
     [ "madara::utility::LQueue< T >::Overflow", "d4/dd7/classmadara_1_1utility_1_1LQueue_1_1Overflow.html", null ],
+    [ "madara::utility::LStack< T >::Overflow", "d3/d5a/classmadara_1_1utility_1_1LStack_1_1Overflow.html", null ],
     [ "madara::transport::PacketScheduler", "d2/d32/classmadara_1_1transport_1_1PacketScheduler.html", null ],
     [ "madara::knowledge::rcw::PrefixTracker< T, R, RD, WR, dummy >", "d5/da5/classmadara_1_1knowledge_1_1rcw_1_1PrefixTracker.html", null ],
     [ "madara::knowledge::containers::Queue", "d8/dd1/classmadara_1_1knowledge_1_1containers_1_1Queue.html", null ],
@@ -362,34 +366,34 @@ var hierarchy =
       [ "madara::transport::QoSTransportSettings", "d5/d48/classmadara_1_1transport_1_1QoSTransportSettings.html", null ]
     ] ],
     [ "type", null, [
-      [ "madara::knowledge::rcw::supports_knowledge_cast< T >", "da/d22/structmadara_1_1knowledge_1_1rcw_1_1supports__knowledge__cast.html", null ]
+      [ "madara::knowledge::rcw::supports_indexed_is_dirty< T >", "db/dab/structmadara_1_1knowledge_1_1rcw_1_1supports__indexed__is__dirty.html", null ]
     ] ],
     [ "type", null, [
       [ "madara::knowledge::rcw::supports_is_size_dirty< T >", "d1/d65/structmadara_1_1knowledge_1_1rcw_1_1supports__is__size__dirty.html", null ]
     ] ],
     [ "type", null, [
-      [ "madara::knowledge::rcw::supports_const_iter< T >", "d1/d07/structmadara_1_1knowledge_1_1rcw_1_1supports__const__iter.html", null ]
+      [ "madara::knowledge::rcw::supports_indexed_get_value< T >", "d9/dc7/structmadara_1_1knowledge_1_1rcw_1_1supports__indexed__get__value.html", null ]
     ] ],
     [ "type", null, [
       [ "madara::knowledge::rcw::supports_self_eq< T >", "d9/df0/structmadara_1_1knowledge_1_1rcw_1_1supports__self__eq.html", null ]
     ] ],
     [ "type", null, [
-      [ "madara::knowledge::rcw::supports_size< T >", "d9/daf/structmadara_1_1knowledge_1_1rcw_1_1supports__size.html", null ]
-    ] ],
-    [ "type", null, [
-      [ "madara::knowledge::rcw::supports_is_dirty< T >", "d6/d32/structmadara_1_1knowledge_1_1rcw_1_1supports__is__dirty.html", null ]
-    ] ],
-    [ "type", null, [
       [ "madara::knowledge::rcw::supports_get_value< T >", "d8/d84/structmadara_1_1knowledge_1_1rcw_1_1supports__get__value.html", null ]
     ] ],
     [ "type", null, [
-      [ "madara::knowledge::rcw::supports_indexed_get_value< T >", "d9/dc7/structmadara_1_1knowledge_1_1rcw_1_1supports__indexed__get__value.html", null ]
+      [ "madara::knowledge::rcw::supports_const_iter< T >", "d1/d07/structmadara_1_1knowledge_1_1rcw_1_1supports__const__iter.html", null ]
     ] ],
     [ "type", null, [
       [ "madara::knowledge::rcw::supports_is_all_dirty< T >", "d4/dc0/structmadara_1_1knowledge_1_1rcw_1_1supports__is__all__dirty.html", null ]
     ] ],
     [ "type", null, [
-      [ "madara::knowledge::rcw::supports_indexed_is_dirty< T >", "db/dab/structmadara_1_1knowledge_1_1rcw_1_1supports__indexed__is__dirty.html", null ]
+      [ "madara::knowledge::rcw::supports_is_dirty< T >", "d6/d32/structmadara_1_1knowledge_1_1rcw_1_1supports__is__dirty.html", null ]
+    ] ],
+    [ "type", null, [
+      [ "madara::knowledge::rcw::supports_size< T >", "d9/daf/structmadara_1_1knowledge_1_1rcw_1_1supports__size.html", null ]
+    ] ],
+    [ "type", null, [
+      [ "madara::knowledge::rcw::supports_knowledge_cast< T >", "da/d22/structmadara_1_1knowledge_1_1rcw_1_1supports__knowledge__cast.html", null ]
     ] ],
     [ "TypeHelper< T >", "d9/d9e/structTypeHelper.html", null ],
     [ "madara::utility::LQueue< T >::Underflow", "d3/d8e/classmadara_1_1utility_1_1LQueue_1_1Underflow.html", null ],
