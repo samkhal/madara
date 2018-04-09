@@ -41,6 +41,8 @@ var hierarchy =
       [ "madara::knowledge::containers::Integer", "d3/d0b/classmadara_1_1knowledge_1_1containers_1_1Integer.html", null ],
       [ "madara::knowledge::containers::IntegerStaged", "dd/d2a/classmadara_1_1knowledge_1_1containers_1_1IntegerStaged.html", null ],
       [ "madara::knowledge::containers::IntegerVector", "d8/d56/classmadara_1_1knowledge_1_1containers_1_1IntegerVector.html", null ],
+      [ "madara::knowledge::containers::IntegerVector2D", "d9/dd2/classmadara_1_1knowledge_1_1containers_1_1IntegerVector2D.html", null ],
+      [ "madara::knowledge::containers::IntegerVector3D", "d3/d17/classmadara_1_1knowledge_1_1containers_1_1IntegerVector3D.html", null ],
       [ "madara::knowledge::containers::IntegerVectorVector", "d1/de4/classmadara_1_1knowledge_1_1containers_1_1IntegerVectorVector.html", null ],
       [ "madara::knowledge::containers::Map", "da/da1/classmadara_1_1knowledge_1_1containers_1_1Map.html", null ],
       [ "madara::knowledge::containers::NativeDoubleVector", "d2/da3/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVector.html", null ],
@@ -187,6 +189,8 @@ var hierarchy =
     [ "madara::knowledge::containers::DoubleVector2D::Indices", "d0/da3/structmadara_1_1knowledge_1_1containers_1_1DoubleVector2D_1_1Indices.html", null ],
     [ "madara::knowledge::containers::DoubleVector3D::Indices", "db/d83/structmadara_1_1knowledge_1_1containers_1_1DoubleVector3D_1_1Indices.html", null ],
     [ "madara::knowledge::containers::DoubleVectorVector::Indices", "d5/db2/structmadara_1_1knowledge_1_1containers_1_1DoubleVectorVector_1_1Indices.html", null ],
+    [ "madara::knowledge::containers::IntegerVector2D::Indices", "db/d0b/structmadara_1_1knowledge_1_1containers_1_1IntegerVector2D_1_1Indices.html", null ],
+    [ "madara::knowledge::containers::IntegerVector3D::Indices", "db/d9f/structmadara_1_1knowledge_1_1containers_1_1IntegerVector3D_1_1Indices.html", null ],
     [ "madara::knowledge::containers::IntegerVectorVector::Indices", "da/d3a/structmadara_1_1knowledge_1_1containers_1_1IntegerVectorVector_1_1Indices.html", null ],
     [ "madara::knowledge::rcw::Transaction::InitHandler< B, I, T, dummy >", "d3/d7d/classmadara_1_1knowledge_1_1rcw_1_1Transaction_1_1InitHandler.html", null ],
     [ "madara::knowledge::rcw::Transaction::InitHandler< B, I, T, typename std::enable_if< supports_get_value< T >::value &&supports_indexed_get_value< T >::value &&supports_size< T >::value >::type >", "d0/ddd/classmadara_1_1knowledge_1_1rcw_1_1Transaction_1_1InitHandler_3_01B_00_01I_00_01T_00_01typename_1bb0dbfdd20bd13d0cd78c757b4fcca9.html", null ],
@@ -243,8 +247,8 @@ var hierarchy =
     [ "madara::utility::ScopedArray< double >", "db/daa/classmadara_1_1utility_1_1ScopedArray.html", null ],
     [ "madara::utility::ScopedArray< Integer >", "db/daa/classmadara_1_1utility_1_1ScopedArray.html", null ],
     [ "madara::utility::ScopedArray< unsigned char >", "db/daa/classmadara_1_1utility_1_1ScopedArray.html", null ],
-    [ "madara::utility::ScopedArray< T >::Shim", "dd/d7d/structmadara_1_1utility_1_1ScopedArray_1_1Shim.html", null ],
     [ "madara::utility::Refcounter< T >::Shim", "da/d78/structmadara_1_1utility_1_1Refcounter_1_1Shim.html", null ],
+    [ "madara::utility::ScopedArray< T >::Shim", "dd/d7d/structmadara_1_1utility_1_1ScopedArray_1_1Shim.html", null ],
     [ "StrideTask", "d5/de8/classStrideTask.html", null ],
     [ "SubscriberListener", null, [
       [ "madara::transport::SpliceSubscriberListener", "d5/d59/classmadara_1_1transport_1_1SpliceSubscriberListener.html", null ]
@@ -366,28 +370,28 @@ var hierarchy =
       [ "madara::transport::QoSTransportSettings", "d5/d48/classmadara_1_1transport_1_1QoSTransportSettings.html", null ]
     ] ],
     [ "type", null, [
+      [ "madara::knowledge::rcw::supports_const_iter< T >", "d1/d07/structmadara_1_1knowledge_1_1rcw_1_1supports__const__iter.html", null ]
+    ] ],
+    [ "type", null, [
       [ "madara::knowledge::rcw::supports_indexed_is_dirty< T >", "db/dab/structmadara_1_1knowledge_1_1rcw_1_1supports__indexed__is__dirty.html", null ]
     ] ],
     [ "type", null, [
       [ "madara::knowledge::rcw::supports_is_size_dirty< T >", "d1/d65/structmadara_1_1knowledge_1_1rcw_1_1supports__is__size__dirty.html", null ]
     ] ],
     [ "type", null, [
-      [ "madara::knowledge::rcw::supports_indexed_get_value< T >", "d9/dc7/structmadara_1_1knowledge_1_1rcw_1_1supports__indexed__get__value.html", null ]
-    ] ],
-    [ "type", null, [
-      [ "madara::knowledge::rcw::supports_self_eq< T >", "d9/df0/structmadara_1_1knowledge_1_1rcw_1_1supports__self__eq.html", null ]
-    ] ],
-    [ "type", null, [
       [ "madara::knowledge::rcw::supports_get_value< T >", "d8/d84/structmadara_1_1knowledge_1_1rcw_1_1supports__get__value.html", null ]
     ] ],
     [ "type", null, [
-      [ "madara::knowledge::rcw::supports_const_iter< T >", "d1/d07/structmadara_1_1knowledge_1_1rcw_1_1supports__const__iter.html", null ]
+      [ "madara::knowledge::rcw::supports_indexed_get_value< T >", "d9/dc7/structmadara_1_1knowledge_1_1rcw_1_1supports__indexed__get__value.html", null ]
+    ] ],
+    [ "type", null, [
+      [ "madara::knowledge::rcw::supports_is_dirty< T >", "d6/d32/structmadara_1_1knowledge_1_1rcw_1_1supports__is__dirty.html", null ]
     ] ],
     [ "type", null, [
       [ "madara::knowledge::rcw::supports_is_all_dirty< T >", "d4/dc0/structmadara_1_1knowledge_1_1rcw_1_1supports__is__all__dirty.html", null ]
     ] ],
     [ "type", null, [
-      [ "madara::knowledge::rcw::supports_is_dirty< T >", "d6/d32/structmadara_1_1knowledge_1_1rcw_1_1supports__is__dirty.html", null ]
+      [ "madara::knowledge::rcw::supports_self_eq< T >", "d9/df0/structmadara_1_1knowledge_1_1rcw_1_1supports__self__eq.html", null ]
     ] ],
     [ "type", null, [
       [ "madara::knowledge::rcw::supports_size< T >", "d9/daf/structmadara_1_1knowledge_1_1rcw_1_1supports__size.html", null ]

@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#ad758b036c84ce3a4e50c36c1573c8b5c":[2,0,0,2,13,57],
+"d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#ad7a27d1a4cef75a4d3e7cc68138ded2c":[2,0,0,2,13,48],
 "d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#ad8897ce498452906af2e2a4fec632faa":[2,0,0,2,13,101],
 "d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#ad8f7fd33b061700c333b605c3bb1523d":[2,0,0,2,13,66],
 "d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#ad97b3f405cb3c90d22ad95bb829e2245":[2,0,0,2,13,39],
@@ -238,16 +240,14 @@ var NAVTREEINDEX2 =
 "d1/d36/structmadara_1_1knowledge_1_1rcw_1_1supports__knowledge__cast__impl.html#a59e9ec37176dabd49777965d28c6e181":[2,0,0,2,1,19,0],
 "d1/d36/structmadara_1_1knowledge_1_1rcw_1_1supports__knowledge__cast__impl.html#a7d9758fbd7e432ea19d32fd5de63e8f3":[2,0,0,2,1,19,2],
 "d1/d36/structmadara_1_1knowledge_1_1rcw_1_1supports__knowledge__cast__impl.html#a9490a67566163730092756c05d883e31":[2,0,0,2,1,19,1],
-"d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html":[2,0,0,2,0,18],
-"d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html#a021f9e17bfb579cc31c3f6a5f12a905b":[2,0,0,2,0,18,17],
-"d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html#a078ee0eed4d5c0b33cfe989446a3804a":[2,0,0,2,0,18,29],
-"d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html#a10d8233e5e7b491db6dca2cf2599fff3":[2,0,0,2,0,18,3],
-"d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html#a1a4965cfae3b618e4ba78c6d0fc8c6ad":[2,0,0,2,0,18,39],
-"d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html#a216f881b4f30c480c1c63488a2812528":[2,0,0,2,0,18,28],
-"d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html#a28328baa9cb0db123d08a73d7fe4b44b":[2,0,0,2,0,18,15],
-"d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html#a2b717d97790ff79f8f6828f38180fd6b":[2,0,0,2,0,18,30],
-"d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html#a2c2496128c8f0be9b7ec5c25a2360c22":[2,0,0,2,0,18,5],
-"d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html#a2cf32233caa9cb6c092200c43d0ba8ce":[2,0,0,2,0,18,10],
-"d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html#a32b1e5f4b994cee98e841410ee5e0fc1":[2,0,0,2,0,18,14],
-"d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html#a3c5a030c38a6e7ae8095dc717b8c25ec":[2,0,0,2,0,18,9]
+"d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html":[2,0,0,2,0,20],
+"d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html#a021f9e17bfb579cc31c3f6a5f12a905b":[2,0,0,2,0,20,17],
+"d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html#a078ee0eed4d5c0b33cfe989446a3804a":[2,0,0,2,0,20,29],
+"d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html#a10d8233e5e7b491db6dca2cf2599fff3":[2,0,0,2,0,20,3],
+"d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html#a1a4965cfae3b618e4ba78c6d0fc8c6ad":[2,0,0,2,0,20,39],
+"d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html#a216f881b4f30c480c1c63488a2812528":[2,0,0,2,0,20,28],
+"d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html#a28328baa9cb0db123d08a73d7fe4b44b":[2,0,0,2,0,20,15],
+"d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html#a2b717d97790ff79f8f6828f38180fd6b":[2,0,0,2,0,20,30],
+"d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html#a2c2496128c8f0be9b7ec5c25a2360c22":[2,0,0,2,0,20,5],
+"d1/d38/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVectorStaged.html#a2cf32233caa9cb6c092200c43d0ba8ce":[2,0,0,2,0,20,10]
 };

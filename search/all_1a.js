@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['z',['z',['../db/d83/structmadara_1_1knowledge_1_1containers_1_1DoubleVector3D_1_1Indices.html#a771ed3464e226c6347f1453d33329b91',1,'madara::knowledge::containers::DoubleVector3D::Indices']]],
+  ['z',['z',['../db/d83/structmadara_1_1knowledge_1_1containers_1_1DoubleVector3D_1_1Indices.html#a771ed3464e226c6347f1453d33329b91',1,'madara::knowledge::containers::DoubleVector3D::Indices::z()'],['../db/d9f/structmadara_1_1knowledge_1_1containers_1_1IntegerVector3D_1_1Indices.html#abaf329e8cd9f067c68ac74ab944fa769',1,'madara::knowledge::containers::IntegerVector3D::Indices::z()']]],
   ['zmq',['ZMQ',['../d5/de9/namespacemadara_1_1transport.html#a8ab96e5b222ff08ec69ec488578e5828aaeb53ff2c4ab2aed758a06faab0f51af',1,'madara::transport']]],
   ['zmqcontext_2ecpp',['ZMQContext.cpp',['../d4/d6d/ZMQContext_8cpp.html',1,'']]],
   ['zmqcontext_2eh',['ZMQContext.h',['../d1/d12/ZMQContext_8h.html',1,'']]],

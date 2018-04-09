@@ -62,6 +62,16 @@ var dir_fcbc2b8a579a36d4599a3b2a327edbf3 =
     [ "IntegerStaged.inl", "d9/d64/IntegerStaged_8inl.html", "d9/d64/IntegerStaged_8inl" ],
     [ "IntegerVector.cpp", "dc/dc4/IntegerVector_8cpp.html", null ],
     [ "IntegerVector.h", "d5/d3c/IntegerVector_8h.html", "d5/d3c/IntegerVector_8h" ],
+    [ "IntegerVector2D.cpp", "d4/d29/IntegerVector2D_8cpp.html", null ],
+    [ "IntegerVector2D.h", "d9/d50/IntegerVector2D_8h.html", [
+      [ "Indices", "db/d0b/structmadara_1_1knowledge_1_1containers_1_1IntegerVector2D_1_1Indices.html", "db/d0b/structmadara_1_1knowledge_1_1containers_1_1IntegerVector2D_1_1Indices" ],
+      [ "IntegerVector2D", "d9/dd2/classmadara_1_1knowledge_1_1containers_1_1IntegerVector2D.html", "d9/dd2/classmadara_1_1knowledge_1_1containers_1_1IntegerVector2D" ]
+    ] ],
+    [ "IntegerVector3D.cpp", "d0/d1b/IntegerVector3D_8cpp.html", null ],
+    [ "IntegerVector3D.h", "da/d0f/IntegerVector3D_8h.html", [
+      [ "Indices", "db/d9f/structmadara_1_1knowledge_1_1containers_1_1IntegerVector3D_1_1Indices.html", "db/d9f/structmadara_1_1knowledge_1_1containers_1_1IntegerVector3D_1_1Indices" ],
+      [ "IntegerVector3D", "d3/d17/classmadara_1_1knowledge_1_1containers_1_1IntegerVector3D.html", "d3/d17/classmadara_1_1knowledge_1_1containers_1_1IntegerVector3D" ]
+    ] ],
     [ "IntegerVectorVector.cpp", "d8/dce/IntegerVectorVector_8cpp.html", null ],
     [ "IntegerVectorVector.h", "d5/d59/IntegerVectorVector_8h.html", [
       [ "Indices", "da/d3a/structmadara_1_1knowledge_1_1containers_1_1IntegerVectorVector_1_1Indices.html", "da/d3a/structmadara_1_1knowledge_1_1containers_1_1IntegerVectorVector_1_1Indices" ],

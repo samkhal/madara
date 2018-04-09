@@ -15,6 +15,8 @@ var namespacemadara_1_1knowledge_1_1containers =
     [ "Integer", "d3/d0b/classmadara_1_1knowledge_1_1containers_1_1Integer.html", "d3/d0b/classmadara_1_1knowledge_1_1containers_1_1Integer" ],
     [ "IntegerStaged", "dd/d2a/classmadara_1_1knowledge_1_1containers_1_1IntegerStaged.html", "dd/d2a/classmadara_1_1knowledge_1_1containers_1_1IntegerStaged" ],
     [ "IntegerVector", "d8/d56/classmadara_1_1knowledge_1_1containers_1_1IntegerVector.html", "d8/d56/classmadara_1_1knowledge_1_1containers_1_1IntegerVector" ],
+    [ "IntegerVector2D", "d9/dd2/classmadara_1_1knowledge_1_1containers_1_1IntegerVector2D.html", "d9/dd2/classmadara_1_1knowledge_1_1containers_1_1IntegerVector2D" ],
+    [ "IntegerVector3D", "d3/d17/classmadara_1_1knowledge_1_1containers_1_1IntegerVector3D.html", "d3/d17/classmadara_1_1knowledge_1_1containers_1_1IntegerVector3D" ],
     [ "IntegerVectorVector", "d1/de4/classmadara_1_1knowledge_1_1containers_1_1IntegerVectorVector.html", "d1/de4/classmadara_1_1knowledge_1_1containers_1_1IntegerVectorVector" ],
     [ "Map", "da/da1/classmadara_1_1knowledge_1_1containers_1_1Map.html", "da/da1/classmadara_1_1knowledge_1_1containers_1_1Map" ],
     [ "NativeDoubleVector", "d2/da3/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVector.html", "d2/da3/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVector" ],

@@ -77,6 +77,8 @@ var searchData=
   ['_7einteger',['~Integer',['../d3/d0b/classmadara_1_1knowledge_1_1containers_1_1Integer.html#a2656a63d38dd813505fbf7440c7bf45e',1,'madara::knowledge::containers::Integer']]],
   ['_7eintegerstaged',['~IntegerStaged',['../dd/d2a/classmadara_1_1knowledge_1_1containers_1_1IntegerStaged.html#a668108897c4ec4302130e1a20272840c',1,'madara::knowledge::containers::IntegerStaged']]],
   ['_7eintegervector',['~IntegerVector',['../d8/d56/classmadara_1_1knowledge_1_1containers_1_1IntegerVector.html#aad9183f88684cf1aa396c25fe4b05eb4',1,'madara::knowledge::containers::IntegerVector']]],
+  ['_7eintegervector2d',['~IntegerVector2D',['../d9/dd2/classmadara_1_1knowledge_1_1containers_1_1IntegerVector2D.html#a07aeeca5fff182bba0aa24e532fe8377',1,'madara::knowledge::containers::IntegerVector2D']]],
+  ['_7eintegervector3d',['~IntegerVector3D',['../d3/d17/classmadara_1_1knowledge_1_1containers_1_1IntegerVector3D.html#a095f1613c253c10ff46ae30f55329e77',1,'madara::knowledge::containers::IntegerVector3D']]],
   ['_7eintegervectorvector',['~IntegerVectorVector',['../d1/de4/classmadara_1_1knowledge_1_1containers_1_1IntegerVectorVector.html#a957e14f5e556a8409e95bbaebbbcf030',1,'madara::knowledge::containers::IntegerVectorVector']]],
   ['_7einterpreter',['~Interpreter',['../de/d19/classmadara_1_1expression_1_1Interpreter.html#acea9850df6aaca34bdae3bcfa3f8401d',1,'madara::expression::Interpreter']]],
   ['_7ejavathread',['~JavaThread',['../d9/da6/classmadara_1_1threads_1_1JavaThread.html#a80c17ba72824c78d76ccbcd1ae19d8aa',1,'madara::threads::JavaThread']]],
