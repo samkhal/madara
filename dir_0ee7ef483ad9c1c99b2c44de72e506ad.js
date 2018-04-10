@@ -4,6 +4,9 @@ var dir_0ee7ef483ad9c1c99b2c44de72e506ad =
     [ "rcw", "dir_5e0eb35698cd2f6acb13c0c9495ca7f7.html", "dir_5e0eb35698cd2f6acb13c0c9495ca7f7" ],
     [ "AggregateFilter.cpp", "de/d29/knowledge_2AggregateFilter_8cpp.html", "de/d29/knowledge_2AggregateFilter_8cpp" ],
     [ "AggregateFilter.h", "dc/db8/knowledge_2AggregateFilter_8h.html", "dc/db8/knowledge_2AggregateFilter_8h" ],
+    [ "CheckpointSettings.h", "de/d2f/CheckpointSettings_8h.html", [
+      [ "CheckpointSettings", "d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html", "d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings" ]
+    ] ],
     [ "CompiledExpression.cpp", "da/dd9/CompiledExpression_8cpp.html", null ],
     [ "CompiledExpression.h", "db/d77/CompiledExpression_8h.html", [
       [ "CompiledExpression", "d0/d30/classmadara_1_1knowledge_1_1CompiledExpression.html", "d0/d30/classmadara_1_1knowledge_1_1CompiledExpression" ]

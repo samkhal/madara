@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$df/d6d/classmadara_1_1knowledge_1_1rcw_1_1TrackedCollection.html" title="Used internally by Tracked. " alt="" coords="5,5,161,61"/>
+<area shape="rect" id="node1" href="$df/d6d/classmadara_1_1knowledge_1_1rcw_1_1TrackedCollection.html" title="madara::knowledge::\lrcw::TrackedCollection\l\&lt; std::vector\&lt; T \&gt;, Tracked\l\&lt; std::vector\&lt; T \&gt; \&gt; \&gt;" alt="" coords="5,5,188,76"/>
+<area shape="rect" id="node2" href="$dc/df3/classmadara_1_1knowledge_1_1rcw_1_1Tracked_3_01std_1_1vector_3_01T_01_4_01_4.html" title="Implement functionality specific to std::vectors. " alt="" coords="236,13,408,69"/>
 </map>

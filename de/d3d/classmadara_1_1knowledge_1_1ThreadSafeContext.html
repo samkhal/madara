@@ -281,6 +281,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a124493f9eef1f04da015c712c47e999b"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#a124493f9eef1f04da015c712c47e999b">load_context</a> (const std::string &amp;filename, <a class="el" href="../../d9/d60/classmadara_1_1knowledge_1_1FileHeader.html">FileHeader</a> &amp;meta, const <a class="el" href="../../d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html">KnowledgeUpdateSettings</a> &amp;settings=<a class="el" href="../../d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html">KnowledgeUpdateSettings</a>(true, true, true, false))</td></tr>
 <tr class="memdesc:a124493f9eef1f04da015c712c47e999b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the context from a file.  <a href="#a124493f9eef1f04da015c712c47e999b">More...</a><br /></td></tr>
 <tr class="separator:a124493f9eef1f04da015c712c47e999b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab110fa1faf063440d762e3f8853bd83b"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#ab110fa1faf063440d762e3f8853bd83b">load_context</a> (<a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;checkpoint_settings, const <a class="el" href="../../d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html">KnowledgeUpdateSettings</a> &amp;update_settings=<a class="el" href="../../d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html">KnowledgeUpdateSettings</a>(true, true, true, false))</td></tr>
+<tr class="memdesc:ab110fa1faf063440d762e3f8853bd83b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the context from a file.  <a href="#ab110fa1faf063440d762e3f8853bd83b">More...</a><br /></td></tr>
+<tr class="separator:ab110fa1faf063440d762e3f8853bd83b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56cb9e7a02e8aa2e06dfd0f5a873bd04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#a56cb9e7a02e8aa2e06dfd0f5a873bd04">lock</a> (void) const </td></tr>
 <tr class="memdesc:a56cb9e7a02e8aa2e06dfd0f5a873bd04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Locks the mutex on this context.  <a href="#a56cb9e7a02e8aa2e06dfd0f5a873bd04">More...</a><br /></td></tr>
 <tr class="separator:a56cb9e7a02e8aa2e06dfd0f5a873bd04"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -332,15 +335,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad68face393a5c72b62d8ec18b422720b"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#ad68face393a5c72b62d8ec18b422720b">save_as_json</a> (const std::string &amp;filename) const </td></tr>
 <tr class="memdesc:ad68face393a5c72b62d8ec18b422720b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the context to a file as JSON.  <a href="#ad68face393a5c72b62d8ec18b422720b">More...</a><br /></td></tr>
 <tr class="separator:ad68face393a5c72b62d8ec18b422720b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa0e4acd192a3a9ef32d5813dee6713a"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#aaa0e4acd192a3a9ef32d5813dee6713a">save_as_json</a> (const <a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;settings) const </td></tr>
+<tr class="memdesc:aaa0e4acd192a3a9ef32d5813dee6713a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the context to a file as JSON.  <a href="#aaa0e4acd192a3a9ef32d5813dee6713a">More...</a><br /></td></tr>
+<tr class="separator:aaa0e4acd192a3a9ef32d5813dee6713a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41e7cd56f9c76bf2296ee74e9791d837"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#a41e7cd56f9c76bf2296ee74e9791d837">save_as_karl</a> (const std::string &amp;filename) const </td></tr>
 <tr class="memdesc:a41e7cd56f9c76bf2296ee74e9791d837"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the context to a file as karl assignments, rather than binary.  <a href="#a41e7cd56f9c76bf2296ee74e9791d837">More...</a><br /></td></tr>
 <tr class="separator:a41e7cd56f9c76bf2296ee74e9791d837"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bba7c0c136b2edbfec40d527fcf2374"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#a1bba7c0c136b2edbfec40d527fcf2374">save_as_karl</a> (const <a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;settings) const </td></tr>
+<tr class="memdesc:a1bba7c0c136b2edbfec40d527fcf2374"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the context to a file as karl assignments, rather than binary.  <a href="#a1bba7c0c136b2edbfec40d527fcf2374">More...</a><br /></td></tr>
+<tr class="separator:a1bba7c0c136b2edbfec40d527fcf2374"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af39f067f7c8ba49643e247e238413651"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#af39f067f7c8ba49643e247e238413651">save_checkpoint</a> (const std::string &amp;filename, const std::string &amp;id=&quot;&quot;) const </td></tr>
 <tr class="memdesc:af39f067f7c8ba49643e247e238413651"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves a checkpoint of a list of changes to a file.  <a href="#af39f067f7c8ba49643e247e238413651">More...</a><br /></td></tr>
 <tr class="separator:af39f067f7c8ba49643e247e238413651"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad053822f787ae3cabfe743b9feac1e3"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#aad053822f787ae3cabfe743b9feac1e3">save_checkpoint</a> (const <a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;settings) const </td></tr>
+<tr class="memdesc:aad053822f787ae3cabfe743b9feac1e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves a checkpoint of a list of changes to a file.  <a href="#aad053822f787ae3cabfe743b9feac1e3">More...</a><br /></td></tr>
+<tr class="separator:aad053822f787ae3cabfe743b9feac1e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b66d9a0f67123f0ef3ac82a792fcf8e"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#a1b66d9a0f67123f0ef3ac82a792fcf8e">save_context</a> (const std::string &amp;filename, const std::string &amp;id=&quot;&quot;) const </td></tr>
 <tr class="memdesc:a1b66d9a0f67123f0ef3ac82a792fcf8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the context to a file.  <a href="#a1b66d9a0f67123f0ef3ac82a792fcf8e">More...</a><br /></td></tr>
 <tr class="separator:a1b66d9a0f67123f0ef3ac82a792fcf8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad6e989134250be19e695a06b0ce43ab"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#aad6e989134250be19e695a06b0ce43ab">save_context</a> (const <a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;settings) const </td></tr>
+<tr class="memdesc:aad6e989134250be19e695a06b0ce43ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the context to a file.  <a href="#aad6e989134250be19e695a06b0ce43ab">More...</a><br /></td></tr>
+<tr class="separator:aad6e989134250be19e695a06b0ce43ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb7e6cfca702c201fbdaa97cab6da658"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d43/namespacemadara_1_1knowledge.html#afa3b76b5e804a5f38db4062762ae3ab6">VariableReferences</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#afb7e6cfca702c201fbdaa97cab6da658">save_modifieds</a> (void) const </td></tr>
 <tr class="memdesc:afb7e6cfca702c201fbdaa97cab6da658"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the list of modified records to use later for resending.  <a href="#afb7e6cfca702c201fbdaa97cab6da658">More...</a><br /></td></tr>
 <tr class="separator:afb7e6cfca702c201fbdaa97cab6da658"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -561,7 +576,7 @@ Friends</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class stores variables and their values for use by any entity needing state information in a thread safe way. </p>
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l00075">75</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l00076">76</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a4b64dda0ea5ada79c72c27d5ddd6c24f"></a>
 <div class="memitem">
@@ -2325,7 +2340,7 @@ quality of the variable </dd></dl>
 <p>What we read into the checkpoint_header will dictate our max_buffer. We want to make this checkpoint_header size into something reasonable.</p>
 <p>create a new array and copy the remaining elements from buffer_remaining</p>
 
-<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02188">2188</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02621">2621</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
 
 </div>
 </div>
@@ -2375,7 +2390,50 @@ quality of the variable </dd></dl>
 <p>What we read into the checkpoint_header will dictate our max_buffer. We want to make this checkpoint_header size into something reasonable.</p>
 <p>create a new array and copy the remaining elements from buffer_remaining</p>
 
-<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02306">2306</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02739">2739</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab110fa1faf063440d762e3f8853bd83b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int64_t madara::knowledge::ThreadSafeContext::load_context </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;&#160;</td>
+          <td class="paramname"><em>checkpoint_settings</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html">KnowledgeUpdateSettings</a> &amp;&#160;</td>
+          <td class="paramname"><em>update_settings</em> = <code><a class="el" href="../../d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html">KnowledgeUpdateSettings</a>&#160;(true,&#160;true,&#160;true,&#160;false)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loads the context from a file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">checkpoint_settings</td><td>checkpoint settings to load </td></tr>
+    <tr><td class="paramname">update_settings</td><td>settings for applying the updates </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>-1 if file open failed<br />
+ -2 if file read failed<br />
+ &gt;0 if successful (number of bytes written) </dd></dl>
+<p>check that there is more than one state and that the rest of the file is sufficient to at least be a message header (what we use as a checkpoint header</p>
+<p>What we read into the checkpoint_header will dictate our max_buffer. We want to make this checkpoint_header size into something reasonable.</p>
+<p>create a new array and copy the remaining elements from buffer_remaining</p>
+
+<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02857">2857</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
 
 </div>
 </div>
@@ -3270,7 +3328,34 @@ quality of the variable </dd></dl>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>total bytes written </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02079">2079</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02365">2365</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aaa0e4acd192a3a9ef32d5813dee6713a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int64_t madara::knowledge::ThreadSafeContext::save_as_json </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;&#160;</td>
+          <td class="paramname"><em>settings</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Saves the context to a file as JSON. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">settings</td><td>the settings to save </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>total bytes written </dd></dl>
+
+<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02473">2473</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
 
 </div>
 </div>
@@ -3297,7 +3382,34 @@ quality of the variable </dd></dl>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>total bytes written </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l01980">1980</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02128">2128</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1bba7c0c136b2edbfec40d527fcf2374"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int64_t madara::knowledge::ThreadSafeContext::save_as_karl </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;&#160;</td>
+          <td class="paramname"><em>settings</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Saves the context to a file as karl assignments, rather than binary. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">settings</td><td>the settings to save </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>total bytes written </dd></dl>
+
+<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02227">2227</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
 
 </div>
 </div>
@@ -3333,12 +3445,49 @@ quality of the variable </dd></dl>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>-1 if file open failed<br />
+ -2 if file write failed<br />
+ &gt;0 if successful (number of bytes written) </dd></dl>
 <p>if the record is larger than the buffer we have remaining, then write the buffer to the file</p>
 <p>If the record is larger than the buffer, then we must allocate a buffer large enough to write to it.</p>
 <p>if the record is larger than the buffer we have remaining, then write the buffer to the file</p>
 <p>If the record is larger than the buffer, then we must allocate a buffer large enough to write to it.</p>
 
-<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02423">2423</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l03280">3280</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aad053822f787ae3cabfe743b9feac1e3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int64_t madara::knowledge::ThreadSafeContext::save_checkpoint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;&#160;</td>
+          <td class="paramname"><em>settings</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Saves a checkpoint of a list of changes to a file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">settings</td><td>checkpoint settings to load </td></tr>
+    <tr><td class="paramname">id</td><td>unique identifier of the context holder </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>-1 if file open failed<br />
+ -2 if file write failed<br />
+ &gt;0 if successful (number of bytes written) </dd></dl>
+<p>if the record is larger than the buffer we have remaining, then write the buffer to the file</p>
+<p>If the record is larger than the buffer, then we must allocate a buffer large enough to write to it.</p>
+<p>if the record is larger than the buffer we have remaining, then write the buffer to the file</p>
+<p>If the record is larger than the buffer, then we must allocate a buffer large enough to write to it.</p>
+
+<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l03035">3035</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
 
 </div>
 </div>
@@ -3381,6 +3530,37 @@ quality of the variable </dd></dl>
 <p>If the record is larger than the buffer, then we must allocate a buffer large enough to write to it.</p>
 
 <p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l01870">1870</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aad6e989134250be19e695a06b0ce43ab"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int64_t madara::knowledge::ThreadSafeContext::save_context </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;&#160;</td>
+          <td class="paramname"><em>settings</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Saves the context to a file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">settings</td><td>the settings to save </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>-1 if file open failed<br />
+ -2 if file write failed<br />
+ &gt;0 if successful (number of bytes written) </dd></dl>
+<p>if the record is larger than the buffer we have remaining, then write the buffer to the file</p>
+<p>If the record is larger than the buffer, then we must allocate a buffer large enough to write to it.</p>
+
+<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l01979">1979</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
 
 </div>
 </div>
@@ -6189,7 +6369,7 @@ quality of the variable after this call </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l00079">79</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l00080">80</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6211,7 +6391,7 @@ quality of the variable after this call </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l00080">80</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l00081">81</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6233,7 +6413,7 @@ quality of the variable after this call </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l00078">78</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l00079">79</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6255,7 +6435,7 @@ quality of the variable after this call </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l00081">81</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l00082">82</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6278,7 +6458,7 @@ quality of the variable after this call </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01470">1470</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01521">1521</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6300,7 +6480,7 @@ quality of the variable after this call </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01473">1473</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01524">1524</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6322,7 +6502,7 @@ quality of the variable after this call </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01472">1472</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01523">1523</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6344,7 +6524,7 @@ quality of the variable after this call </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01471">1471</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01522">1522</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6368,7 +6548,7 @@ quality of the variable after this call </dd></dl>
 
 <p>map of function names to functions </p>
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01477">1477</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01528">1528</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6392,7 +6572,7 @@ quality of the variable after this call </dd></dl>
 
 <p>KaRL interpreter. </p>
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01480">1480</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01531">1531</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6414,7 +6594,7 @@ quality of the variable after this call </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01474">1474</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01525">1525</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6438,7 +6618,7 @@ quality of the variable after this call </dd></dl>
 
 <p>Logger for printing. </p>
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01483">1483</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01534">1534</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6462,7 +6642,7 @@ quality of the variable after this call </dd></dl>
 
 <p>Hash table containing variable names and values. </p>
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01468">1468</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01519">1519</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6484,7 +6664,7 @@ quality of the variable after this call </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01469">1469</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01520">1520</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6499,7 +6679,7 @@ quality of the variable after this call </dd></dl>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/da9/namespacemadara.html">madara</a></li><li class="navelem"><a class="el" href="../../df/d43/namespacemadara_1_1knowledge.html">knowledge</a></li><li class="navelem"><a class="el" href="../../de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html">ThreadSafeContext</a></li>
-    <li class="footer">Generated on Mon Apr 9 2018 02:23:47 for MADARA by
+    <li class="footer">Generated on Tue Apr 10 2018 04:31:30 for MADARA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

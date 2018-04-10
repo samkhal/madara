@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$dc/dc0/classmadara_1_1transport_1_1NDDSListener.html" title="Container for NDDS callbacks. " alt="" coords="220,5,352,47"/>
+<area shape="rect" id="node1" href="$d8/d83/classmadara_1_1transport_1_1MessageHeader.html" title="Defines a robust message header which is the default for KaRL messages. " alt="" coords="5,39,137,80"/>
+<area shape="rect" id="node2" href="$d6/d41/classmadara_1_1transport_1_1FragmentMessageHeader.html" title="Defines a fragmentation header which allows for multi&#45;part messages that are only applied once all fr..." alt="" coords="185,5,357,47"/>
+<area shape="rect" id="node3" href="$de/d6c/classmadara_1_1transport_1_1ReducedMessageHeader.html" title="Defines a simple, smaller message header of 29 bytes that supports less QoS. " alt="" coords="187,71,356,112"/>
 </map>

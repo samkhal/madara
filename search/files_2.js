@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['checkpointsettings_2eh',['CheckpointSettings.h',['../de/d2f/CheckpointSettings_8h.html',1,'']]],
   ['clearrecords_2ecpp',['ClearRecords.cpp',['../d1/d24/ClearRecords_8cpp.html',1,'']]],
   ['clearrecords_2eh',['ClearRecords.h',['../d8/d78/ClearRecords_8h.html',1,'']]],
   ['collection_2ecpp',['Collection.cpp',['../d8/d5a/Collection_8cpp.html',1,'']]],

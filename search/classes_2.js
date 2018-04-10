@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['checkpointsettings',['CheckpointSettings',['../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html',1,'madara::knowledge']]],
   ['clearrecords',['ClearRecords',['../d6/d6f/classmadara_1_1filters_1_1ClearRecords.html',1,'madara::filters']]],
   ['clearvariable',['ClearVariable',['../d3/d16/classmadara_1_1expression_1_1ClearVariable.html',1,'madara::expression']]],
   ['collection',['Collection',['../d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html',1,'madara::knowledge::containers']]],

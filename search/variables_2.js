@@ -10,6 +10,7 @@ var searchData=
   ['changed_5fmap_5f',['changed_map_',['../de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#a8836f5c11b03fa738dcebb52a42e6de9',1,'madara::knowledge::ThreadSafeContext']]],
   ['class_5f',['class_',['../d9/da6/classmadara_1_1threads_1_1JavaThread.html#a52195bc746f1c7ff321311f45bf5af91',1,'madara::threads::JavaThread']]],
   ['cleanup_5fmethod_5f',['cleanup_method_',['../d9/da6/classmadara_1_1threads_1_1JavaThread.html#a3095017222d0ca2f7d9faa57196bc00a',1,'madara::threads::JavaThread']]],
+  ['clear_5fknowledge',['clear_knowledge',['../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html#a85afefd38878fcfec4ab6dc9f0f69daf',1,'madara::knowledge::CheckpointSettings']]],
   ['clients_5f',['clients_',['../d5/d9f/classmadara_1_1transport_1_1UdpRegistryClient.html#a8c25ccdbe52faadb70e56909093837f5',1,'madara::transport::UdpRegistryClient::clients_()'],['../d9/d08/classmadara_1_1transport_1_1UdpRegistryServer.html#a30a6a0a54fcdc476c08fc863f0e14943',1,'madara::transport::UdpRegistryServer::clients_()']]],
   ['clock',['clock',['../d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#a4a03a5d052604b3dc160f8eb7a338efa',1,'madara::knowledge::KnowledgeRecord::clock()'],['../d8/d83/classmadara_1_1transport_1_1MessageHeader.html#a829b8025f83c53d900ad7dfd6a3569f1',1,'madara::transport::MessageHeader::clock()']]],
   ['clock_5f',['clock_',['../de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#a9cce93ab9d4ac3c64b458adefab5fac9',1,'madara::knowledge::ThreadSafeContext']]],

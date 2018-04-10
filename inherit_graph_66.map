@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$da/d8e/classmadara_1_1knowledge_1_1rcw_1_1Tracker.html" title="Tracker which puts variable values into a single KnowledgeRecord. " alt="" coords="5,5,148,61"/>
+<area shape="rect" id="node1" href="$de/d1b/classmadara_1_1knowledge_1_1rcw_1_1TrackedExtra.html" title="madara::knowledge::\lrcw::TrackedExtra\&lt; T,\l Tracked\&lt; T \&gt; \&gt;" alt="" coords="5,5,159,61"/>
+<area shape="rect" id="node2" href="$d8/d6d/classmadara_1_1knowledge_1_1rcw_1_1Tracked.html" title="Tracks the modification status of a wrapped object of the given type. " alt="" coords="207,13,349,54"/>
 </map>
