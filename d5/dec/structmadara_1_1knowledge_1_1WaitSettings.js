@@ -1,7 +1,7 @@
 var structmadara_1_1knowledge_1_1WaitSettings =
 [
     [ "WaitSettings", "d5/dec/structmadara_1_1knowledge_1_1WaitSettings.html#a8f955e3013ad9d76a5d6dbfbe0ab8846", null ],
-    [ "WaitSettings", "d5/dec/structmadara_1_1knowledge_1_1WaitSettings.html#aff684b173d0d9c7f3a924c56d67e248e", null ],
+    [ "WaitSettings", "d5/dec/structmadara_1_1knowledge_1_1WaitSettings.html#a82ce2d4e6ac392b7683705a5be273c1a", null ],
     [ "WaitSettings", "d5/dec/structmadara_1_1knowledge_1_1WaitSettings.html#a50f4794804c9b2e0303c980b0007aacb", null ],
     [ "always_overwrite", "d5/dec/structmadara_1_1knowledge_1_1WaitSettings.html#aa17aa64aadf4aa39bebabd024409c00b", null ],
     [ "clock_increment", "d5/dec/structmadara_1_1knowledge_1_1WaitSettings.html#a101c8694b8e7eacda82b577f31b6a80a", null ],
@@ -21,5 +21,6 @@ var structmadara_1_1knowledge_1_1WaitSettings =
     [ "send_list", "d5/dec/structmadara_1_1knowledge_1_1WaitSettings.html#a0c795cf98b9a4ffed22e358bcd94ecfd", null ],
     [ "signal_changes", "d5/dec/structmadara_1_1knowledge_1_1WaitSettings.html#a70edab7f388cbae6fac13aa32feb2226", null ],
     [ "track_local_changes", "d5/dec/structmadara_1_1knowledge_1_1WaitSettings.html#afb02e36f49e6cce3567aa22556a6e4d4", null ],
-    [ "treat_globals_as_locals", "d5/dec/structmadara_1_1knowledge_1_1WaitSettings.html#acb95f4a005baf196d4e1e01c697c5516", null ]
+    [ "treat_globals_as_locals", "d5/dec/structmadara_1_1knowledge_1_1WaitSettings.html#acb95f4a005baf196d4e1e01c697c5516", null ],
+    [ "treat_locals_as_globals", "d5/dec/structmadara_1_1knowledge_1_1WaitSettings.html#a780ac623a52b912f115f21808aab25be", null ]
 ];

@@ -90,12 +90,13 @@ var NAVTREEINDEX1 =
 "d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html":[2,0,0,2,17],
 "d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html#a101c8694b8e7eacda82b577f31b6a80a":[2,0,0,2,17,5],
 "d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html#a311fbf05c2bd42c45fe0679f9e76e594":[2,0,0,2,17,7],
-"d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html#a3c31fc433ae783c257f5cda8444adb69":[2,0,0,2,17,1],
 "d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html#a41e0b267529e7f869d775773d116692a":[2,0,0,2,17,10],
 "d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html#a49d4246e647aaec7f1df8a28cacce020":[2,0,0,2,17,6],
 "d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html#a5f417455d601a8a29badf0cc2774b3f2":[2,0,0,2,17,9],
 "d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html#a70edab7f388cbae6fac13aa32feb2226":[2,0,0,2,17,12],
+"d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html#a780ac623a52b912f115f21808aab25be":[2,0,0,2,17,15],
 "d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html#aa17aa64aadf4aa39bebabd024409c00b":[2,0,0,2,17,4],
+"d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html#aa23ccf1fd33610dde7d4f854e740140a":[2,0,0,2,17,1],
 "d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html#abbf8a4139f1d7678b664f18e1e5fe73e":[2,0,0,2,17,8],
 "d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html#ac1492092f2f0c62b9e9ded5244a41f64":[2,0,0,2,17,11],
 "d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html#acb95f4a005baf196d4e1e01c697c5516":[2,0,0,2,17,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#ad0a98791c2ac38e2e30c1ff4860ceabe":[2,0,0,2,14,65],
 "d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#ad0cf42c5cc4377b5e7aaeb5097f15099":[2,0,0,2,14,9],
 "d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#ad2d5f420160ca57fe81b8753ee697cf8":[2,0,0,2,14,118],
-"d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#ad303074ac27302618a636f574513bb2a":[2,0,0,2,14,64],
-"d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#ad45653647ab35f8f7f96a53f7e66c08e":[2,0,0,2,14,119]
+"d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#ad303074ac27302618a636f574513bb2a":[2,0,0,2,14,64]
 };

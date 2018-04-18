@@ -14,6 +14,7 @@ var classmadara_1_1knowledge_1_1containers_1_1DoubleStaged =
     [ "get_debug_info", "d7/d5e/classmadara_1_1knowledge_1_1containers_1_1DoubleStaged.html#aa3c61f183c53c01950cb32ee520d5a03", null ],
     [ "get_debug_info_", "d7/d5e/classmadara_1_1knowledge_1_1containers_1_1DoubleStaged.html#abd6257ebac8d15a5488ef8a5c433ad27", null ],
     [ "get_name", "d7/d5e/classmadara_1_1knowledge_1_1containers_1_1DoubleStaged.html#a455382a3a3a96a11b2ab5b9fbfa76768", null ],
+    [ "get_settings", "d7/d5e/classmadara_1_1knowledge_1_1containers_1_1DoubleStaged.html#a82ef90008ac2db74f9a4428e37c92144", null ],
     [ "is_false", "d7/d5e/classmadara_1_1knowledge_1_1containers_1_1DoubleStaged.html#a3b494c400a1c02b8369e54ab1c22e8f1", null ],
     [ "is_false_", "d7/d5e/classmadara_1_1knowledge_1_1containers_1_1DoubleStaged.html#aadbb4b073b40c200f00f3b575434d985", null ],
     [ "is_true", "d7/d5e/classmadara_1_1knowledge_1_1containers_1_1DoubleStaged.html#a3cce59c8acf2ea151e5d3976d6b314da", null ],

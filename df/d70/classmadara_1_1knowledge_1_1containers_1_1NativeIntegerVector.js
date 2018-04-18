@@ -12,6 +12,7 @@ var classmadara_1_1knowledge_1_1containers_1_1NativeIntegerVector =
     [ "get_debug_info", "df/d70/classmadara_1_1knowledge_1_1containers_1_1NativeIntegerVector.html#ad374cc1e29ccb0c384f9073cec4e7765", null ],
     [ "get_debug_info_", "df/d70/classmadara_1_1knowledge_1_1containers_1_1NativeIntegerVector.html#a75f6483ff3fa95d855f07ab2b7f18571", null ],
     [ "get_name", "df/d70/classmadara_1_1knowledge_1_1containers_1_1NativeIntegerVector.html#a455382a3a3a96a11b2ab5b9fbfa76768", null ],
+    [ "get_settings", "df/d70/classmadara_1_1knowledge_1_1containers_1_1NativeIntegerVector.html#a82ef90008ac2db74f9a4428e37c92144", null ],
     [ "is_false", "df/d70/classmadara_1_1knowledge_1_1containers_1_1NativeIntegerVector.html#aa724ff7210874577d8f71843669b3737", null ],
     [ "is_false_", "df/d70/classmadara_1_1knowledge_1_1containers_1_1NativeIntegerVector.html#a58d802307a271bf7bb119fda4786bf26", null ],
     [ "is_true", "df/d70/classmadara_1_1knowledge_1_1containers_1_1NativeIntegerVector.html#ae95546ee060eb4fc17e34eb2aadb95ab", null ],

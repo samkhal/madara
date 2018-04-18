@@ -6,6 +6,7 @@ var classmadara_1_1knowledge_1_1containers_1_1BaseContainer =
     [ "clone", "d9/d19/classmadara_1_1knowledge_1_1containers_1_1BaseContainer.html#a8632afd8e846602679436fc13908f22c", null ],
     [ "get_debug_info_", "d9/d19/classmadara_1_1knowledge_1_1containers_1_1BaseContainer.html#a6f01deca332a1cf7c5b136bfbb7bcdd4", null ],
     [ "get_name", "d9/d19/classmadara_1_1knowledge_1_1containers_1_1BaseContainer.html#a455382a3a3a96a11b2ab5b9fbfa76768", null ],
+    [ "get_settings", "d9/d19/classmadara_1_1knowledge_1_1containers_1_1BaseContainer.html#a82ef90008ac2db74f9a4428e37c92144", null ],
     [ "is_false_", "d9/d19/classmadara_1_1knowledge_1_1containers_1_1BaseContainer.html#a6ac8010c1ac2212af8cd2188baa530cf", null ],
     [ "is_true_", "d9/d19/classmadara_1_1knowledge_1_1containers_1_1BaseContainer.html#abc59bd5accd517387ceb048c5adda58c", null ],
     [ "modify_", "d9/d19/classmadara_1_1knowledge_1_1containers_1_1BaseContainer.html#ac6f59fe2b3b7d96f9d6a3410042cf9d4", null ],

@@ -18,6 +18,7 @@ var classmadara_1_1knowledge_1_1containers_1_1Barrier =
     [ "get_name", "d9/d36/classmadara_1_1knowledge_1_1containers_1_1Barrier.html#a455382a3a3a96a11b2ab5b9fbfa76768", null ],
     [ "get_participants", "d9/d36/classmadara_1_1knowledge_1_1containers_1_1Barrier.html#a95363df8eb211644a5f0468464fe7324", null ],
     [ "get_round", "d9/d36/classmadara_1_1knowledge_1_1containers_1_1Barrier.html#ae4f0c495a63b0acb774532ca22f4eab8", null ],
+    [ "get_settings", "d9/d36/classmadara_1_1knowledge_1_1containers_1_1Barrier.html#a82ef90008ac2db74f9a4428e37c92144", null ],
     [ "init_noharm", "d9/d36/classmadara_1_1knowledge_1_1containers_1_1Barrier.html#aff1ac9eaadb1d5df677193608f9438f5", null ],
     [ "is_done", "d9/d36/classmadara_1_1knowledge_1_1containers_1_1Barrier.html#ae6741dafa92a38da576943bb5f1ecd99", null ],
     [ "is_false", "d9/d36/classmadara_1_1knowledge_1_1containers_1_1Barrier.html#aaca961e3b6531b4fc0729d9888ac324a", null ],

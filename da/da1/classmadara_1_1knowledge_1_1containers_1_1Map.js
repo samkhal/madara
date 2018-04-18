@@ -15,6 +15,7 @@ var classmadara_1_1knowledge_1_1containers_1_1Map =
     [ "get_debug_info_", "da/da1/classmadara_1_1knowledge_1_1containers_1_1Map.html#a45f8224f666dd2d72e30a3bc3302b239", null ],
     [ "get_delimiter", "da/da1/classmadara_1_1knowledge_1_1containers_1_1Map.html#aa0664d587e3ce839ea995a6abb3f3599", null ],
     [ "get_name", "da/da1/classmadara_1_1knowledge_1_1containers_1_1Map.html#a455382a3a3a96a11b2ab5b9fbfa76768", null ],
+    [ "get_settings", "da/da1/classmadara_1_1knowledge_1_1containers_1_1Map.html#a82ef90008ac2db74f9a4428e37c92144", null ],
     [ "has_prefix", "da/da1/classmadara_1_1knowledge_1_1containers_1_1Map.html#a578bc6b6694742b0f5a665a18c179fba", null ],
     [ "is_false", "da/da1/classmadara_1_1knowledge_1_1containers_1_1Map.html#a58388e1a78d66da2b675ea217fd42a38", null ],
     [ "is_false_", "da/da1/classmadara_1_1knowledge_1_1containers_1_1Map.html#aa773d6327ae7dade917abcc475c171bf", null ],

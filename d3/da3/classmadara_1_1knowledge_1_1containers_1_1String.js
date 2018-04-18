@@ -14,6 +14,7 @@ var classmadara_1_1knowledge_1_1containers_1_1String =
     [ "get_debug_info", "d3/da3/classmadara_1_1knowledge_1_1containers_1_1String.html#aa2317a6d0cac67618f41e401fe1bd869", null ],
     [ "get_debug_info_", "d3/da3/classmadara_1_1knowledge_1_1containers_1_1String.html#a79b70e5b3d71daa0db3de39ff01c9b07", null ],
     [ "get_name", "d3/da3/classmadara_1_1knowledge_1_1containers_1_1String.html#a455382a3a3a96a11b2ab5b9fbfa76768", null ],
+    [ "get_settings", "d3/da3/classmadara_1_1knowledge_1_1containers_1_1String.html#a82ef90008ac2db74f9a4428e37c92144", null ],
     [ "is_false", "d3/da3/classmadara_1_1knowledge_1_1containers_1_1String.html#abf9a848132ac6c765f9d2d2eafb4887f", null ],
     [ "is_false_", "d3/da3/classmadara_1_1knowledge_1_1containers_1_1String.html#a2616dde94fe6d03bef8f4b35ea2e9a9c", null ],
     [ "is_true", "d3/da3/classmadara_1_1knowledge_1_1containers_1_1String.html#a58d5069af898fc3203381706c3787c47", null ],

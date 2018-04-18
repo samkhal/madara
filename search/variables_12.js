@@ -25,6 +25,7 @@ var searchData=
   ['transports_5f',['transports_',['../d5/da4/classmadara_1_1knowledge_1_1KnowledgeBaseImpl.html#a68c32f0c91ae412ecf39db9c1ffc7842',1,'madara::knowledge::KnowledgeBaseImpl']]],
   ['traversal_5fmap_5f',['traversal_map_',['../da/ddb/classmadara_1_1expression_1_1ExpressionTreeIteratorFactory.html#a65a2dd505f626d003fef7c7fbd3b61d2',1,'madara::expression::ExpressionTreeIteratorFactory']]],
   ['treat_5fglobals_5fas_5flocals',['treat_globals_as_locals',['../d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html#acb95f4a005baf196d4e1e01c697c5516',1,'madara::knowledge::KnowledgeUpdateSettings']]],
+  ['treat_5flocals_5fas_5fglobals',['treat_locals_as_globals',['../d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html#a780ac623a52b912f115f21808aab25be',1,'madara::knowledge::KnowledgeUpdateSettings']]],
   ['tree_5f',['tree_',['../dd/dc6/classmadara_1_1expression_1_1ExpressionTreeIteratorImpl.html#acfeb4668af3cd9c64b86b4f2fe862b52',1,'madara::expression::ExpressionTreeIteratorImpl']]],
   ['tree_5fiterator_5ffactory',['tree_iterator_factory',['../d9/d20/ExpressionTree_8cpp.html#a1ca43d6afff50df691efb6ab1bf91bb3',1,'ExpressionTree.cpp']]],
   ['trusted_5foriginators_5f',['trusted_originators_',['../d8/de4/classmadara_1_1filters_1_1EndpointClear.html#ad7f186893fff930aec42da6e66feb65d',1,'madara::filters::EndpointClear']]],

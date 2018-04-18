@@ -1,7 +1,7 @@
 var structmadara_1_1knowledge_1_1EvalSettings =
 [
     [ "EvalSettings", "d3/d0d/structmadara_1_1knowledge_1_1EvalSettings.html#a56140997d64c809a4c76c3e34aa3a705", null ],
-    [ "EvalSettings", "d3/d0d/structmadara_1_1knowledge_1_1EvalSettings.html#af68e104de8fa387ec037ff710ab0b4af", null ],
+    [ "EvalSettings", "d3/d0d/structmadara_1_1knowledge_1_1EvalSettings.html#afb9fa44087d59f389c317d7a1ce5ea14", null ],
     [ "EvalSettings", "d3/d0d/structmadara_1_1knowledge_1_1EvalSettings.html#ad5a6d5109f2222e487efc6d6a164bce5", null ],
     [ "always_overwrite", "d3/d0d/structmadara_1_1knowledge_1_1EvalSettings.html#aa17aa64aadf4aa39bebabd024409c00b", null ],
     [ "clock_increment", "d3/d0d/structmadara_1_1knowledge_1_1EvalSettings.html#a101c8694b8e7eacda82b577f31b6a80a", null ],
@@ -19,5 +19,6 @@ var structmadara_1_1knowledge_1_1EvalSettings =
     [ "send_list", "d3/d0d/structmadara_1_1knowledge_1_1EvalSettings.html#a0c795cf98b9a4ffed22e358bcd94ecfd", null ],
     [ "signal_changes", "d3/d0d/structmadara_1_1knowledge_1_1EvalSettings.html#a70edab7f388cbae6fac13aa32feb2226", null ],
     [ "track_local_changes", "d3/d0d/structmadara_1_1knowledge_1_1EvalSettings.html#afb02e36f49e6cce3567aa22556a6e4d4", null ],
-    [ "treat_globals_as_locals", "d3/d0d/structmadara_1_1knowledge_1_1EvalSettings.html#acb95f4a005baf196d4e1e01c697c5516", null ]
+    [ "treat_globals_as_locals", "d3/d0d/structmadara_1_1knowledge_1_1EvalSettings.html#acb95f4a005baf196d4e1e01c697c5516", null ],
+    [ "treat_locals_as_globals", "d3/d0d/structmadara_1_1knowledge_1_1EvalSettings.html#a780ac623a52b912f115f21808aab25be", null ]
 ];

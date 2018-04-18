@@ -12,6 +12,7 @@ var classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVector =
     [ "get_debug_info", "d2/da3/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVector.html#adfabe7b9fcb19a9c3837e6cd50b1ac1f", null ],
     [ "get_debug_info_", "d2/da3/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVector.html#a9170bd46769a18041540018680ad6b97", null ],
     [ "get_name", "d2/da3/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVector.html#a455382a3a3a96a11b2ab5b9fbfa76768", null ],
+    [ "get_settings", "d2/da3/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVector.html#a82ef90008ac2db74f9a4428e37c92144", null ],
     [ "is_false", "d2/da3/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVector.html#aa201bab878375a70973757b4f5eedf8c", null ],
     [ "is_false_", "d2/da3/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVector.html#a15af9812f4ed959b0fdcaf5e279b7fc1", null ],
     [ "is_true", "d2/da3/classmadara_1_1knowledge_1_1containers_1_1NativeDoubleVector.html#a21c1b5b25a877ea1c6682257fb3da9a6", null ],

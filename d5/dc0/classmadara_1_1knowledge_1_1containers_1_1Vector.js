@@ -13,6 +13,7 @@ var classmadara_1_1knowledge_1_1containers_1_1Vector =
     [ "get_debug_info_", "d5/dc0/classmadara_1_1knowledge_1_1containers_1_1Vector.html#ad5b896668534da5f5f283f64629ed30a", null ],
     [ "get_delimiter", "d5/dc0/classmadara_1_1knowledge_1_1containers_1_1Vector.html#a18d539d9b222504f549bcfc42ca54a67", null ],
     [ "get_name", "d5/dc0/classmadara_1_1knowledge_1_1containers_1_1Vector.html#a455382a3a3a96a11b2ab5b9fbfa76768", null ],
+    [ "get_settings", "d5/dc0/classmadara_1_1knowledge_1_1containers_1_1Vector.html#a82ef90008ac2db74f9a4428e37c92144", null ],
     [ "get_size_ref", "d5/dc0/classmadara_1_1knowledge_1_1containers_1_1Vector.html#a16b260b05880d386b9160da1a7b7f067", null ],
     [ "is_false", "d5/dc0/classmadara_1_1knowledge_1_1containers_1_1Vector.html#afbcebb9469b24ee2c24edce56a737279", null ],
     [ "is_false_", "d5/dc0/classmadara_1_1knowledge_1_1containers_1_1Vector.html#ae5a92c21c5432b2583a83f4ed6ba754f", null ],

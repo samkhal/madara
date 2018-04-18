@@ -15,6 +15,7 @@ var classmadara_1_1knowledge_1_1containers_1_1DoubleVector2D =
     [ "get_debug_info_", "d6/df5/classmadara_1_1knowledge_1_1containers_1_1DoubleVector2D.html#a5f06526da5879dc30f7a91e82e3cf505", null ],
     [ "get_delimiter", "d6/df5/classmadara_1_1knowledge_1_1containers_1_1DoubleVector2D.html#a300dfcf7d063ba14ab19717272be010f", null ],
     [ "get_name", "d6/df5/classmadara_1_1knowledge_1_1containers_1_1DoubleVector2D.html#a455382a3a3a96a11b2ab5b9fbfa76768", null ],
+    [ "get_settings", "d6/df5/classmadara_1_1knowledge_1_1containers_1_1DoubleVector2D.html#a82ef90008ac2db74f9a4428e37c92144", null ],
     [ "get_size_ref", "d6/df5/classmadara_1_1knowledge_1_1containers_1_1DoubleVector2D.html#a13e3426c3a097dd53f7870e3e012c846", null ],
     [ "is_false", "d6/df5/classmadara_1_1knowledge_1_1containers_1_1DoubleVector2D.html#ad69d7466a0943779e0ebcbc755d299da", null ],
     [ "is_false_", "d6/df5/classmadara_1_1knowledge_1_1containers_1_1DoubleVector2D.html#a2f1cc406edbf9d5f4df0d65667a802bc", null ],

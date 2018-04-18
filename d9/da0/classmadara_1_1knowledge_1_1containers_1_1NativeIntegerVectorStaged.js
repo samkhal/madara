@@ -12,6 +12,7 @@ var classmadara_1_1knowledge_1_1containers_1_1NativeIntegerVectorStaged =
     [ "get_debug_info", "d9/da0/classmadara_1_1knowledge_1_1containers_1_1NativeIntegerVectorStaged.html#a37d2e6b004269fdd1274c1ed4906c2a4", null ],
     [ "get_debug_info_", "d9/da0/classmadara_1_1knowledge_1_1containers_1_1NativeIntegerVectorStaged.html#a1d0a2e3bb94390fc8e4bb5dc93e2622b", null ],
     [ "get_name", "d9/da0/classmadara_1_1knowledge_1_1containers_1_1NativeIntegerVectorStaged.html#a455382a3a3a96a11b2ab5b9fbfa76768", null ],
+    [ "get_settings", "d9/da0/classmadara_1_1knowledge_1_1containers_1_1NativeIntegerVectorStaged.html#a82ef90008ac2db74f9a4428e37c92144", null ],
     [ "is_false", "d9/da0/classmadara_1_1knowledge_1_1containers_1_1NativeIntegerVectorStaged.html#a47804c0e9bc02ef37c4eaa2195cac048", null ],
     [ "is_false_", "d9/da0/classmadara_1_1knowledge_1_1containers_1_1NativeIntegerVectorStaged.html#a7412e90a6f0cb19317538eb404a7b8c3", null ],
     [ "is_true", "d9/da0/classmadara_1_1knowledge_1_1containers_1_1NativeIntegerVectorStaged.html#a493e8d92766ee9077dabfac817ab0fe6", null ],

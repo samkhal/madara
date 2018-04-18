@@ -14,6 +14,7 @@ var classmadara_1_1knowledge_1_1containers_1_1IntegerStaged =
     [ "get_debug_info", "dd/d2a/classmadara_1_1knowledge_1_1containers_1_1IntegerStaged.html#af6b6efd682b4ca214bcba74cde1e3422", null ],
     [ "get_debug_info_", "dd/d2a/classmadara_1_1knowledge_1_1containers_1_1IntegerStaged.html#a9e357cb9267ab5d0591e3ab6171f5a6b", null ],
     [ "get_name", "dd/d2a/classmadara_1_1knowledge_1_1containers_1_1IntegerStaged.html#a455382a3a3a96a11b2ab5b9fbfa76768", null ],
+    [ "get_settings", "dd/d2a/classmadara_1_1knowledge_1_1containers_1_1IntegerStaged.html#a82ef90008ac2db74f9a4428e37c92144", null ],
     [ "is_false", "dd/d2a/classmadara_1_1knowledge_1_1containers_1_1IntegerStaged.html#ad88399959a73aa0c5895eaad68fe7abd", null ],
     [ "is_false_", "dd/d2a/classmadara_1_1knowledge_1_1containers_1_1IntegerStaged.html#a017fedc5777a0480bbd68d72b977f760", null ],
     [ "is_true", "dd/d2a/classmadara_1_1knowledge_1_1containers_1_1IntegerStaged.html#a8bfb07ed3492f48a1ddfb463ff7d69ed", null ],

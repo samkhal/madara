@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MADARA
-   &#160;<span id="projectnumber">3.1.3</span>
+   &#160;<span id="projectnumber">3.1.4</span>
    </div>
   </td>
  </tr>
@@ -147,9 +147,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a56140997d64c809a4c76c3e34aa3a705"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d0d/structmadara_1_1knowledge_1_1EvalSettings.html#a56140997d64c809a4c76c3e34aa3a705">EvalSettings</a> ()</td></tr>
 <tr class="memdesc:a56140997d64c809a4c76c3e34aa3a705"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a56140997d64c809a4c76c3e34aa3a705">More...</a><br /></td></tr>
 <tr class="separator:a56140997d64c809a4c76c3e34aa3a705"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af68e104de8fa387ec037ff710ab0b4af"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d0d/structmadara_1_1knowledge_1_1EvalSettings.html#af68e104de8fa387ec037ff710ab0b4af">EvalSettings</a> (bool t_delay_sending_modifieds, bool t_treat_globals_as_locals=false, bool t_signal_updates=true, bool t_always_overwrite=false, bool t_always_expand=true, bool t_track_local_changes=false, std::string t_pre_print_statement=&quot;&quot;, std::string t_post_print_statement=&quot;&quot;)</td></tr>
-<tr class="memdesc:af68e104de8fa387ec037ff710ab0b4af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#af68e104de8fa387ec037ff710ab0b4af">More...</a><br /></td></tr>
-<tr class="separator:af68e104de8fa387ec037ff710ab0b4af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb9fa44087d59f389c317d7a1ce5ea14"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d0d/structmadara_1_1knowledge_1_1EvalSettings.html#afb9fa44087d59f389c317d7a1ce5ea14">EvalSettings</a> (bool t_delay_sending_modifieds, bool t_treat_globals_as_locals=false, bool t_signal_updates=true, bool t_always_overwrite=false, bool t_always_expand=true, bool t_track_local_changes=false, std::string t_pre_print_statement=&quot;&quot;, std::string t_post_print_statement=&quot;&quot;, uint64_t t_clock_increment=1, bool t_treat_locals_as_globals=false)</td></tr>
+<tr class="memdesc:afb9fa44087d59f389c317d7a1ce5ea14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#afb9fa44087d59f389c317d7a1ce5ea14">More...</a><br /></td></tr>
+<tr class="separator:afb9fa44087d59f389c317d7a1ce5ea14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5a6d5109f2222e487efc6d6a164bce5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d0d/structmadara_1_1knowledge_1_1EvalSettings.html#ad5a6d5109f2222e487efc6d6a164bce5">EvalSettings</a> (const <a class="el" href="../../d3/d0d/structmadara_1_1knowledge_1_1EvalSettings.html">EvalSettings</a> &amp;rhs)</td></tr>
 <tr class="memdesc:ad5a6d5109f2222e487efc6d6a164bce5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#ad5a6d5109f2222e487efc6d6a164bce5">More...</a><br /></td></tr>
 <tr class="separator:ad5a6d5109f2222e487efc6d6a164bce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -189,6 +189,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:acb95f4a005baf196d4e1e01c697c5516"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html#acb95f4a005baf196d4e1e01c697c5516">treat_globals_as_locals</a></td></tr>
 <tr class="memdesc:acb95f4a005baf196d4e1e01c697c5516"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggle whether updates to global variables are treated as local variables and not marked as modified to the transport.  <a href="#acb95f4a005baf196d4e1e01c697c5516">More...</a><br /></td></tr>
 <tr class="separator:acb95f4a005baf196d4e1e01c697c5516"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a780ac623a52b912f115f21808aab25be"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html#a780ac623a52b912f115f21808aab25be">treat_locals_as_globals</a></td></tr>
+<tr class="memdesc:a780ac623a52b912f115f21808aab25be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggle whether updates to local variables are treated as global variables that should be sent over the transport.  <a href="#a780ac623a52b912f115f21808aab25be">More...</a><br /></td></tr>
+<tr class="separator:a780ac623a52b912f115f21808aab25be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -241,7 +244,7 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af68e104de8fa387ec037ff710ab0b4af"></a>
+<a class="anchor" id="afb9fa44087d59f389c317d7a1ce5ea14"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -294,7 +297,19 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>t_post_print_statement</em> = <code>&quot;&quot;</code>&#160;</td>
+          <td class="paramname"><em>t_post_print_statement</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>t_clock_increment</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>t_treat_locals_as_globals</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -320,11 +335,14 @@ Static Public Attributes</h2></td></tr>
     <tr><td class="paramname">t_track_local_changes</td><td>if true, keep track of modifications to local variables for checkpoint saving purposes. </td></tr>
     <tr><td class="paramname">t_pre_print_statement</td><td>statement to print out before evaluations </td></tr>
     <tr><td class="paramname">t_post_print_statement</td><td>statement to print out after evaluations </td></tr>
+    <tr><td class="paramname">t_clock_increment</td><td>amount of clock ticks to increment updated records by </td></tr>
+    <tr><td class="paramname">t_treat_locals_as_globals</td><td>true if local variable changes should be sent over the network (dangerous). </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html#a780ac623a52b912f115f21808aab25be" title="Toggle whether updates to local variables are treated as global variables that should be sent over th...">treat_locals_as_globals</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d5b/EvalSettings_8h_source.html#l00072">72</a> of file <a class="el" href="../../dd/d5b/EvalSettings_8h_source.html">EvalSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d5b/EvalSettings_8h_source.html#l00077">77</a> of file <a class="el" href="../../dd/d5b/EvalSettings_8h_source.html">EvalSettings.h</a>.</p>
 
 </div>
 </div>
@@ -358,7 +376,7 @@ Static Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../dd/d5b/EvalSettings_8h_source.html#l00093">93</a> of file <a class="el" href="../../dd/d5b/EvalSettings_8h_source.html">EvalSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d5b/EvalSettings_8h_source.html#l00101">101</a> of file <a class="el" href="../../dd/d5b/EvalSettings_8h_source.html">EvalSettings.h</a>.</p>
 
 </div>
 </div>
@@ -383,7 +401,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>Toggle for always overwriting records, regardless of quality, clock values, etc. </p>
 
-<p>Definition at line <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html#l00117">117</a> of file <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html">KnowledgeUpdateSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html#l00124">124</a> of file <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html">KnowledgeUpdateSettings.h</a>.</p>
 
 </div>
 </div>
@@ -407,7 +425,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>Default clock increment. </p>
 
-<p>Definition at line <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html#l00127">127</a> of file <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html">KnowledgeUpdateSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html#l00134">134</a> of file <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html">KnowledgeUpdateSettings.h</a>.</p>
 
 </div>
 </div>
@@ -495,7 +513,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>Toggle for sending modifieds in a single update event after each evaluation. </p>
 
-<p>Definition at line <a class="el" href="../../dd/d5b/EvalSettings_8h_source.html#l00106">106</a> of file <a class="el" href="../../dd/d5b/EvalSettings_8h_source.html">EvalSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d5b/EvalSettings_8h_source.html#l00114">114</a> of file <a class="el" href="../../dd/d5b/EvalSettings_8h_source.html">EvalSettings.h</a>.</p>
 
 </div>
 </div>
@@ -627,7 +645,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>Statement to print after evaluations. </p>
 
-<p>Definition at line <a class="el" href="../../dd/d5b/EvalSettings_8h_source.html#l00116">116</a> of file <a class="el" href="../../dd/d5b/EvalSettings_8h_source.html">EvalSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d5b/EvalSettings_8h_source.html#l00124">124</a> of file <a class="el" href="../../dd/d5b/EvalSettings_8h_source.html">EvalSettings.h</a>.</p>
 
 </div>
 </div>
@@ -643,7 +661,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>Statement to print before evaluations. </p>
 
-<p>Definition at line <a class="el" href="../../dd/d5b/EvalSettings_8h_source.html#l00111">111</a> of file <a class="el" href="../../dd/d5b/EvalSettings_8h_source.html">EvalSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d5b/EvalSettings_8h_source.html#l00119">119</a> of file <a class="el" href="../../dd/d5b/EvalSettings_8h_source.html">EvalSettings.h</a>.</p>
 
 </div>
 </div>
@@ -660,7 +678,7 @@ Static Public Attributes</h2></td></tr>
 <p>Map of record names that are allowed to be sent after operation. </p>
 <p>The map is only valid if </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d3/d0d/structmadara_1_1knowledge_1_1EvalSettings.html#a74a2a0c1af095529ed49b454732f87dd" title="Toggle for sending modifieds in a single update event after each evaluation. ">delay_sending_modifieds</a> is false. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d5b/EvalSettings_8h_source.html#l00122">122</a> of file <a class="el" href="../../dd/d5b/EvalSettings_8h_source.html">EvalSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d5b/EvalSettings_8h_source.html#l00130">130</a> of file <a class="el" href="../../dd/d5b/EvalSettings_8h_source.html">EvalSettings.h</a>.</p>
 
 </div>
 </div>
@@ -685,7 +703,7 @@ Static Public Attributes</h2></td></tr>
 <p>Toggle whether to signal changes have happened. </p>
 <p>Setting this to false will increase performance, but in general should be left to true. Setting this to false can result in problems with wait statements. </p>
 
-<p>Definition at line <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html#l00111">111</a> of file <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html">KnowledgeUpdateSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html#l00118">118</a> of file <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html">KnowledgeUpdateSettings.h</a>.</p>
 
 </div>
 </div>
@@ -709,7 +727,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>Toggle for keeping track of modifications to local variables. </p>
 
-<p>Definition at line <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html#l00122">122</a> of file <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html">KnowledgeUpdateSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html#l00129">129</a> of file <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html">KnowledgeUpdateSettings.h</a>.</p>
 
 </div>
 </div>
@@ -733,7 +751,32 @@ Static Public Attributes</h2></td></tr>
 
 <p>Toggle whether updates to global variables are treated as local variables and not marked as modified to the transport. </p>
 
-<p>Definition at line <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html#l00103">103</a> of file <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html">KnowledgeUpdateSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html#l00110">110</a> of file <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html">KnowledgeUpdateSettings.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a780ac623a52b912f115f21808aab25be"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool madara::knowledge::KnowledgeUpdateSettings::treat_locals_as_globals</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Toggle whether updates to local variables are treated as global variables that should be sent over the transport. </p>
+<p>It should be stressed that this is dangerous and should only be used for debugging. If you toggle this to true, all local variables will be sent over the network where they will overwrite local variables in remote systems, unless the remote system filters out the local variable changes with an on-receive filter </p>
+
+<p>Definition at line <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html#l00146">146</a> of file <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html">KnowledgeUpdateSettings.h</a>.</p>
 
 </div>
 </div>
@@ -747,7 +790,7 @@ Static Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/da9/namespacemadara.html">madara</a></li><li class="navelem"><a class="el" href="../../df/d43/namespacemadara_1_1knowledge.html">knowledge</a></li><li class="navelem"><a class="el" href="../../d3/d0d/structmadara_1_1knowledge_1_1EvalSettings.html">EvalSettings</a></li>
-    <li class="footer">Generated on Tue Apr 10 2018 04:31:30 for MADARA by
+    <li class="footer">Generated on Wed Apr 18 2018 05:12:30 for MADARA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
