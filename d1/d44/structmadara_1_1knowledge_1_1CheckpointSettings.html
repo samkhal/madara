@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MADARA
-   &#160;<span id="projectnumber">3.1.4</span>
+   &#160;<span id="projectnumber">3.1.6</span>
    </div>
   </td>
  </tr>
@@ -124,8 +124,8 @@ Collaboration diagram for madara::knowledge::CheckpointSettings:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d0/df6/structmadara_1_1knowledge_1_1CheckpointSettings__coll__graph.png" border="0" usemap="#madara_1_1knowledge_1_1CheckpointSettings_coll__map" alt="Collaboration graph"/></div>
 <map name="madara_1_1knowledge_1_1CheckpointSettings_coll__map" id="madara_1_1knowledge_1_1CheckpointSettings_coll__map">
-<area shape="rect" id="node2" title="STL class. " alt="" coords="29,96,109,123"/>
-<area shape="rect" id="node3" title="STL class. " alt="" coords="5,5,132,47"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="197,96,277,123"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="174,5,301,47"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -134,15 +134,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae406d847769f91396a3867638b989002"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html#ae406d847769f91396a3867638b989002">CheckpointSettings</a> ()</td></tr>
 <tr class="memdesc:ae406d847769f91396a3867638b989002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#ae406d847769f91396a3867638b989002">More...</a><br /></td></tr>
 <tr class="separator:ae406d847769f91396a3867638b989002"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bd86c02eec38020d809a57bba4829c0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html#a5bd86c02eec38020d809a57bba4829c0">CheckpointSettings</a> (bool t_buffer_size, bool t_clear_knowledge, std::string t_filename=&quot;&quot;, uint64_t t_initial_timestamp=0, uint64_t t_last_timestamp=0, uint64_t t_initial_lamport_clock=0, uint64_t t_last_lamport_clock=0, std::string t_originator=&quot;&quot;, const std::vector&lt; std::string &gt; &amp;t_prefixes={}, uint64_t t_states=0, std::string t_version=&quot;&quot;)</td></tr>
-<tr class="memdesc:a5bd86c02eec38020d809a57bba4829c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a5bd86c02eec38020d809a57bba4829c0">More...</a><br /></td></tr>
-<tr class="separator:a5bd86c02eec38020d809a57bba4829c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb9dd470583c27c01e13d3ed4c9bf30b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html#adb9dd470583c27c01e13d3ed4c9bf30b">CheckpointSettings</a> (bool t_buffer_size, bool t_clear_knowledge, std::string t_filename=&quot;&quot;, uint64_t t_initial_timestamp=0, uint64_t t_last_timestamp=0, uint64_t t_initial_lamport_clock=0, uint64_t t_last_lamport_clock=0, std::string t_originator=&quot;&quot;, const std::vector&lt; std::string &gt; &amp;t_prefixes={}, uint64_t t_states=0, std::string t_version=&quot;&quot;, bool t_override_timestamp=false, bool t_override_lamport=false)</td></tr>
+<tr class="memdesc:adb9dd470583c27c01e13d3ed4c9bf30b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#adb9dd470583c27c01e13d3ed4c9bf30b">More...</a><br /></td></tr>
+<tr class="separator:adb9dd470583c27c01e13d3ed4c9bf30b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ce6b8e64fe83ddabfb7f8509a54d4bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html#a1ce6b8e64fe83ddabfb7f8509a54d4bf">CheckpointSettings</a> (const <a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;rhs)</td></tr>
 <tr class="memdesc:a1ce6b8e64fe83ddabfb7f8509a54d4bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#a1ce6b8e64fe83ddabfb7f8509a54d4bf">More...</a><br /></td></tr>
 <tr class="separator:a1ce6b8e64fe83ddabfb7f8509a54d4bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9be8e5eeec351f5a78e09010a83e19c8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html#a9be8e5eeec351f5a78e09010a83e19c8">decode</a> (unsigned char *source, int size, int max_size) const </td></tr>
+<tr class="memdesc:a9be8e5eeec351f5a78e09010a83e19c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls decode on the the buffer filter chain.  <a href="#a9be8e5eeec351f5a78e09010a83e19c8">More...</a><br /></td></tr>
+<tr class="separator:a9be8e5eeec351f5a78e09010a83e19c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9edfb8f82c298fa87bfdbb787541f6c7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html#a9edfb8f82c298fa87bfdbb787541f6c7">encode</a> (unsigned char *source, int size, int max_size) const </td></tr>
+<tr class="memdesc:a9edfb8f82c298fa87bfdbb787541f6c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls encode on the the buffer filter chain.  <a href="#a9edfb8f82c298fa87bfdbb787541f6c7">More...</a><br /></td></tr>
+<tr class="separator:a9edfb8f82c298fa87bfdbb787541f6c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:ade9a9089a1251930d337e6b406a3c653"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d23/namespacemadara_1_1filters.html#abb5cef2820bdc565ec18247264061c84">filters::BufferFilters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html#ade9a9089a1251930d337e6b406a3c653">buffer_filters</a></td></tr>
+<tr class="memdesc:ade9a9089a1251930d337e6b406a3c653"><td class="mdescLeft">&#160;</td><td class="mdescRight">buffer filters.  <a href="#ade9a9089a1251930d337e6b406a3c653">More...</a><br /></td></tr>
+<tr class="separator:ade9a9089a1251930d337e6b406a3c653"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65b3c053551c6ce33a7d91e4997cc888"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html#a65b3c053551c6ce33a7d91e4997cc888">buffer_size</a></td></tr>
 <tr class="memdesc:a65b3c053551c6ce33a7d91e4997cc888"><td class="mdescLeft">&#160;</td><td class="mdescRight">the size of the buffer needed for the checkpoint  <a href="#a65b3c053551c6ce33a7d91e4997cc888">More...</a><br /></td></tr>
 <tr class="separator:a65b3c053551c6ce33a7d91e4997cc888"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,6 +176,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a1df73cf6b7b6e4bdc23e48651c3e7945"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html#a1df73cf6b7b6e4bdc23e48651c3e7945">originator</a></td></tr>
 <tr class="memdesc:a1df73cf6b7b6e4bdc23e48651c3e7945"><td class="mdescLeft">&#160;</td><td class="mdescRight">the originator id of the checkpoint  <a href="#a1df73cf6b7b6e4bdc23e48651c3e7945">More...</a><br /></td></tr>
 <tr class="separator:a1df73cf6b7b6e4bdc23e48651c3e7945"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeba45a20aa661b4910f1f896acde2ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html#adeba45a20aa661b4910f1f896acde2ac">override_lamport</a></td></tr>
+<tr class="memdesc:adeba45a20aa661b4910f1f896acde2ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">use the lamport clocks in this class instead of KB clock when writing context or checkpoints  <a href="#adeba45a20aa661b4910f1f896acde2ac">More...</a><br /></td></tr>
+<tr class="separator:adeba45a20aa661b4910f1f896acde2ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35fbac250b2daf86ad8bc8b75239d831"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html#a35fbac250b2daf86ad8bc8b75239d831">override_timestamp</a></td></tr>
+<tr class="memdesc:a35fbac250b2daf86ad8bc8b75239d831"><td class="mdescLeft">&#160;</td><td class="mdescRight">use the timestamps in this class instead of current wallclock time when writing context or checkpoints  <a href="#a35fbac250b2daf86ad8bc8b75239d831">More...</a><br /></td></tr>
+<tr class="separator:a35fbac250b2daf86ad8bc8b75239d831"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cbf91fb1f6473e393d7eca4cfb1c3ab"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html#a7cbf91fb1f6473e393d7eca4cfb1c3ab">prefixes</a></td></tr>
 <tr class="memdesc:a7cbf91fb1f6473e393d7eca4cfb1c3ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of prefixes to save/load.  <a href="#a7cbf91fb1f6473e393d7eca4cfb1c3ab">More...</a><br /></td></tr>
 <tr class="separator:a7cbf91fb1f6473e393d7eca4cfb1c3ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,7 +195,7 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Holds settings for checkpoints to load or save. </p>
 
-<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00027">27</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00028">28</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ae406d847769f91396a3867638b989002"></a>
 <div class="memitem">
@@ -205,11 +220,11 @@ Public Attributes</h2></td></tr>
 
 <p>Constructor. </p>
 
-<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00032">32</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00033">33</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a5bd86c02eec38020d809a57bba4829c0"></a>
+<a class="anchor" id="adb9dd470583c27c01e13d3ed4c9bf30b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -280,7 +295,19 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>t_version</em> = <code>&quot;&quot;</code>&#160;</td>
+          <td class="paramname"><em>t_version</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>t_override_timestamp</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>t_override_lamport</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -312,7 +339,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00054">54</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00057">57</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
 
 </div>
 </div>
@@ -346,11 +373,135 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00083">83</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00090">90</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a9be8e5eeec351f5a78e09010a83e19c8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int madara::knowledge::CheckpointSettings::decode </td>
+          <td>(</td>
+          <td class="paramtype">unsigned char *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calls decode on the the buffer filter chain. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>the source and destination buffer </td></tr>
+    <tr><td class="paramname">size</td><td>the amount of data in the buffer in bytes </td></tr>
+    <tr><td class="paramname">max_size</td><td>the amount of bytes the buffer can hold </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the new size after encoding </dd></dl>
+
+<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00136">136</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9edfb8f82c298fa87bfdbb787541f6c7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int madara::knowledge::CheckpointSettings::encode </td>
+          <td>(</td>
+          <td class="paramtype">unsigned char *&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calls encode on the the buffer filter chain. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>the source and destination buffer </td></tr>
+    <tr><td class="paramname">size</td><td>the amount of data in the buffer in bytes </td></tr>
+    <tr><td class="paramname">max_size</td><td>the amount of bytes the buffer can hold </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the new size after encoding </dd></dl>
+
+<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00115">115</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="ade9a9089a1251930d337e6b406a3c653"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d23/namespacemadara_1_1filters.html#abb5cef2820bdc565ec18247264061c84">filters::BufferFilters</a> madara::knowledge::CheckpointSettings::buffer_filters</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>buffer filters. </p>
+<p>Note that the user must clean up memory of all filters </p>
+
+<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00221">221</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a65b3c053551c6ce33a7d91e4997cc888"></a>
 <div class="memitem">
 <div class="memproto">
@@ -363,7 +514,7 @@ Public Attributes</h2></td></tr>
 
 <p>the size of the buffer needed for the checkpoint </p>
 
-<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00101">101</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00153">153</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
 
 </div>
 </div>
@@ -379,7 +530,7 @@ Public Attributes</h2></td></tr>
 
 <p>If true, during loads, clear the <a class="el" href="../../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html" title="This class provides a distributed knowledge base to users. ">KnowledgeBase</a> first. </p>
 
-<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00106">106</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00158">158</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
 
 </div>
 </div>
@@ -395,7 +546,7 @@ Public Attributes</h2></td></tr>
 
 <p>path to files </p>
 
-<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00111">111</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00163">163</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
 
 </div>
 </div>
@@ -411,7 +562,7 @@ Public Attributes</h2></td></tr>
 
 <p>initial lamport clock saved in the checkpoint </p>
 
-<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00126">126</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00178">178</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
 
 </div>
 </div>
@@ -427,7 +578,7 @@ Public Attributes</h2></td></tr>
 
 <p>initial wallclock time saved in the checkpoint </p>
 
-<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00116">116</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00168">168</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
 
 </div>
 </div>
@@ -443,7 +594,7 @@ Public Attributes</h2></td></tr>
 
 <p>final lamport clock saved in the checkpoint </p>
 
-<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00131">131</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00183">183</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
 
 </div>
 </div>
@@ -459,7 +610,7 @@ Public Attributes</h2></td></tr>
 
 <p>final wallclock time saved in the checkpoint </p>
 
-<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00121">121</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00173">173</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
 
 </div>
 </div>
@@ -475,7 +626,39 @@ Public Attributes</h2></td></tr>
 
 <p>the originator id of the checkpoint </p>
 
-<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00136">136</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00188">188</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adeba45a20aa661b4910f1f896acde2ac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool madara::knowledge::CheckpointSettings::override_lamport</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>use the lamport clocks in this class instead of KB clock when writing context or checkpoints </p>
+
+<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00216">216</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a35fbac250b2daf86ad8bc8b75239d831"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool madara::knowledge::CheckpointSettings::override_timestamp</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>use the timestamps in this class instead of current wallclock time when writing context or checkpoints </p>
+
+<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00209">209</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
 
 </div>
 </div>
@@ -492,7 +675,7 @@ Public Attributes</h2></td></tr>
 <p>A list of prefixes to save/load. </p>
 <p>If empty, all prefixes are valid. </p>
 
-<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00141">141</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00193">193</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
 
 </div>
 </div>
@@ -508,7 +691,7 @@ Public Attributes</h2></td></tr>
 
 <p>the number of states checkpointed in the file stream </p>
 
-<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00146">146</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00198">198</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
 
 </div>
 </div>
@@ -524,7 +707,7 @@ Public Attributes</h2></td></tr>
 
 <p>the MADARA version </p>
 
-<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00151">151</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html#l00203">203</a> of file <a class="el" href="../../de/d2f/CheckpointSettings_8h_source.html">CheckpointSettings.h</a>.</p>
 
 </div>
 </div>
@@ -537,7 +720,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/da9/namespacemadara.html">madara</a></li><li class="navelem"><a class="el" href="../../df/d43/namespacemadara_1_1knowledge.html">knowledge</a></li><li class="navelem"><a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a></li>
-    <li class="footer">Generated on Wed Apr 18 2018 05:12:30 for MADARA by
+    <li class="footer">Generated on Fri Apr 20 2018 18:16:21 for MADARA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

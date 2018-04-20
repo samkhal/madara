@@ -71,6 +71,8 @@ var searchData=
   ['ospl_5ftransport_5ftrace',['OSPL_TRANSPORT_TRACE',['../d4/d65/OsplTransportExport_8h.html#aed6690f28810ad320d8ce90d690f5cd9',1,'OsplTransportExport.h']]],
   ['ospltransportexport',['OSPLTransportExport',['../d4/d65/OsplTransportExport_8h.html#aba1c0ca9361dafb3487ea4c6890b2028',1,'OsplTransportExport.h']]],
   ['ospltransportexport_2eh',['OsplTransportExport.h',['../d4/d65/OsplTransportExport_8h.html',1,'']]],
+  ['overflow',['Overflow',['../d4/dd7/classmadara_1_1utility_1_1LQueue_1_1Overflow.html',1,'madara::utility::LQueue']]],
   ['overflow',['Overflow',['../d3/d5a/classmadara_1_1utility_1_1LStack_1_1Overflow.html',1,'madara::utility::LStack']]],
-  ['overflow',['Overflow',['../d4/dd7/classmadara_1_1utility_1_1LQueue_1_1Overflow.html',1,'madara::utility::LQueue']]]
+  ['override_5flamport',['override_lamport',['../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html#adeba45a20aa661b4910f1f896acde2ac',1,'madara::knowledge::CheckpointSettings']]],
+  ['override_5ftimestamp',['override_timestamp',['../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html#a35fbac250b2daf86ad8bc8b75239d831',1,'madara::knowledge::CheckpointSettings']]]
 ];

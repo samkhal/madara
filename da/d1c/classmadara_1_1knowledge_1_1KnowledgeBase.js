@@ -19,6 +19,7 @@ var classmadara_1_1knowledge_1_1KnowledgeBase =
     [ "clear_modifieds", "da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#a55d5ff97d247a3d30711fce130530aac", null ],
     [ "close_transport", "da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#adea0ac07747f93db8f194d5d14deea54", null ],
     [ "compile", "da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#a5a55ff64121fd5ca0cefc7600186cb2d", null ],
+    [ "copy", "da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#af20aa7b457c2b0b08fb391f87b8a4e01", null ],
     [ "copy", "da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#ab0ee9fa195dec8f3d685e51d0a53f4cf", null ],
     [ "debug_modifieds", "da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#a6265fa29b7e2d51b7e715af8ae29f678", null ],
     [ "define_function", "da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#a8d59f5e8274888c02638e1f0a13399f3", null ],

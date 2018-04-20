@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d8/d72/classmadara_1_1knowledge_1_1TimedExecutor.html" title="This class executes expression events at specified times. " alt="" coords="5,5,148,47"/>
+<area shape="rect" id="node2" href="$d6/dd2/classmadara_1_1knowledge_1_1TimedEventThread.html" title="Thread executing timed events. " alt="" coords="172,5,315,47"/>
+<area shape="rect" id="node3" href="$d3/da1/classmadara_1_1threads_1_1WorkerThread.html" title="A thread that executes BaseThread logic. " alt="" coords="140,71,347,98"/>
+<area shape="rect" id="node4" href="$d1/dca/classmadara_1_1transport_1_1NDDSReadThread.html" title="Thread for reading knowledge updates via a NDDS waitset (deprecated and unused). " alt="" coords="177,123,309,164"/>
 </map>

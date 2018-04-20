@@ -4,6 +4,7 @@ var dir_81813d25d32ad4956e594fea3120bc8f =
     [ "filters", "dir_61e16ab42239ded6f91818cda81d001a.html", "dir_61e16ab42239ded6f91818cda81d001a" ],
     [ "knowledge", "dir_0ee7ef483ad9c1c99b2c44de72e506ad.html", "dir_0ee7ef483ad9c1c99b2c44de72e506ad" ],
     [ "logger", "dir_ae1e36bee980f367fac0a50a2e56ae18.html", "dir_ae1e36bee980f367fac0a50a2e56ae18" ],
+    [ "python", "dir_191d403c057f3b009c2f4e3732860b88.html", "dir_191d403c057f3b009c2f4e3732860b88" ],
     [ "threads", "dir_1c2e792c9cb7faa6ef76e2a428b4aba0.html", "dir_1c2e792c9cb7faa6ef76e2a428b4aba0" ],
     [ "transport", "dir_244ce806b9473902b08c57948d74a946.html", "dir_244ce806b9473902b08c57948d74a946" ],
     [ "utility", "dir_ce85246d1f88e636c7b1227efdfbff3f.html", "dir_ce85246d1f88e636c7b1227efdfbff3f" ],

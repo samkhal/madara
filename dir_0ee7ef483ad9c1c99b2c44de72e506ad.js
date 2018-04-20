@@ -59,6 +59,10 @@ var dir_0ee7ef483ad9c1c99b2c44de72e506ad =
     [ "KnowledgeReferenceSettings.h", "d9/d12/KnowledgeReferenceSettings_8h.html", [
       [ "KnowledgeReferenceSettings", "da/dc7/classmadara_1_1knowledge_1_1KnowledgeReferenceSettings.html", "da/dc7/classmadara_1_1knowledge_1_1KnowledgeReferenceSettings" ]
     ] ],
+    [ "KnowledgeRequirements.h", "dc/d44/KnowledgeRequirements_8h.html", [
+      [ "KnowledgeRequirements", "d3/d81/structmadara_1_1knowledge_1_1KnowledgeRequirements.html", "d3/d81/structmadara_1_1knowledge_1_1KnowledgeRequirements" ],
+      [ "MatchPredicate", "dc/d39/structmadara_1_1knowledge_1_1KnowledgeRequirements_1_1MatchPredicate.html", "dc/d39/structmadara_1_1knowledge_1_1KnowledgeRequirements_1_1MatchPredicate" ]
+    ] ],
     [ "KnowledgeUpdateSettings.cpp", "d5/d11/KnowledgeUpdateSettings_8cpp.html", null ],
     [ "KnowledgeUpdateSettings.h", "d6/d7e/KnowledgeUpdateSettings_8h.html", [
       [ "KnowledgeUpdateSettings", "d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html", "d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings" ]

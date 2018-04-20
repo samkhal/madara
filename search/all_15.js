@@ -2,8 +2,8 @@ var searchData=
 [
   ['refcounter_3c_20expressiontreeiteratorimpl_20_3e',['Refcounter&lt; ExpressionTreeIteratorImpl &gt;',['../de/d7d/classmadara_1_1expression_1_1InOrderIteratorImpl.html#a5fbfe04b967d8415cd874f7b3a49f8f3',1,'madara::expression::InOrderIteratorImpl::Refcounter&lt; ExpressionTreeIteratorImpl &gt;()'],['../d0/ded/classmadara_1_1expression_1_1PreOrderIteratorImpl.html#a5fbfe04b967d8415cd874f7b3a49f8f3',1,'madara::expression::PreOrderIteratorImpl::Refcounter&lt; ExpressionTreeIteratorImpl &gt;()'],['../d3/d21/classmadara_1_1expression_1_1PostOrderIteratorImpl.html#a5fbfe04b967d8415cd874f7b3a49f8f3',1,'madara::expression::PostOrderIteratorImpl::Refcounter&lt; ExpressionTreeIteratorImpl &gt;()'],['../dc/d34/classmadara_1_1expression_1_1LevelOrderExpressionTreeIteratorImpl.html#a5fbfe04b967d8415cd874f7b3a49f8f3',1,'madara::expression::LevelOrderExpressionTreeIteratorImpl::Refcounter&lt; ExpressionTreeIteratorImpl &gt;()']]],
   ['udp',['UDP',['../d5/de9/namespacemadara_1_1transport.html#a8ab96e5b222ff08ec69ec488578e5828ad00a33138ab3db8cd4a375dc4501cd68',1,'madara::transport']]],
-  ['udpregistryclient',['UdpRegistryClient',['../d5/d9f/classmadara_1_1transport_1_1UdpRegistryClient.html',1,'madara::transport']]],
   ['udpregistryclient',['UdpRegistryClient',['../d5/d9f/classmadara_1_1transport_1_1UdpRegistryClient.html#ac044d6532a3582e9d223e2b2a7087d82',1,'madara::transport::UdpRegistryClient']]],
+  ['udpregistryclient',['UdpRegistryClient',['../d5/d9f/classmadara_1_1transport_1_1UdpRegistryClient.html',1,'madara::transport']]],
   ['udpregistryclient_2ecpp',['UdpRegistryClient.cpp',['../d3/df6/UdpRegistryClient_8cpp.html',1,'']]],
   ['udpregistryclient_2eh',['UdpRegistryClient.h',['../dc/d65/UdpRegistryClient_8h.html',1,'']]],
   ['udpregistryclientreadthread',['UdpRegistryClientReadThread',['../d0/d62/classmadara_1_1transport_1_1UdpRegistryClientReadThread.html',1,'madara::transport']]],
@@ -53,6 +53,7 @@ var searchData=
   ['upper',['upper',['../de/d04/namespacemadara_1_1utility.html#a9848dd3a14c80a53d258b95e6bd26537',1,'madara::utility']]],
   ['us',['us',['../d2/d9f/classEndiannessChecker.html#a4f7408a5e550e3c0e8d1ce7158787b94',1,'EndiannessChecker']]],
   ['use',['use',['../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#a165d094abb48e9377f2da5dff55b7fac',1,'madara::knowledge::KnowledgeBase']]],
+  ['use_5fsource_5fclock',['use_source_clock',['../d3/d81/structmadara_1_1knowledge_1_1KnowledgeRequirements.html#ade9bf4d82f17ebc3fca38f345ef7f9e9',1,'madara::knowledge::KnowledgeRequirements']]],
   ['utility_2ecpp',['Utility.cpp',['../d4/d2d/Utility_8cpp.html',1,'']]],
   ['utility_2eh',['Utility.h',['../d7/d23/Utility_8h.html',1,'']]],
   ['utility_2einl',['Utility.inl',['../dd/d88/Utility_8inl.html',1,'']]],

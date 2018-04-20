@@ -17,6 +17,7 @@ var namespacemadara_1_1knowledge =
     [ "KnowledgeRecord", "d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html", "d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord" ],
     [ "KnowledgeRecordFilters", "de/d32/classmadara_1_1knowledge_1_1KnowledgeRecordFilters.html", "de/d32/classmadara_1_1knowledge_1_1KnowledgeRecordFilters" ],
     [ "KnowledgeReferenceSettings", "da/dc7/classmadara_1_1knowledge_1_1KnowledgeReferenceSettings.html", "da/dc7/classmadara_1_1knowledge_1_1KnowledgeReferenceSettings" ],
+    [ "KnowledgeRequirements", "d3/d81/structmadara_1_1knowledge_1_1KnowledgeRequirements.html", "d3/d81/structmadara_1_1knowledge_1_1KnowledgeRequirements" ],
     [ "KnowledgeUpdateSettings", "d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html", "d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings" ],
     [ "ThreadSafeContext", "de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html", "de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext" ],
     [ "TimedEventThread", "d6/dd2/classmadara_1_1knowledge_1_1TimedEventThread.html", "d6/dd2/classmadara_1_1knowledge_1_1TimedEventThread" ],

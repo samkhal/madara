@@ -1,19 +1,19 @@
 <map id="include/madara/expression/CompositeSubtractNode.h" name="include/madara/expression/CompositeSubtractNode.h">
-<area shape="rect" id="node2" href="$da/df2/KnowledgeRecord_8h.html" title="madara/knowledge/Knowledge\lRecord.h" alt="" coords="971,95,1170,136"/>
-<area shape="rect" id="node7" href="$df/dd8/stdint_8h.html" title="madara/utility/stdint.h" alt="" coords="1413,676,1560,703"/>
-<area shape="rect" id="node8" href="$d7/d7b/ScopedArray_8h.html" title="madara/utility/ScopedArray.h" alt="" coords="975,191,1166,218"/>
-<area shape="rect" id="node10" href="$d9/dca/Refcounter_8h.html" title="madara/utility/Refcounter.h" alt="" coords="848,273,1027,300"/>
-<area shape="rect" id="node13" href="$d9/ddd/GlobalLogger_8h.html" title="madara/logger/GlobalLogger.h" alt="" coords="497,191,692,218"/>
-<area shape="rect" id="node18" href="$d3/dd6/inttypes_8h.html" title="madara/utility/inttypes.h" alt="" coords="679,348,841,375"/>
-<area shape="rect" id="node21" href="$d5/d7d/KnowledgeRecord_8inl.html" title="KnowledgeRecord.inl" alt="" coords="1639,191,1785,218"/>
-<area shape="rect" id="node9" href="$dd/ddd/ScopedArray_8inl.html" title="madara/utility/ScopedArray.inl" alt="" coords="1051,273,1247,300"/>
-<area shape="rect" id="node11" href="$d1/de3/Refcounter_8cpp.html" title="madara/utility/Refcounter.cpp" alt="" coords="941,348,1134,375"/>
-<area shape="rect" id="node14" href="$dd/da4/Logger_8h.html" title="Logger.h" alt="" coords="528,273,600,300"/>
-<area shape="rect" id="node19" href="$d2/d8d/Logger_8inl.html" title="Logger.inl" alt="" coords="525,348,603,375"/>
-<area shape="rect" id="node23" href="$d7/d23/Utility_8h.html" title="madara/utility/Utility.h" alt="" coords="1737,273,1887,300"/>
-<area shape="rect" id="node26" href="$d1/d11/WaitSettings_8h.html" title="madara/knowledge/WaitSettings.h" alt="" coords="1343,348,1564,375"/>
-<area shape="rect" id="node30" href="$dd/d88/Utility_8inl.html" title="Utility.inl" alt="" coords="2089,348,2162,375"/>
-<area shape="rect" id="node27" href="$dd/d5b/EvalSettings_8h.html" title="madara/knowledge/EvalSettings.h" alt="" coords="941,423,1161,449"/>
-<area shape="rect" id="node28" href="$d6/d7e/KnowledgeUpdateSettings_8h.html" title="madara/knowledge/Knowledge\lUpdateSettings.h" alt="" coords="961,497,1159,539"/>
-<area shape="rect" id="node29" href="$d9/d12/KnowledgeReferenceSettings_8h.html" title="madara/knowledge/Knowledge\lReferenceSettings.h" alt="" coords="961,587,1159,628"/>
+<area shape="rect" id="node2" href="$da/df2/KnowledgeRecord_8h.html" title="madara/knowledge/Knowledge\lRecord.h" alt="" coords="1128,95,1327,136"/>
+<area shape="rect" id="node7" href="$df/dd8/stdint_8h.html" title="madara/utility/stdint.h" alt="" coords="1533,676,1679,703"/>
+<area shape="rect" id="node8" href="$d7/d7b/ScopedArray_8h.html" title="madara/utility/ScopedArray.h" alt="" coords="2211,191,2401,218"/>
+<area shape="rect" id="node10" href="$d9/dca/Refcounter_8h.html" title="madara/utility/Refcounter.h" alt="" coords="1003,273,1182,300"/>
+<area shape="rect" id="node13" href="$d9/ddd/GlobalLogger_8h.html" title="madara/logger/GlobalLogger.h" alt="" coords="478,191,673,218"/>
+<area shape="rect" id="node18" href="$d3/dd6/inttypes_8h.html" title="madara/utility/inttypes.h" alt="" coords="652,348,813,375"/>
+<area shape="rect" id="node21" href="$d5/d7d/KnowledgeRecord_8inl.html" title="KnowledgeRecord.inl" alt="" coords="1399,191,1544,218"/>
+<area shape="rect" id="node9" href="$dd/ddd/ScopedArray_8inl.html" title="madara/utility/ScopedArray.inl" alt="" coords="2209,273,2405,300"/>
+<area shape="rect" id="node11" href="$d1/de3/Refcounter_8cpp.html" title="madara/utility/Refcounter.cpp" alt="" coords="996,348,1189,375"/>
+<area shape="rect" id="node14" href="$dd/da4/Logger_8h.html" title="Logger.h" alt="" coords="501,273,573,300"/>
+<area shape="rect" id="node19" href="$d2/d8d/Logger_8inl.html" title="Logger.inl" alt="" coords="497,348,576,375"/>
+<area shape="rect" id="node24" href="$d7/d23/Utility_8h.html" title="madara/utility/Utility.h" alt="" coords="1599,273,1749,300"/>
+<area shape="rect" id="node27" href="$d1/d11/WaitSettings_8h.html" title="madara/knowledge/WaitSettings.h" alt="" coords="1366,348,1587,375"/>
+<area shape="rect" id="node31" href="$dd/d88/Utility_8inl.html" title="Utility.inl" alt="" coords="2060,348,2133,375"/>
+<area shape="rect" id="node28" href="$dd/d5b/EvalSettings_8h.html" title="madara/knowledge/EvalSettings.h" alt="" coords="1167,423,1387,449"/>
+<area shape="rect" id="node29" href="$d6/d7e/KnowledgeUpdateSettings_8h.html" title="madara/knowledge/Knowledge\lUpdateSettings.h" alt="" coords="1196,497,1395,539"/>
+<area shape="rect" id="node30" href="$d9/d12/KnowledgeReferenceSettings_8h.html" title="madara/knowledge/Knowledge\lReferenceSettings.h" alt="" coords="1216,587,1415,628"/>
 </map>

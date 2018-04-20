@@ -14,6 +14,7 @@ var searchData=
   ['knowledgerecordfilters_2eh',['KnowledgeRecordFilters.h',['../d0/d17/KnowledgeRecordFilters_8h.html',1,'']]],
   ['knowledgereferencesettings_2ecpp',['KnowledgeReferenceSettings.cpp',['../da/d9f/KnowledgeReferenceSettings_8cpp.html',1,'']]],
   ['knowledgereferencesettings_2eh',['KnowledgeReferenceSettings.h',['../d9/d12/KnowledgeReferenceSettings_8h.html',1,'']]],
+  ['knowledgerequirements_2eh',['KnowledgeRequirements.h',['../dc/d44/KnowledgeRequirements_8h.html',1,'']]],
   ['knowledgeupdatesettings_2ecpp',['KnowledgeUpdateSettings.cpp',['../d5/d11/KnowledgeUpdateSettings_8cpp.html',1,'']]],
   ['knowledgeupdatesettings_2eh',['KnowledgeUpdateSettings.h',['../d6/d7e/KnowledgeUpdateSettings_8h.html',1,'']]]
 ];

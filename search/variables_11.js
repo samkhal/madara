@@ -25,5 +25,6 @@ var searchData=
   ['stride',['stride',['../d5/de8/classStrideTask.html#a1727fbe6ee8ea4ffa570d86ef4d34704',1,'StrideTask']]],
   ['sub_5fqos_5f',['sub_qos_',['../db/d90/classmadara_1_1transport_1_1SpliceDDSTransport.html#ab791c99b8b5b24ac2be6feb1b346d4d8',1,'madara::transport::SpliceDDSTransport']]],
   ['subscriber_5f',['subscriber_',['../dd/d44/classmadara_1_1transport_1_1NddsTransport.html#a59ac38ec4454e420eca905785084d581',1,'madara::transport::NddsTransport::subscriber_()'],['../db/d90/classmadara_1_1transport_1_1SpliceDDSTransport.html#ad60d0f8c2be10b772317c798427a8c2e',1,'madara::transport::SpliceDDSTransport::subscriber_()']]],
+  ['suffix',['suffix',['../dc/d39/structmadara_1_1knowledge_1_1KnowledgeRequirements_1_1MatchPredicate.html#a9ecec288206f7fe1b08c2b3254290e80',1,'madara::knowledge::KnowledgeRequirements::MatchPredicate']]],
   ['syslog_5fadded_5f',['syslog_added_',['../de/de4/classmadara_1_1logger_1_1Logger.html#aa162d11030beb3395e5f3cffb2538af8',1,'madara::logger::Logger']]]
 ];

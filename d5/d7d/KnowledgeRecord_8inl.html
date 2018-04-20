@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MADARA
-   &#160;<span id="projectnumber">3.1.4</span>
+   &#160;<span id="projectnumber">3.1.6</span>
    </div>
   </td>
  </tr>
@@ -111,19 +111,20 @@ $(document).ready(function(){initNavTree('d5/d7d/KnowledgeRecord_8inl.html','../
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d7/d23/Utility_8h_source.html">madara/utility/Utility.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for KnowledgeRecord.inl:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d7/d64/KnowledgeRecord_8inl__incl.png" border="0" usemap="#include_2madara_2knowledge_2KnowledgeRecord_8inl" alt=""/></div>
 <map name="include_2madara_2knowledge_2KnowledgeRecord_8inl" id="include_2madara_2knowledge_2KnowledgeRecord_8inl">
-<area shape="rect" id="node3" href="../../d7/d23/Utility_8h.html" title="madara/utility/Utility.h" alt="" coords="425,95,575,121"/>
-<area shape="rect" id="node9" href="../../df/dd8/stdint_8h.html" title="madara/utility/stdint.h" alt="" coords="404,497,551,524"/>
-<area shape="rect" id="node10" href="../../d1/d11/WaitSettings_8h.html" title="madara/knowledge/WaitSettings.h" alt="" coords="537,169,759,196"/>
-<area shape="rect" id="node15" href="../../dd/d88/Utility_8inl.html" title="Utility.inl" alt="" coords="859,169,933,196"/>
-<area shape="rect" id="node11" href="../../dd/d5b/EvalSettings_8h.html" title="madara/knowledge/EvalSettings.h" alt="" coords="563,244,783,271"/>
-<area shape="rect" id="node13" href="../../d6/d7e/KnowledgeUpdateSettings_8h.html" title="madara/knowledge/Knowledge\lUpdateSettings.h" alt="" coords="514,319,713,360"/>
-<area shape="rect" id="node14" href="../../d9/d12/KnowledgeReferenceSettings_8h.html" title="madara/knowledge/Knowledge\lReferenceSettings.h" alt="" coords="514,408,713,449"/>
+<area shape="rect" id="node4" href="../../d7/d23/Utility_8h.html" title="madara/utility/Utility.h" alt="" coords="425,95,575,121"/>
+<area shape="rect" id="node10" href="../../df/dd8/stdint_8h.html" title="madara/utility/stdint.h" alt="" coords="404,497,551,524"/>
+<area shape="rect" id="node11" href="../../d1/d11/WaitSettings_8h.html" title="madara/knowledge/WaitSettings.h" alt="" coords="537,169,759,196"/>
+<area shape="rect" id="node16" href="../../dd/d88/Utility_8inl.html" title="Utility.inl" alt="" coords="859,169,933,196"/>
+<area shape="rect" id="node12" href="../../dd/d5b/EvalSettings_8h.html" title="madara/knowledge/EvalSettings.h" alt="" coords="563,244,783,271"/>
+<area shape="rect" id="node14" href="../../d6/d7e/KnowledgeUpdateSettings_8h.html" title="madara/knowledge/Knowledge\lUpdateSettings.h" alt="" coords="514,319,713,360"/>
+<area shape="rect" id="node15" href="../../d9/d12/KnowledgeReferenceSettings_8h.html" title="madara/knowledge/Knowledge\lReferenceSettings.h" alt="" coords="514,408,713,449"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -131,105 +132,105 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d0/dac/KnowledgeRecord_8inl__dep__incl.png" border="0" usemap="#include_2madara_2knowledge_2KnowledgeRecord_8inldep" alt=""/></div>
 <map name="include_2madara_2knowledge_2KnowledgeRecord_8inldep" id="include_2madara_2knowledge_2KnowledgeRecord_8inldep">
-<area shape="rect" id="node2" href="../../da/df2/KnowledgeRecord_8h.html" title="include/madara/knowledge\l/KnowledgeRecord.h" alt="" coords="6237,95,6413,136"/>
-<area shape="rect" id="node3" href="../../dc/db8/knowledge_2AggregateFilter_8h.html" title="include/madara/knowledge\l/AggregateFilter.h" alt="" coords="1499,720,1675,761"/>
-<area shape="rect" id="node5" href="../../d0/d17/KnowledgeRecordFilters_8h.html" title="include/madara/knowledge\l/KnowledgeRecordFilters.h" alt="" coords="2528,809,2707,851"/>
-<area shape="rect" id="node7" href="../../de/d2f/CheckpointSettings_8h.html" title="include/madara/knowledge\l/CheckpointSettings.h" alt="" coords="4397,631,4573,672"/>
-<area shape="rect" id="node8" href="../../d0/d65/KnowledgeBaseImpl_8h.html" title="include/madara/knowledge\l/KnowledgeBaseImpl.h" alt="" coords="4293,988,4469,1029"/>
-<area shape="rect" id="node9" href="../../d1/de5/KnowledgeBase_8h.html" title="include/madara/knowledge\l/KnowledgeBase.h" alt="" coords="4192,1077,4368,1119"/>
-<area shape="rect" id="node17" href="../../de/dfd/BaseThread_8h.html" title="include/madara/threads\l/BaseThread.h" alt="" coords="3727,1345,3884,1387"/>
-<area shape="rect" id="node18" href="../../d1/ddf/RCWThread_8h.html" title="include/madara/threads\l/RCWThread.h" alt="" coords="3281,1435,3439,1476"/>
-<area shape="rect" id="node19" href="../../d1/d35/CounterFilter_8h.html" title="include/madara/filters\l/CounterFilter.h" alt="" coords="1816,1345,1963,1387"/>
-<area shape="rect" id="node22" href="../../d8/d78/ClearRecords_8h.html" title="include/madara/filters\l/ClearRecords.h" alt="" coords="1109,1345,1256,1387"/>
-<area shape="rect" id="node23" href="../../d0/dde/EndpointClear_8h.html" title="include/madara/filters\l/EndpointClear.h" alt="" coords="1516,1345,1663,1387"/>
-<area shape="rect" id="node24" href="../../dc/dd5/EndpointDiscovery_8h.html" title="include/madara/filters\l/EndpointDiscovery.h" alt="" coords="856,1345,1003,1387"/>
-<area shape="rect" id="node25" href="../../d9/db6/PeerDiscovery_8h.html" title="include/madara/filters\l/PeerDiscovery.h" alt="" coords="2120,1345,2267,1387"/>
-<area shape="rect" id="node26" href="../../d9/d79/BaseTracker_8h.html" title="include/madara/knowledge\l/rcw/BaseTracker.h" alt="" coords="3083,1167,3259,1208"/>
-<area shape="rect" id="node27" href="../../d2/d5c/PrefixTracker_8h.html" title="include/madara/knowledge\l/rcw/PrefixTracker.h" alt="" coords="2984,1256,3160,1297"/>
-<area shape="rect" id="node28" href="../../da/db8/Transaction_8h.html" title="include/madara/knowledge\l/rcw/Transaction.h" alt="" coords="3184,1345,3360,1387"/>
-<area shape="rect" id="node29" href="../../d2/d0e/Tracker_8h.html" title="include/madara/knowledge\l/rcw/Tracker.h" alt="" coords="3184,1256,3360,1297"/>
-<area shape="rect" id="node30" href="../../d3/dc4/Tracked_8h.html" title="include/madara/knowledge\l/rcw/Tracked.h" alt="" coords="3485,1167,3661,1208"/>
-<area shape="rect" id="node31" href="../../df/d39/MulticastTransport_8h.html" title="include/madara/transport\l/multicast/MulticastTransport.h" alt="" coords="4859,1167,5061,1208"/>
-<area shape="rect" id="node32" href="../../d2/da3/ZMQTransport_8h.html" title="include/madara/transport\l/zmq/ZMQTransport.h" alt="" coords="5136,1167,5301,1208"/>
-<area shape="rect" id="node33" href="../../dd/d69/KnowledgeBaseImpl_8inl.html" title="include/madara/knowledge\l/KnowledgeBaseImpl.inl" alt="" coords="4392,1077,4568,1119"/>
-<area shape="rect" id="node34" href="../../d4/dcb/ThreadSafeContext_8h.html" title="include/madara/knowledge\l/ThreadSafeContext.h" alt="" coords="4984,720,5160,761"/>
-<area shape="rect" id="node35" href="../../dc/d21/KnowledgeRecord_8cpp.html" title="include/madara/knowledge\l/KnowledgeRecord.cpp" alt="" coords="5363,809,5539,851"/>
-<area shape="rect" id="node36" href="../../d8/d5e/Transport_8h.html" title="include/madara/transport\l/Transport.h" alt="" coords="4464,899,4629,940"/>
-<area shape="rect" id="node37" href="../../d4/d32/TransportSettings_8h.html" title="include/madara/transport\l/TransportSettings.h" alt="" coords="4704,899,4869,940"/>
-<area shape="rect" id="node38" href="../../da/d37/CompositeArrayReference_8h.html" title="include/madara/expression\l/CompositeArrayReference.h" alt="" coords="7897,809,8087,851"/>
-<area shape="rect" id="node39" href="../../d2/d89/CompositeAssignmentNode_8h.html" title="include/madara/expression\l/CompositeAssignmentNode.h" alt="" coords="7817,899,8017,940"/>
-<area shape="rect" id="node40" href="../../d9/d00/CompositePostdecrementNode_8h.html" title="include/madara/expression\l/CompositePostdecrementNode.h" alt="" coords="8277,899,8496,940"/>
-<area shape="rect" id="node41" href="../../d2/df2/CompositePostincrementNode_8h.html" title="include/madara/expression\l/CompositePostincrementNode.h" alt="" coords="8521,899,8735,940"/>
-<area shape="rect" id="node42" href="../../d7/d18/CompositePredecrementNode_8h.html" title="include/madara/expression\l/CompositePredecrementNode.h" alt="" coords="8041,899,8253,940"/>
-<area shape="rect" id="node43" href="../../d2/db3/CompositePreincrementNode_8h.html" title="include/madara/expression\l/CompositePreincrementNode.h" alt="" coords="8760,899,8968,940"/>
-<area shape="rect" id="node44" href="../../da/d4d/VariableCompareNode_8h.html" title="include/madara/expression\l/VariableCompareNode.h" alt="" coords="6807,899,6985,940"/>
-<area shape="rect" id="node45" href="../../d1/d64/VariableDecrementNode_8h.html" title="include/madara/expression\l/VariableDecrementNode.h" alt="" coords="7009,899,7188,940"/>
-<area shape="rect" id="node46" href="../../d2/d8e/VariableDivideNode_8h.html" title="include/madara/expression\l/VariableDivideNode.h" alt="" coords="7414,899,7591,940"/>
-<area shape="rect" id="node47" href="../../db/d21/VariableIncrementNode_8h.html" title="include/madara/expression\l/VariableIncrementNode.h" alt="" coords="7213,899,7390,940"/>
-<area shape="rect" id="node48" href="../../dd/d56/VariableMultiplyNode_8h.html" title="include/madara/expression\l/VariableMultiplyNode.h" alt="" coords="7615,899,7793,940"/>
-<area shape="rect" id="node49" href="../../d7/d79/CompositeConstArray_8h.html" title="include/madara/expression\l/CompositeConstArray.h" alt="" coords="5867,809,6045,851"/>
-<area shape="rect" id="node50" href="../../de/d2b/CompositeConstArray_8cpp.html" title="include/madara/expression\l/CompositeConstArray.cpp" alt="" coords="5993,899,6173,940"/>
-<area shape="rect" id="node51" href="../../d8/d4b/CompositeForLoop_8h.html" title="include/madara/expression\l/CompositeForLoop.h" alt="" coords="6377,809,6554,851"/>
-<area shape="rect" id="node52" href="../../d1/d4e/CompositeFunctionNode_8h.html" title="include/madara/expression\l/CompositeFunctionNode.h" alt="" coords="6171,809,6352,851"/>
-<area shape="rect" id="node54" href="../../d6/d9b/Interpreter_8h.html" title="include/madara/expression\l/Interpreter.h" alt="" coords="4299,809,4477,851"/>
-<area shape="rect" id="node55" href="../../d8/ddc/ListNode_8h.html" title="include/madara/expression\l/ListNode.h" alt="" coords="7187,809,7365,851"/>
-<area shape="rect" id="node56" href="../../d8/d23/VariableNode_8h.html" title="include/madara/expression\l/VariableNode.h" alt="" coords="7643,809,7821,851"/>
-<area shape="rect" id="node57" href="../../d2/d62/ExternFunctionVariables_8h.html" title="include/madara/knowledge\l/ExternFunctionVariables.h" alt="" coords="2129,363,2308,404"/>
-<area shape="rect" id="node58" href="../../d9/d65/WorkUnit_8h.html" title="include/madara/threads\l/WorkUnit.h" alt="" coords="1973,631,2131,672"/>
-<area shape="rect" id="node59" href="../../dc/d5a/filters_2AggregateFilter_8h.html" title="include/madara/filters\l/AggregateFilter.h" alt="" coords="1651,631,1797,672"/>
-<area shape="rect" id="node61" href="../../d0/d99/RecordFilter_8h.html" title="include/madara/filters\l/RecordFilter.h" alt="" coords="2579,452,2725,493"/>
-<area shape="rect" id="node62" href="../../d8/db9/Functions_8h.html" title="include/madara/knowledge\l/Functions.h" alt="" coords="3047,541,3223,583"/>
-<area shape="rect" id="node65" href="../../dc/dd1/GenericFilters_8h.html" title="include/madara/filters\l/GenericFilters.h" alt="" coords="2307,631,2453,672"/>
-<area shape="rect" id="node66" href="../../d3/d19/FunctionArguments_8h.html" title="include/madara/knowledge\l/FunctionArguments.h" alt="" coords="2596,273,2772,315"/>
-<area shape="rect" id="node67" href="../../db/dca/knowledge__cast_8h.html" title="include/madara/knowledge\l/knowledge_cast.h" alt="" coords="3339,1077,3515,1119"/>
-<area shape="rect" id="node68" href="../../d3/d73/VariableReference_8cpp.html" title="include/madara/knowledge\l/VariableReference.cpp" alt="" coords="9689,184,9865,225"/>
+<area shape="rect" id="node2" href="../../da/df2/KnowledgeRecord_8h.html" title="include/madara/knowledge\l/KnowledgeRecord.h" alt="" coords="5796,95,5972,136"/>
+<area shape="rect" id="node3" href="../../dc/db8/knowledge_2AggregateFilter_8h.html" title="include/madara/knowledge\l/AggregateFilter.h" alt="" coords="1165,720,1341,761"/>
+<area shape="rect" id="node5" href="../../d0/d17/KnowledgeRecordFilters_8h.html" title="include/madara/knowledge\l/KnowledgeRecordFilters.h" alt="" coords="1872,809,2051,851"/>
+<area shape="rect" id="node7" href="../../de/d2f/CheckpointSettings_8h.html" title="include/madara/knowledge\l/CheckpointSettings.h" alt="" coords="3891,631,4067,672"/>
+<area shape="rect" id="node8" href="../../d0/d65/KnowledgeBaseImpl_8h.html" title="include/madara/knowledge\l/KnowledgeBaseImpl.h" alt="" coords="3827,988,4003,1029"/>
+<area shape="rect" id="node9" href="../../d1/de5/KnowledgeBase_8h.html" title="include/madara/knowledge\l/KnowledgeBase.h" alt="" coords="3547,1077,3723,1119"/>
+<area shape="rect" id="node16" href="../../de/dfd/BaseThread_8h.html" title="include/madara/threads\l/BaseThread.h" alt="" coords="2883,1345,3040,1387"/>
+<area shape="rect" id="node17" href="../../d1/ddf/RCWThread_8h.html" title="include/madara/threads\l/RCWThread.h" alt="" coords="3293,1435,3451,1476"/>
+<area shape="rect" id="node18" href="../../d1/d35/CounterFilter_8h.html" title="include/madara/filters\l/CounterFilter.h" alt="" coords="2365,1345,2512,1387"/>
+<area shape="rect" id="node21" href="../../d8/d78/ClearRecords_8h.html" title="include/madara/filters\l/ClearRecords.h" alt="" coords="1773,1345,1920,1387"/>
+<area shape="rect" id="node22" href="../../d0/dde/EndpointClear_8h.html" title="include/madara/filters\l/EndpointClear.h" alt="" coords="1097,1345,1244,1387"/>
+<area shape="rect" id="node23" href="../../dc/dd5/EndpointDiscovery_8h.html" title="include/madara/filters\l/EndpointDiscovery.h" alt="" coords="827,1345,973,1387"/>
+<area shape="rect" id="node24" href="../../d9/db6/PeerDiscovery_8h.html" title="include/madara/filters\l/PeerDiscovery.h" alt="" coords="1483,1345,1629,1387"/>
+<area shape="rect" id="node25" href="../../d9/d79/BaseTracker_8h.html" title="include/madara/knowledge\l/rcw/BaseTracker.h" alt="" coords="4597,1167,4773,1208"/>
+<area shape="rect" id="node26" href="../../d2/d5c/PrefixTracker_8h.html" title="include/madara/knowledge\l/rcw/PrefixTracker.h" alt="" coords="4472,1256,4648,1297"/>
+<area shape="rect" id="node27" href="../../da/db8/Transaction_8h.html" title="include/madara/knowledge\l/rcw/Transaction.h" alt="" coords="4472,1345,4648,1387"/>
+<area shape="rect" id="node28" href="../../d2/d0e/Tracker_8h.html" title="include/madara/knowledge\l/rcw/Tracker.h" alt="" coords="4697,1256,4873,1297"/>
+<area shape="rect" id="node29" href="../../d3/dc4/Tracked_8h.html" title="include/madara/knowledge\l/rcw/Tracked.h" alt="" coords="4848,1167,5024,1208"/>
+<area shape="rect" id="node30" href="../../df/d39/MulticastTransport_8h.html" title="include/madara/transport\l/multicast/MulticastTransport.h" alt="" coords="2928,1167,3131,1208"/>
+<area shape="rect" id="node31" href="../../d2/da3/ZMQTransport_8h.html" title="include/madara/transport\l/zmq/ZMQTransport.h" alt="" coords="4191,1167,4356,1208"/>
+<area shape="rect" id="node32" href="../../dd/d69/KnowledgeBaseImpl_8inl.html" title="include/madara/knowledge\l/KnowledgeBaseImpl.inl" alt="" coords="3925,1077,4101,1119"/>
+<area shape="rect" id="node33" href="../../d4/dcb/ThreadSafeContext_8h.html" title="include/madara/knowledge\l/ThreadSafeContext.h" alt="" coords="3923,720,4099,761"/>
+<area shape="rect" id="node34" href="../../dc/d21/KnowledgeRecord_8cpp.html" title="include/madara/knowledge\l/KnowledgeRecord.cpp" alt="" coords="4275,809,4451,851"/>
+<area shape="rect" id="node35" href="../../d8/d5e/Transport_8h.html" title="include/madara/transport\l/Transport.h" alt="" coords="3560,899,3725,940"/>
+<area shape="rect" id="node36" href="../../d4/d32/TransportSettings_8h.html" title="include/madara/transport\l/TransportSettings.h" alt="" coords="4205,899,4371,940"/>
+<area shape="rect" id="node37" href="../../da/d37/CompositeArrayReference_8h.html" title="include/madara/expression\l/CompositeArrayReference.h" alt="" coords="7417,809,7607,851"/>
+<area shape="rect" id="node38" href="../../d2/d89/CompositeAssignmentNode_8h.html" title="include/madara/expression\l/CompositeAssignmentNode.h" alt="" coords="7337,899,7537,940"/>
+<area shape="rect" id="node39" href="../../d9/d00/CompositePostdecrementNode_8h.html" title="include/madara/expression\l/CompositePostdecrementNode.h" alt="" coords="8031,899,8249,940"/>
+<area shape="rect" id="node40" href="../../d2/df2/CompositePostincrementNode_8h.html" title="include/madara/expression\l/CompositePostincrementNode.h" alt="" coords="8274,899,8489,940"/>
+<area shape="rect" id="node41" href="../../d7/d18/CompositePredecrementNode_8h.html" title="include/madara/expression\l/CompositePredecrementNode.h" alt="" coords="7794,899,8006,940"/>
+<area shape="rect" id="node42" href="../../d2/db3/CompositePreincrementNode_8h.html" title="include/madara/expression\l/CompositePreincrementNode.h" alt="" coords="7561,899,7769,940"/>
+<area shape="rect" id="node43" href="../../da/d4d/VariableCompareNode_8h.html" title="include/madara/expression\l/VariableCompareNode.h" alt="" coords="6327,899,6505,940"/>
+<area shape="rect" id="node44" href="../../d1/d64/VariableDecrementNode_8h.html" title="include/madara/expression\l/VariableDecrementNode.h" alt="" coords="6529,899,6708,940"/>
+<area shape="rect" id="node45" href="../../d2/d8e/VariableDivideNode_8h.html" title="include/madara/expression\l/VariableDivideNode.h" alt="" coords="6934,899,7111,940"/>
+<area shape="rect" id="node46" href="../../db/d21/VariableIncrementNode_8h.html" title="include/madara/expression\l/VariableIncrementNode.h" alt="" coords="7135,899,7313,940"/>
+<area shape="rect" id="node47" href="../../dd/d56/VariableMultiplyNode_8h.html" title="include/madara/expression\l/VariableMultiplyNode.h" alt="" coords="6733,899,6910,940"/>
+<area shape="rect" id="node48" href="../../d7/d79/CompositeConstArray_8h.html" title="include/madara/expression\l/CompositeConstArray.h" alt="" coords="5643,809,5821,851"/>
+<area shape="rect" id="node49" href="../../de/d2b/CompositeConstArray_8cpp.html" title="include/madara/expression\l/CompositeConstArray.cpp" alt="" coords="6123,899,6303,940"/>
+<area shape="rect" id="node50" href="../../d8/d4b/CompositeForLoop_8h.html" title="include/madara/expression\l/CompositeForLoop.h" alt="" coords="5947,809,6125,851"/>
+<area shape="rect" id="node51" href="../../d1/d4e/CompositeFunctionNode_8h.html" title="include/madara/expression\l/CompositeFunctionNode.h" alt="" coords="5184,809,5365,851"/>
+<area shape="rect" id="node53" href="../../d6/d9b/Interpreter_8h.html" title="include/madara/expression\l/Interpreter.h" alt="" coords="3718,809,3895,851"/>
+<area shape="rect" id="node54" href="../../d8/ddc/ListNode_8h.html" title="include/madara/expression\l/ListNode.h" alt="" coords="6657,809,6834,851"/>
+<area shape="rect" id="node55" href="../../d8/d23/VariableNode_8h.html" title="include/madara/expression\l/VariableNode.h" alt="" coords="7163,809,7341,851"/>
+<area shape="rect" id="node56" href="../../d2/d62/ExternFunctionVariables_8h.html" title="include/madara/knowledge\l/ExternFunctionVariables.h" alt="" coords="2049,363,2228,404"/>
+<area shape="rect" id="node57" href="../../d9/d65/WorkUnit_8h.html" title="include/madara/threads\l/WorkUnit.h" alt="" coords="2347,631,2504,672"/>
+<area shape="rect" id="node58" href="../../dc/d5a/filters_2AggregateFilter_8h.html" title="include/madara/filters\l/AggregateFilter.h" alt="" coords="1499,631,1645,672"/>
+<area shape="rect" id="node60" href="../../d0/d99/RecordFilter_8h.html" title="include/madara/filters\l/RecordFilter.h" alt="" coords="2357,452,2504,493"/>
+<area shape="rect" id="node61" href="../../d8/db9/Functions_8h.html" title="include/madara/knowledge\l/Functions.h" alt="" coords="2908,541,3084,583"/>
+<area shape="rect" id="node64" href="../../dc/dd1/GenericFilters_8h.html" title="include/madara/filters\l/GenericFilters.h" alt="" coords="2176,631,2323,672"/>
+<area shape="rect" id="node65" href="../../d3/d19/FunctionArguments_8h.html" title="include/madara/knowledge\l/FunctionArguments.h" alt="" coords="2277,273,2453,315"/>
+<area shape="rect" id="node66" href="../../db/dca/knowledge__cast_8h.html" title="include/madara/knowledge\l/knowledge_cast.h" alt="" coords="5037,1077,5213,1119"/>
+<area shape="rect" id="node67" href="../../dc/d44/KnowledgeRequirements_8h.html" title="include/madara/knowledge\l/KnowledgeRequirements.h" alt="" coords="4193,452,4375,493"/>
+<area shape="rect" id="node68" href="../../d3/d73/VariableReference_8cpp.html" title="include/madara/knowledge\l/VariableReference.cpp" alt="" coords="9273,184,9449,225"/>
 <area shape="rect" id="node69" href="../../db/db7/TcpTransport_8cpp.html" title="include/madara/transport\l/tcp/TcpTransport.cpp" alt="" coords="245,631,411,672"/>
-<area shape="rect" id="node70" href="../../d1/de6/TransportContext_8h.html" title="include/madara/transport\l/TransportContext.h" alt="" coords="1107,541,1272,583"/>
+<area shape="rect" id="node70" href="../../d1/de6/TransportContext_8h.html" title="include/madara/transport\l/TransportContext.h" alt="" coords="1100,541,1265,583"/>
 <area shape="rect" id="node71" href="../../d3/df6/UdpRegistryClient_8cpp.html" title="include/madara/transport\l/udp/UdpRegistryClient.cpp" alt="" coords="435,631,618,672"/>
 <area shape="rect" id="node72" href="../../d6/d06/UdpRegistryServer_8cpp.html" title="include/madara/transport\l/udp/UdpRegistryServer.cpp" alt="" coords="643,631,829,672"/>
 <area shape="rect" id="node73" href="../../d5/d5e/UdpTransport_8cpp.html" title="include/madara/transport\l/udp/UdpTransport.cpp" alt="" coords="904,631,1069,672"/>
-<area shape="rect" id="node74" href="../../de/d36/ComponentNode_8cpp.html" title="include/madara/expression\l/ComponentNode.cpp" alt="" coords="7225,273,7402,315"/>
-<area shape="rect" id="node75" href="../../dd/db2/ComponentNode_8h.html" title="include/madara/expression\l/ComponentNode.h" alt="" coords="6819,184,6997,225"/>
-<area shape="rect" id="node76" href="../../d6/d31/CompositeTernaryNode_8h.html" title="include/madara/expression\l/CompositeTernaryNode.h" alt="" coords="8211,273,8389,315"/>
-<area shape="rect" id="node77" href="../../db/d6f/CompositeAndNode_8h.html" title="include/madara/expression\l/CompositeAndNode.h" alt="" coords="7833,363,8010,404"/>
-<area shape="rect" id="node78" href="../../d7/d8d/CompositeBothNode_8h.html" title="include/madara/expression\l/CompositeBothNode.h" alt="" coords="8034,363,8211,404"/>
-<area shape="rect" id="node79" href="../../d2/dc0/CompositeMultiplyNode_8h.html" title="include/madara/expression\l/CompositeMultiplyNode.h" alt="" coords="8338,363,8515,404"/>
-<area shape="rect" id="node80" href="../../d4/d77/CompositeOrNode_8h.html" title="include/madara/expression\l/CompositeOrNode.h" alt="" coords="8539,363,8717,404"/>
-<area shape="rect" id="node81" href="../../d2/daf/CompositeReturnRightNode_8h.html" title="include/madara/expression\l/CompositeReturnRightNode.h" alt="" coords="8741,363,8942,404"/>
-<area shape="rect" id="node82" href="../../d6/da0/CompositeSequentialNode_8h.html" title="include/madara/expression\l/CompositeSequentialNode.h" alt="" coords="8967,363,9159,404"/>
-<area shape="rect" id="node83" href="../../d1/d6b/SystemCallNode_8h.html" title="include/madara/expression\l/SystemCallNode.h" alt="" coords="9183,363,9361,404"/>
-<area shape="rect" id="node84" href="../../db/d35/CompositeUnaryNode_8h.html" title="include/madara/expression\l/CompositeUnaryNode.h" alt="" coords="8466,720,8643,761"/>
-<area shape="rect" id="node85" href="../../d7/dca/CompositeNegateNode_8h.html" title="include/madara/expression\l/CompositeNegateNode.h" alt="" coords="8829,809,9006,851"/>
-<area shape="rect" id="node86" href="../../d8/d2d/CompositeNotNode_8h.html" title="include/madara/expression\l/CompositeNotNode.h" alt="" coords="9106,809,9283,851"/>
-<area shape="rect" id="node87" href="../../dc/d7c/CompositeSquareRootNode_8h.html" title="include/madara/expression\l/CompositeSquareRootNode.h" alt="" coords="9345,809,9545,851"/>
-<area shape="rect" id="node88" href="../../df/dc4/ExpressionTree_8h.html" title="include/madara/expression\l/ExpressionTree.h" alt="" coords="4801,273,4978,315"/>
-<area shape="rect" id="node89" href="../../d8/d3a/LeafNode_8h.html" title="include/madara/expression\l/LeafNode.h" alt="" coords="6414,452,6591,493"/>
-<area shape="rect" id="node90" href="../../d3/d72/CompositeDivideNode_8h.html" title="include/madara/expression\l/CompositeDivideNode.h" alt="" coords="9890,184,10067,225"/>
-<area shape="rect" id="node91" href="../../d7/d81/CompositeEqualityNode_8h.html" title="include/madara/expression\l/CompositeEqualityNode.h" alt="" coords="10092,184,10271,225"/>
-<area shape="rect" id="node92" href="../../d6/da8/CompositeGreaterThanEqualNode_8h.html" title="include/madara/expression\l/CompositeGreaterThanEqualNode.h" alt="" coords="10295,184,10531,225"/>
-<area shape="rect" id="node93" href="../../d2/d31/CompositeGreaterThanNode_8h.html" title="include/madara/expression\l/CompositeGreaterThanNode.h" alt="" coords="10556,184,10759,225"/>
-<area shape="rect" id="node94" href="../../df/dfb/CompositeImpliesNode_8h.html" title="include/madara/expression\l/CompositeImpliesNode.h" alt="" coords="10783,184,10961,225"/>
-<area shape="rect" id="node95" href="../../d2/de6/CompositeInequalityNode_8h.html" title="include/madara/expression\l/CompositeInequalityNode.h" alt="" coords="10985,184,11172,225"/>
-<area shape="rect" id="node96" href="../../d4/df5/CompositeLessThanEqualNode_8h.html" title="include/madara/expression\l/CompositeLessThanEqualNode.h" alt="" coords="11196,184,11417,225"/>
-<area shape="rect" id="node97" href="../../da/d74/CompositeLessThanNode_8h.html" title="include/madara/expression\l/CompositeLessThanNode.h" alt="" coords="11442,184,11630,225"/>
-<area shape="rect" id="node98" href="../../d3/dd4/CompositeModulusNode_8h.html" title="include/madara/expression\l/CompositeModulusNode.h" alt="" coords="11654,184,11834,225"/>
-<area shape="rect" id="node99" href="../../df/ddf/CompositeSubtractNode_8h.html" title="include/madara/expression\l/CompositeSubtractNode.h" alt="" coords="11858,184,12038,225"/>
-<area shape="rect" id="node100" href="../../d1/d24/IteratorImpl_8h.html" title="include/madara/expression\l/IteratorImpl.h" alt="" coords="12062,184,12239,225"/>
-<area shape="rect" id="node4" href="../../de/d29/knowledge_2AggregateFilter_8cpp.html" title="include/madara/knowledge\l/AggregateFilter.cpp" alt="" coords="1499,809,1675,851"/>
-<area shape="rect" id="node6" href="../../d5/d53/ExternFunctionVariables_8cpp.html" title="include/madara/knowledge\l/ExternFunctionVariables.cpp" alt="" coords="2513,899,2706,940"/>
-<area shape="rect" id="node10" href="../../dd/da5/Barrier_8h.html" title="include/madara/knowledge\l/containers/Barrier.h" alt="" coords="5096,1256,5272,1297"/>
-<area shape="rect" id="node11" href="../../d1/d62/BaseContainer_8h.html" title="include/madara/knowledge\l/containers/BaseContainer.h" alt="" coords="4445,1167,4632,1208"/>
-<area shape="rect" id="node12" href="../../d9/d69/BufferVector_8h.html" title="include/madara/knowledge\l/containers/BufferVector.h" alt="" coords="4696,1256,4872,1297"/>
-<area shape="rect" id="node13" href="../../d2/d98/FlexMap_8h.html" title="include/madara/knowledge\l/containers/FlexMap.h" alt="" coords="4445,1345,4621,1387"/>
-<area shape="rect" id="node14" href="../../d9/dbb/Counter_8h.html" title="include/madara/knowledge\l/containers/Counter.h" alt="" coords="3893,1256,4069,1297"/>
-<area shape="rect" id="node15" href="../../d9/dba/String_8h.html" title="include/madara/knowledge\l/containers/String.h" alt="" coords="4896,1256,5072,1297"/>
-<area shape="rect" id="node16" href="../../d6/dac/Integer_8h.html" title="include/madara/knowledge\l/containers/Integer.h" alt="" coords="4093,1256,4269,1297"/>
-<area shape="rect" id="node20" href="../../d6/dd7/Double_8h.html" title="include/madara/knowledge\l/containers/Double.h" alt="" coords="4496,1256,4672,1297"/>
-<area shape="rect" id="node21" href="../../df/d79/Map_8h.html" title="include/madara/knowledge\l/containers/Map.h" alt="" coords="3511,1256,3687,1297"/>
-<area shape="rect" id="node53" href="../../d1/de6/CompositeFunctionNode_8cpp.html" title="include/madara/expression\l/CompositeFunctionNode.cpp" alt="" coords="6537,899,6732,940"/>
-<area shape="rect" id="node60" href="../../d3/db9/GenericFilters_8cpp.html" title="include/madara/filters\l/GenericFilters.cpp" alt="" coords="2307,720,2453,761"/>
-<area shape="rect" id="node63" href="../../d7/d23/FunctionMap_8h.html" title="include/madara/knowledge\l/FunctionMap.h" alt="" coords="4197,631,4373,672"/>
-<area shape="rect" id="node64" href="../../db/db8/Functions_8cpp.html" title="include/madara/knowledge\l/Functions.cpp" alt="" coords="2984,631,3160,672"/>
+<area shape="rect" id="node74" href="../../de/d36/ComponentNode_8cpp.html" title="include/madara/expression\l/ComponentNode.cpp" alt="" coords="6707,273,6885,315"/>
+<area shape="rect" id="node75" href="../../dd/db2/ComponentNode_8h.html" title="include/madara/expression\l/ComponentNode.h" alt="" coords="6302,184,6479,225"/>
+<area shape="rect" id="node76" href="../../d6/d31/CompositeTernaryNode_8h.html" title="include/madara/expression\l/CompositeTernaryNode.h" alt="" coords="7745,273,7922,315"/>
+<area shape="rect" id="node77" href="../../db/d6f/CompositeAndNode_8h.html" title="include/madara/expression\l/CompositeAndNode.h" alt="" coords="7366,363,7543,404"/>
+<area shape="rect" id="node78" href="../../d7/d8d/CompositeBothNode_8h.html" title="include/madara/expression\l/CompositeBothNode.h" alt="" coords="7567,363,7745,404"/>
+<area shape="rect" id="node79" href="../../d2/dc0/CompositeMultiplyNode_8h.html" title="include/madara/expression\l/CompositeMultiplyNode.h" alt="" coords="7871,363,8049,404"/>
+<area shape="rect" id="node80" href="../../d4/d77/CompositeOrNode_8h.html" title="include/madara/expression\l/CompositeOrNode.h" alt="" coords="8073,363,8250,404"/>
+<area shape="rect" id="node81" href="../../d2/daf/CompositeReturnRightNode_8h.html" title="include/madara/expression\l/CompositeReturnRightNode.h" alt="" coords="8274,363,8475,404"/>
+<area shape="rect" id="node82" href="../../d6/da0/CompositeSequentialNode_8h.html" title="include/madara/expression\l/CompositeSequentialNode.h" alt="" coords="8500,363,8692,404"/>
+<area shape="rect" id="node83" href="../../d1/d6b/SystemCallNode_8h.html" title="include/madara/expression\l/SystemCallNode.h" alt="" coords="8717,363,8894,404"/>
+<area shape="rect" id="node84" href="../../db/d35/CompositeUnaryNode_8h.html" title="include/madara/expression\l/CompositeUnaryNode.h" alt="" coords="7935,720,8113,761"/>
+<area shape="rect" id="node85" href="../../d7/dca/CompositeNegateNode_8h.html" title="include/madara/expression\l/CompositeNegateNode.h" alt="" coords="8429,809,8606,851"/>
+<area shape="rect" id="node86" href="../../d8/d2d/CompositeNotNode_8h.html" title="include/madara/expression\l/CompositeNotNode.h" alt="" coords="8667,809,8845,851"/>
+<area shape="rect" id="node87" href="../../dc/d7c/CompositeSquareRootNode_8h.html" title="include/madara/expression\l/CompositeSquareRootNode.h" alt="" coords="8888,809,9088,851"/>
+<area shape="rect" id="node88" href="../../df/dc4/ExpressionTree_8h.html" title="include/madara/expression\l/ExpressionTree.h" alt="" coords="4189,273,4366,315"/>
+<area shape="rect" id="node89" href="../../d8/d3a/LeafNode_8h.html" title="include/madara/expression\l/LeafNode.h" alt="" coords="6099,452,6277,493"/>
+<area shape="rect" id="node90" href="../../d3/d72/CompositeDivideNode_8h.html" title="include/madara/expression\l/CompositeDivideNode.h" alt="" coords="9474,184,9651,225"/>
+<area shape="rect" id="node91" href="../../d7/d81/CompositeEqualityNode_8h.html" title="include/madara/expression\l/CompositeEqualityNode.h" alt="" coords="9676,184,9855,225"/>
+<area shape="rect" id="node92" href="../../d6/da8/CompositeGreaterThanEqualNode_8h.html" title="include/madara/expression\l/CompositeGreaterThanEqualNode.h" alt="" coords="9879,184,10115,225"/>
+<area shape="rect" id="node93" href="../../d2/d31/CompositeGreaterThanNode_8h.html" title="include/madara/expression\l/CompositeGreaterThanNode.h" alt="" coords="10140,184,10343,225"/>
+<area shape="rect" id="node94" href="../../df/dfb/CompositeImpliesNode_8h.html" title="include/madara/expression\l/CompositeImpliesNode.h" alt="" coords="10367,184,10545,225"/>
+<area shape="rect" id="node95" href="../../d2/de6/CompositeInequalityNode_8h.html" title="include/madara/expression\l/CompositeInequalityNode.h" alt="" coords="10569,184,10756,225"/>
+<area shape="rect" id="node96" href="../../d4/df5/CompositeLessThanEqualNode_8h.html" title="include/madara/expression\l/CompositeLessThanEqualNode.h" alt="" coords="10780,184,11001,225"/>
+<area shape="rect" id="node97" href="../../da/d74/CompositeLessThanNode_8h.html" title="include/madara/expression\l/CompositeLessThanNode.h" alt="" coords="11026,184,11214,225"/>
+<area shape="rect" id="node98" href="../../d3/dd4/CompositeModulusNode_8h.html" title="include/madara/expression\l/CompositeModulusNode.h" alt="" coords="11238,184,11418,225"/>
+<area shape="rect" id="node99" href="../../df/ddf/CompositeSubtractNode_8h.html" title="include/madara/expression\l/CompositeSubtractNode.h" alt="" coords="11442,184,11622,225"/>
+<area shape="rect" id="node100" href="../../d1/d24/IteratorImpl_8h.html" title="include/madara/expression\l/IteratorImpl.h" alt="" coords="11646,184,11823,225"/>
+<area shape="rect" id="node4" href="../../de/d29/knowledge_2AggregateFilter_8cpp.html" title="include/madara/knowledge\l/AggregateFilter.cpp" alt="" coords="1165,809,1341,851"/>
+<area shape="rect" id="node6" href="../../d5/d53/ExternFunctionVariables_8cpp.html" title="include/madara/knowledge\l/ExternFunctionVariables.cpp" alt="" coords="1873,899,2066,940"/>
+<area shape="rect" id="node10" href="../../dd/da5/Barrier_8h.html" title="include/madara/knowledge\l/containers/Barrier.h" alt="" coords="3571,1256,3747,1297"/>
+<area shape="rect" id="node11" href="../../d1/d62/BaseContainer_8h.html" title="include/madara/knowledge\l/containers/BaseContainer.h" alt="" coords="3408,1167,3595,1208"/>
+<area shape="rect" id="node12" href="../../d9/d69/BufferVector_8h.html" title="include/madara/knowledge\l/containers/BufferVector.h" alt="" coords="3171,1256,3347,1297"/>
+<area shape="rect" id="node13" href="../../d9/dbb/Counter_8h.html" title="include/madara/knowledge\l/containers/Counter.h" alt="" coords="3821,1256,3997,1297"/>
+<area shape="rect" id="node14" href="../../d9/dba/String_8h.html" title="include/madara/knowledge\l/containers/String.h" alt="" coords="3371,1256,3547,1297"/>
+<area shape="rect" id="node15" href="../../d6/dac/Integer_8h.html" title="include/madara/knowledge\l/containers/Integer.h" alt="" coords="2873,1256,3049,1297"/>
+<area shape="rect" id="node19" href="../../d6/dd7/Double_8h.html" title="include/madara/knowledge\l/containers/Double.h" alt="" coords="4021,1256,4197,1297"/>
+<area shape="rect" id="node20" href="../../df/d79/Map_8h.html" title="include/madara/knowledge\l/containers/Map.h" alt="" coords="1821,1256,1997,1297"/>
+<area shape="rect" id="node52" href="../../d1/de6/CompositeFunctionNode_8cpp.html" title="include/madara/expression\l/CompositeFunctionNode.cpp" alt="" coords="5272,899,5467,940"/>
+<area shape="rect" id="node59" href="../../d3/db9/GenericFilters_8cpp.html" title="include/madara/filters\l/GenericFilters.cpp" alt="" coords="2176,720,2323,761"/>
+<area shape="rect" id="node62" href="../../d7/d23/FunctionMap_8h.html" title="include/madara/knowledge\l/FunctionMap.h" alt="" coords="3488,631,3664,672"/>
+<area shape="rect" id="node63" href="../../db/db8/Functions_8cpp.html" title="include/madara/knowledge\l/Functions.cpp" alt="" coords="2984,631,3160,672"/>
 </map>
 </div>
 </div>
@@ -266,7 +267,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="../../dir_81813d25d32ad4956e594fea3120bc8f.html">madara</a></li><li class="navelem"><a class="el" href="../../dir_0ee7ef483ad9c1c99b2c44de72e506ad.html">knowledge</a></li><li class="navelem"><a class="el" href="../../d5/d7d/KnowledgeRecord_8inl.html">KnowledgeRecord.inl</a></li>
-    <li class="footer">Generated on Wed Apr 18 2018 05:12:28 for MADARA by
+    <li class="footer">Generated on Fri Apr 20 2018 18:16:19 for MADARA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

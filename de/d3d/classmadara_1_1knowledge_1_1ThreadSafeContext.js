@@ -9,6 +9,7 @@ var classmadara_1_1knowledge_1_1ThreadSafeContext =
     [ "clear", "de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#a31608d0b99df0bcc927c72a632a558ae", null ],
     [ "clear", "de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#ae6161f8a68ca99b6ec168edc6c511f6c", null ],
     [ "compile", "de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#a56f898b2c30fb8cfd7a3f661dbe5a5b5", null ],
+    [ "copy", "de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#a44ccc5245fb196c0b77f8fa8bdf54892", null ],
     [ "copy", "de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#ab3d049ef0df439b88bfde206344da371", null ],
     [ "debug_modifieds", "de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#a8d834edbf784513d3fc7950c8255e9ac", null ],
     [ "dec", "de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#a14aac318d04826f59f12fbdfa509924c", null ],

@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MADARA
-   &#160;<span id="projectnumber">3.1.4</span>
+   &#160;<span id="projectnumber">3.1.6</span>
    </div>
   </td>
  </tr>
@@ -173,6 +173,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a56f898b2c30fb8cfd7a3f661dbe5a5b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d30/classmadara_1_1knowledge_1_1CompiledExpression.html">CompiledExpression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#a56f898b2c30fb8cfd7a3f661dbe5a5b5">compile</a> (const std::string &amp;expression)</td></tr>
 <tr class="memdesc:a56f898b2c30fb8cfd7a3f661dbe5a5b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compiles a KaRL expression into an expression tree.  <a href="#a56f898b2c30fb8cfd7a3f661dbe5a5b5">More...</a><br /></td></tr>
 <tr class="separator:a56f898b2c30fb8cfd7a3f661dbe5a5b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44ccc5245fb196c0b77f8fa8bdf54892"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#a44ccc5245fb196c0b77f8fa8bdf54892">copy</a> (const <a class="el" href="../../de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html">ThreadSafeContext</a> &amp;source, const <a class="el" href="../../d3/d81/structmadara_1_1knowledge_1_1KnowledgeRequirements.html">KnowledgeRequirements</a> &amp;settings)</td></tr>
+<tr class="memdesc:a44ccc5245fb196c0b77f8fa8bdf54892"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies variables and values from source to this context.  <a href="#a44ccc5245fb196c0b77f8fa8bdf54892">More...</a><br /></td></tr>
+<tr class="separator:a44ccc5245fb196c0b77f8fa8bdf54892"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3d049ef0df439b88bfde206344da371"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#ab3d049ef0df439b88bfde206344da371">copy</a> (const <a class="el" href="../../de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html">ThreadSafeContext</a> &amp;source, const <a class="el" href="../../df/d43/namespacemadara_1_1knowledge.html#a013024916ff064a73acab2bc0cf373f5">CopySet</a> &amp;copy_set=<a class="el" href="../../df/d43/namespacemadara_1_1knowledge.html#a013024916ff064a73acab2bc0cf373f5">CopySet</a>(), bool clean_copy=false)</td></tr>
 <tr class="memdesc:ab3d049ef0df439b88bfde206344da371"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies variables and values from source to this context.  <a href="#ab3d049ef0df439b88bfde206344da371">More...</a><br /></td></tr>
 <tr class="separator:ab3d049ef0df439b88bfde206344da371"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -576,7 +579,7 @@ Friends</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class stores variables and their values for use by any entity needing state information in a thread safe way. </p>
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l00076">76</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l00082">82</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a4b64dda0ea5ada79c72c27d5ddd6c24f"></a>
 <div class="memitem">
@@ -861,6 +864,44 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a44ccc5245fb196c0b77f8fa8bdf54892"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void madara::knowledge::ThreadSafeContext::copy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html">ThreadSafeContext</a> &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d3/d81/structmadara_1_1knowledge_1_1KnowledgeRequirements.html">KnowledgeRequirements</a> &amp;&#160;</td>
+          <td class="paramname"><em>settings</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copies variables and values from source to this context. </p>
+<p>PERFORMANCE NOTES: predicates with prefixes can limit copying to O(log n). predices with suffixes and no prefix force O(n) copy cost since all records could fit requirements</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>the source context to copy from </td></tr>
+    <tr><td class="paramname">settings</td><td>requirements that must be met </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l01832">1832</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ab3d049ef0df439b88bfde206344da371"></a>
 <div class="memitem">
 <div class="memproto">
@@ -904,7 +945,7 @@ Friends</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l01832">1832</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l01934">1934</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
 
 </div>
 </div>
@@ -2340,7 +2381,7 @@ quality of the variable </dd></dl>
 <p>What we read into the checkpoint_header will dictate our max_buffer. We want to make this checkpoint_header size into something reasonable.</p>
 <p>create a new array and copy the remaining elements from buffer_remaining</p>
 
-<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02621">2621</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02717">2717</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
 
 </div>
 </div>
@@ -2390,7 +2431,7 @@ quality of the variable </dd></dl>
 <p>What we read into the checkpoint_header will dictate our max_buffer. We want to make this checkpoint_header size into something reasonable.</p>
 <p>create a new array and copy the remaining elements from buffer_remaining</p>
 
-<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02739">2739</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02835">2835</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
 
 </div>
 </div>
@@ -2433,7 +2474,7 @@ quality of the variable </dd></dl>
 <p>What we read into the checkpoint_header will dictate our max_buffer. We want to make this checkpoint_header size into something reasonable.</p>
 <p>create a new array and copy the remaining elements from buffer_remaining</p>
 
-<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02857">2857</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02953">2953</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
 
 </div>
 </div>
@@ -3328,7 +3369,7 @@ quality of the variable </dd></dl>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>total bytes written </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02365">2365</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02461">2461</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
 
 </div>
 </div>
@@ -3355,7 +3396,7 @@ quality of the variable </dd></dl>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>total bytes written </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02473">2473</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02569">2569</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
 
 </div>
 </div>
@@ -3382,7 +3423,7 @@ quality of the variable </dd></dl>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>total bytes written </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02128">2128</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02224">2224</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
 
 </div>
 </div>
@@ -3409,7 +3450,7 @@ quality of the variable </dd></dl>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>total bytes written </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02227">2227</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02323">2323</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
 
 </div>
 </div>
@@ -3453,7 +3494,7 @@ quality of the variable </dd></dl>
 <p>if the record is larger than the buffer we have remaining, then write the buffer to the file</p>
 <p>If the record is larger than the buffer, then we must allocate a buffer large enough to write to it.</p>
 
-<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l03280">3280</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l03405">3405</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
 
 </div>
 </div>
@@ -3487,7 +3528,7 @@ quality of the variable </dd></dl>
 <p>if the record is larger than the buffer we have remaining, then write the buffer to the file</p>
 <p>If the record is larger than the buffer, then we must allocate a buffer large enough to write to it.</p>
 
-<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l03035">3035</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l03145">3145</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
 
 </div>
 </div>
@@ -3529,7 +3570,7 @@ quality of the variable </dd></dl>
 <p>if the record is larger than the buffer we have remaining, then write the buffer to the file</p>
 <p>If the record is larger than the buffer, then we must allocate a buffer large enough to write to it.</p>
 
-<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l01870">1870</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l01972">1972</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
 
 </div>
 </div>
@@ -3557,10 +3598,8 @@ quality of the variable </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>-1 if file open failed<br />
  -2 if file write failed<br />
  &gt;0 if successful (number of bytes written) </dd></dl>
-<p>if the record is larger than the buffer we have remaining, then write the buffer to the file</p>
-<p>If the record is larger than the buffer, then we must allocate a buffer large enough to write to it.</p>
 
-<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l01979">1979</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html#l02084">2084</a> of file <a class="el" href="../../de/dff/ThreadSafeContext_8cpp_source.html">ThreadSafeContext.cpp</a>.</p>
 
 </div>
 </div>
@@ -6369,7 +6408,7 @@ quality of the variable after this call </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l00080">80</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l00086">86</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6391,7 +6430,7 @@ quality of the variable after this call </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l00081">81</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l00087">87</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6413,7 +6452,7 @@ quality of the variable after this call </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l00079">79</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l00085">85</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6435,7 +6474,7 @@ quality of the variable after this call </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l00082">82</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l00088">88</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6458,7 +6497,7 @@ quality of the variable after this call </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01521">1521</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01540">1540</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6480,7 +6519,7 @@ quality of the variable after this call </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01524">1524</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01543">1543</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6502,7 +6541,7 @@ quality of the variable after this call </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01523">1523</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01542">1542</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6524,7 +6563,7 @@ quality of the variable after this call </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01522">1522</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01541">1541</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6548,7 +6587,7 @@ quality of the variable after this call </dd></dl>
 
 <p>map of function names to functions </p>
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01528">1528</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01547">1547</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6572,7 +6611,7 @@ quality of the variable after this call </dd></dl>
 
 <p>KaRL interpreter. </p>
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01531">1531</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01550">1550</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6594,7 +6633,7 @@ quality of the variable after this call </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01525">1525</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01544">1544</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6618,7 +6657,7 @@ quality of the variable after this call </dd></dl>
 
 <p>Logger for printing. </p>
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01534">1534</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01553">1553</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6642,7 +6681,7 @@ quality of the variable after this call </dd></dl>
 
 <p>Hash table containing variable names and values. </p>
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01519">1519</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01538">1538</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6664,7 +6703,7 @@ quality of the variable after this call </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01520">1520</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html#l01539">1539</a> of file <a class="el" href="../../d4/dcb/ThreadSafeContext_8h_source.html">ThreadSafeContext.h</a>.</p>
 
 </div>
 </div>
@@ -6679,7 +6718,7 @@ quality of the variable after this call </dd></dl>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/da9/namespacemadara.html">madara</a></li><li class="navelem"><a class="el" href="../../df/d43/namespacemadara_1_1knowledge.html">knowledge</a></li><li class="navelem"><a class="el" href="../../de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html">ThreadSafeContext</a></li>
-    <li class="footer">Generated on Wed Apr 18 2018 05:12:30 for MADARA by
+    <li class="footer">Generated on Fri Apr 20 2018 18:16:21 for MADARA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

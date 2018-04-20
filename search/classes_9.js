@@ -5,5 +5,6 @@ var searchData=
   ['knowledgerecord',['KnowledgeRecord',['../d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html',1,'madara::knowledge']]],
   ['knowledgerecordfilters',['KnowledgeRecordFilters',['../de/d32/classmadara_1_1knowledge_1_1KnowledgeRecordFilters.html',1,'madara::knowledge']]],
   ['knowledgereferencesettings',['KnowledgeReferenceSettings',['../da/dc7/classmadara_1_1knowledge_1_1KnowledgeReferenceSettings.html',1,'madara::knowledge']]],
+  ['knowledgerequirements',['KnowledgeRequirements',['../d3/d81/structmadara_1_1knowledge_1_1KnowledgeRequirements.html',1,'madara::knowledge']]],
   ['knowledgeupdatesettings',['KnowledgeUpdateSettings',['../d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html',1,'madara::knowledge']]]
 ];

@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MADARA
-   &#160;<span id="projectnumber">3.1.4</span>
+   &#160;<span id="projectnumber">3.1.6</span>
    </div>
   </td>
  </tr>
@@ -211,6 +211,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3497fb519135cc611724e3966d7d9ea3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d30/classmadara_1_1knowledge_1_1CompiledExpression.html">CompiledExpression</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da4/classmadara_1_1knowledge_1_1KnowledgeBaseImpl.html#a3497fb519135cc611724e3966d7d9ea3">compile</a> (const std::string &amp;expression)</td></tr>
 <tr class="memdesc:a3497fb519135cc611724e3966d7d9ea3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compiles a KaRL expression into an expression tree.  <a href="#a3497fb519135cc611724e3966d7d9ea3">More...</a><br /></td></tr>
 <tr class="separator:a3497fb519135cc611724e3966d7d9ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1aa9039a424120c3c8e2ceaa4319b17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da4/classmadara_1_1knowledge_1_1KnowledgeBaseImpl.html#ac1aa9039a424120c3c8e2ceaa4319b17">copy</a> (const <a class="el" href="../../d5/da4/classmadara_1_1knowledge_1_1KnowledgeBaseImpl.html">KnowledgeBaseImpl</a> &amp;source, const <a class="el" href="../../d3/d81/structmadara_1_1knowledge_1_1KnowledgeRequirements.html">KnowledgeRequirements</a> &amp;reqs)</td></tr>
+<tr class="memdesc:ac1aa9039a424120c3c8e2ceaa4319b17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies variables and values from source to this context.  <a href="#ac1aa9039a424120c3c8e2ceaa4319b17">More...</a><br /></td></tr>
+<tr class="separator:ac1aa9039a424120c3c8e2ceaa4319b17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50fd9a1ebc8475154c6239dc86bdae07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da4/classmadara_1_1knowledge_1_1KnowledgeBaseImpl.html#a50fd9a1ebc8475154c6239dc86bdae07">copy</a> (const <a class="el" href="../../d5/da4/classmadara_1_1knowledge_1_1KnowledgeBaseImpl.html">KnowledgeBaseImpl</a> &amp;source, const <a class="el" href="../../df/d43/namespacemadara_1_1knowledge.html#a013024916ff064a73acab2bc0cf373f5">CopySet</a> &amp;copy_set=<a class="el" href="../../df/d43/namespacemadara_1_1knowledge.html#a013024916ff064a73acab2bc0cf373f5">CopySet</a>(), bool clean_copy=false)</td></tr>
 <tr class="memdesc:a50fd9a1ebc8475154c6239dc86bdae07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies variables and values from source to this context.  <a href="#a50fd9a1ebc8475154c6239dc86bdae07">More...</a><br /></td></tr>
 <tr class="separator:a50fd9a1ebc8475154c6239dc86bdae07"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -756,7 +759,7 @@ Private Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if there was not a problem.</dd></dl>
 <p>This is useful when trying to synchronize to late joiners (this process will resend all global variables. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00304">304</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00312">312</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -1041,7 +1044,7 @@ Private Attributes</h2></td></tr>
 
 <p>Closes the transport mechanism so no dissemination is possible. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00279">279</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00287">287</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -1068,7 +1071,45 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>compiled, optimized expression tree </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00653">653</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00661">661</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac1aa9039a424120c3c8e2ceaa4319b17"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void madara::knowledge::KnowledgeBaseImpl::copy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d5/da4/classmadara_1_1knowledge_1_1KnowledgeBaseImpl.html">KnowledgeBaseImpl</a> &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d3/d81/structmadara_1_1knowledge_1_1KnowledgeRequirements.html">KnowledgeRequirements</a> &amp;&#160;</td>
+          <td class="paramname"><em>reqs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copies variables and values from source to this context. </p>
+<p>PERFORMANCE NOTES: predicates with prefixes can limit copying to O(log n). predices with suffixes and no prefix force O(n) copy cost since all records could fit requirements</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>the source context to copy from </td></tr>
+    <tr><td class="paramname">reqs</td><td>requirements that must be met </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00258">258</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -1115,7 +1156,7 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00258">258</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00266">266</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -1398,7 +1439,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>value of expression </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00785">785</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00793">793</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -1436,7 +1477,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>value of expression </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00794">794</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00802">802</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -1474,7 +1515,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>value of expression </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00830">830</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00838">838</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -2127,7 +2168,7 @@ Private Attributes</h2></td></tr>
 
 <p>Locks the context to prevent updates over the network. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00267">267</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00275">275</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -2170,7 +2211,7 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00335">335</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00343">343</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -2207,7 +2248,7 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00343">343</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00351">351</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -2332,7 +2373,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>-1 if unsuccessful, 0 otherwise </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00594">594</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00602">602</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -2384,7 +2425,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 if the value was set. -1 if unsuccessful </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00638">638</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00646">646</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -3023,7 +3064,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful, -1 if key is null, and -2 if quality isn't high enough </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00322">322</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00330">330</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -3075,7 +3116,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful, -1 if key is null, and -2 if quality isn't high enough </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00392">392</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00400">400</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -3120,7 +3161,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful, -1 if key is null, and -2 if quality isn't high enough </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00433">433</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00441">441</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -3165,7 +3206,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful, -1 if key is null, and -2 if quality isn't high enough </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00459">459</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00467">467</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -3216,7 +3257,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 if the value was set. -1 if null key </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00580">580</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00588">588</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -3267,7 +3308,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 if the value was set. -1 if null key </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00406">406</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00414">414</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -3318,7 +3359,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 if the value was set. -1 if null key </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00554">554</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00562">562</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -3376,7 +3417,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 if the value was set. -1 if null key </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00527">527</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00535">535</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -3427,7 +3468,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 if the value was set. -1 if null key </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00472">472</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00480">480</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -3478,7 +3519,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 if the value was set. -1 if null key </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00446">446</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00454">454</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -3536,7 +3577,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 if the value was set. -1 if null key </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00419">419</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00427">427</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -3587,7 +3628,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 if the value was set. -1 if null key </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00351">351</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00359">359</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -3639,7 +3680,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful, -1 if key is null, and -2 if quality isn't high enough </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00513">513</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00521">521</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -3684,7 +3725,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful, -1 if key is null, and -2 if quality isn't high enough </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00541">541</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00549">549</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -3729,7 +3770,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful, -1 if key is null, and -2 if quality isn't high enough </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00567">567</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00575">575</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -3788,7 +3829,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 if the value was set. -1 if null key </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00610">610</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00618">618</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -3840,7 +3881,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful, -1 if key is null, and -2 if quality isn't high enough </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00364">364</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00372">372</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -3892,7 +3933,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful, -1 if key is null, and -2 if quality isn't high enough </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00485">485</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00493">493</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -3950,7 +3991,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 if the value was set. -1 if null key </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00499">499</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00507">507</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -4008,7 +4049,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 if the value was set. -1 if null key </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00378">378</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00386">386</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -4067,7 +4108,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 if the value was set. -1 if null key </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00624">624</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00632">632</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -4656,7 +4697,7 @@ Private Attributes</h2></td></tr>
 
 <p>Unlocks the context to allow updates over the network (is only necessary if the context has been explicitly locked) </p>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00273">273</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00281">281</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -4731,7 +4772,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>value of expression </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00664">664</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00672">672</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -4770,7 +4811,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>value of expression </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00672">672</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html#l00680">680</a> of file <a class="el" href="../../d4/d62/KnowledgeBaseImpl_8cpp_source.html">KnowledgeBaseImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -4868,7 +4909,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d65/KnowledgeBaseImpl_8h_source.html#l01219">1219</a> of file <a class="el" href="../../d0/d65/KnowledgeBaseImpl_8h_source.html">KnowledgeBaseImpl.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d65/KnowledgeBaseImpl_8h_source.html#l01231">1231</a> of file <a class="el" href="../../d0/d65/KnowledgeBaseImpl_8h_source.html">KnowledgeBaseImpl.h</a>.</p>
 
 </div>
 </div>
@@ -4890,7 +4931,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d65/KnowledgeBaseImpl_8h_source.html#l01217">1217</a> of file <a class="el" href="../../d0/d65/KnowledgeBaseImpl_8h_source.html">KnowledgeBaseImpl.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d65/KnowledgeBaseImpl_8h_source.html#l01229">1229</a> of file <a class="el" href="../../d0/d65/KnowledgeBaseImpl_8h_source.html">KnowledgeBaseImpl.h</a>.</p>
 
 </div>
 </div>
@@ -4912,7 +4953,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d65/KnowledgeBaseImpl_8h_source.html#l01215">1215</a> of file <a class="el" href="../../d0/d65/KnowledgeBaseImpl_8h_source.html">KnowledgeBaseImpl.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d65/KnowledgeBaseImpl_8h_source.html#l01227">1227</a> of file <a class="el" href="../../d0/d65/KnowledgeBaseImpl_8h_source.html">KnowledgeBaseImpl.h</a>.</p>
 
 </div>
 </div>
@@ -4934,7 +4975,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d65/KnowledgeBaseImpl_8h_source.html#l01218">1218</a> of file <a class="el" href="../../d0/d65/KnowledgeBaseImpl_8h_source.html">KnowledgeBaseImpl.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d65/KnowledgeBaseImpl_8h_source.html#l01230">1230</a> of file <a class="el" href="../../d0/d65/KnowledgeBaseImpl_8h_source.html">KnowledgeBaseImpl.h</a>.</p>
 
 </div>
 </div>
@@ -4956,7 +4997,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d65/KnowledgeBaseImpl_8h_source.html#l01221">1221</a> of file <a class="el" href="../../d0/d65/KnowledgeBaseImpl_8h_source.html">KnowledgeBaseImpl.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d65/KnowledgeBaseImpl_8h_source.html#l01233">1233</a> of file <a class="el" href="../../d0/d65/KnowledgeBaseImpl_8h_source.html">KnowledgeBaseImpl.h</a>.</p>
 
 </div>
 </div>
@@ -4978,7 +5019,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d65/KnowledgeBaseImpl_8h_source.html#l01216">1216</a> of file <a class="el" href="../../d0/d65/KnowledgeBaseImpl_8h_source.html">KnowledgeBaseImpl.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d65/KnowledgeBaseImpl_8h_source.html#l01228">1228</a> of file <a class="el" href="../../d0/d65/KnowledgeBaseImpl_8h_source.html">KnowledgeBaseImpl.h</a>.</p>
 
 </div>
 </div>
@@ -4993,7 +5034,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/da9/namespacemadara.html">madara</a></li><li class="navelem"><a class="el" href="../../df/d43/namespacemadara_1_1knowledge.html">knowledge</a></li><li class="navelem"><a class="el" href="../../d5/da4/classmadara_1_1knowledge_1_1KnowledgeBaseImpl.html">KnowledgeBaseImpl</a></li>
-    <li class="footer">Generated on Wed Apr 18 2018 05:12:30 for MADARA by
+    <li class="footer">Generated on Fri Apr 20 2018 18:16:21 for MADARA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

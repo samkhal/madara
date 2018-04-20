@@ -9,5 +9,6 @@ var searchData=
   ['update_5fwriter_5f',['update_writer_',['../dd/d44/classmadara_1_1transport_1_1NddsTransport.html#ae3a3490d62c21ec0213cb3de59055bf5',1,'madara::transport::NddsTransport::update_writer_()'],['../db/d90/classmadara_1_1transport_1_1SpliceDDSTransport.html#a705964205b72035387ef045354b607c7',1,'madara::transport::SpliceDDSTransport::update_writer_()'],['../d1/db2/classmadara_1_1transport_1_1SpliceReadThread.html#a642093c1d58fc523530222655f897081',1,'madara::transport::SpliceReadThread::update_writer_()']]],
   ['updates',['updates',['../d8/d83/classmadara_1_1transport_1_1MessageHeader.html#a2e5b10aa00f49d97ec834730e53525f3',1,'madara::transport::MessageHeader']]],
   ['us',['us',['../d2/d9f/classEndiannessChecker.html#a4f7408a5e550e3c0e8d1ce7158787b94',1,'EndiannessChecker']]],
+  ['use_5fsource_5fclock',['use_source_clock',['../d3/d81/structmadara_1_1knowledge_1_1KnowledgeRequirements.html#ade9bf4d82f17ebc3fca38f345ef7f9e9',1,'madara::knowledge::KnowledgeRequirements']]],
   ['utilization_5f',['utilization_',['../dc/d15/classmadara_1_1transport_1_1BandwidthMonitor.html#a3cf3aa2c637a3d28fb9a675bf3905b56',1,'madara::transport::BandwidthMonitor']]]
 ];
