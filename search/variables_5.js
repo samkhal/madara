@@ -2,7 +2,7 @@ var searchData=
 [
   ['file_5ftype',['file_type',['../d9/d60/classmadara_1_1knowledge_1_1FileHeader.html#ad4a68c5382f0799ec46c3c90384080b6',1,'madara::knowledge::FileHeader']]],
   ['file_5fvalue_5f',['file_value_',['../d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#a616e7edb10470f7adec64e1414839096',1,'madara::knowledge::KnowledgeRecord']]],
-  ['filename',['filename',['../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html#ad06a1a49268e75be7747b9e5fe33d381',1,'madara::knowledge::CheckpointSettings']]],
+  ['filename',['filename',['../df/dc0/classmadara_1_1knowledge_1_1CheckpointSettings.html#ad06a1a49268e75be7747b9e5fe33d381',1,'madara::knowledge::CheckpointSettings']]],
   ['files_5f',['files_',['../d5/da4/classmadara_1_1knowledge_1_1KnowledgeBaseImpl.html#ab39ece91a3cdfa729c1a0e497844a4cd',1,'madara::knowledge::KnowledgeBaseImpl::files_()'],['../de/de4/classmadara_1_1logger_1_1Logger.html#adeb0289c254d53fa340d95e8a9aefafe',1,'madara::logger::Logger::files_()']]],
   ['files_5ffolder_5f',['files_folder_',['../db/dbf/classmadara_1_1knowledge_1_1Files.html#a3332ec560512e920c6b2606904ec2582',1,'madara::knowledge::Files']]],
   ['filters_5f',['filters_',['../de/d32/classmadara_1_1knowledge_1_1KnowledgeRecordFilters.html#a06ec043df2be515c593efbc44863994b',1,'madara::knowledge::KnowledgeRecordFilters']]],

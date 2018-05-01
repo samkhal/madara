@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MADARA
-   &#160;<span id="projectnumber">3.1.6</span>
+   &#160;<span id="projectnumber">3.1.7</span>
    </div>
   </td>
  </tr>
@@ -277,7 +277,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9b770b79b5f106bdfe53516f6ead768f"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#a9b770b79b5f106bdfe53516f6ead768f">load_context</a> (const std::string &amp;filename, <a class="el" href="../../d9/d60/classmadara_1_1knowledge_1_1FileHeader.html">FileHeader</a> &amp;meta, bool use_id=true, const <a class="el" href="../../d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html">KnowledgeUpdateSettings</a> &amp;settings=<a class="el" href="../../d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html">KnowledgeUpdateSettings</a>(true, true, true, false))</td></tr>
 <tr class="memdesc:a9b770b79b5f106bdfe53516f6ead768f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the context from a file.  <a href="#a9b770b79b5f106bdfe53516f6ead768f">More...</a><br /></td></tr>
 <tr class="separator:a9b770b79b5f106bdfe53516f6ead768f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada52c57cf455c0e591a31529165380bc"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#ada52c57cf455c0e591a31529165380bc">load_context</a> (<a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;checkpoint_settings, const <a class="el" href="../../d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html">KnowledgeUpdateSettings</a> &amp;update_settings=<a class="el" href="../../d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html">KnowledgeUpdateSettings</a>(true, true, true, false))</td></tr>
+<tr class="memitem:ada52c57cf455c0e591a31529165380bc"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#ada52c57cf455c0e591a31529165380bc">load_context</a> (<a class="el" href="../../df/dc0/classmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;checkpoint_settings, const <a class="el" href="../../d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html">KnowledgeUpdateSettings</a> &amp;update_settings=<a class="el" href="../../d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html">KnowledgeUpdateSettings</a>(true, true, true, false))</td></tr>
 <tr class="memdesc:ada52c57cf455c0e591a31529165380bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the context from a file.  <a href="#ada52c57cf455c0e591a31529165380bc">More...</a><br /></td></tr>
 <tr class="separator:ada52c57cf455c0e591a31529165380bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3b662d7712f8564a53f2fa75c51b4de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#aa3b662d7712f8564a53f2fa75c51b4de">lock</a> (void)</td></tr>
@@ -319,6 +319,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a27129314e34be36c48f987203cb0bd8f"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#a27129314e34be36c48f987203cb0bd8f">remove_transport</a> (size_t index)</td></tr>
 <tr class="memdesc:a27129314e34be36c48f987203cb0bd8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a transport.  <a href="#a27129314e34be36c48f987203cb0bd8f">More...</a><br /></td></tr>
 <tr class="separator:a27129314e34be36c48f987203cb0bd8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdee3a850d38d020b6571540a9055e2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#afdee3a850d38d020b6571540a9055e2e">reset_checkpoint</a> (void) const </td></tr>
+<tr class="memdesc:afdee3a850d38d020b6571540a9055e2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the local changed map, which tracks checkpointing modifieds.  <a href="#afdee3a850d38d020b6571540a9055e2e">More...</a><br /></td></tr>
+<tr class="separator:afdee3a850d38d020b6571540a9055e2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a300f75ec3fa03ccf289cd2134b1e5632"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html">madara::knowledge::KnowledgeRecord</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#a300f75ec3fa03ccf289cd2134b1e5632">retrieve_index</a> (const std::string &amp;key, size_t index, const <a class="el" href="../../da/dc7/classmadara_1_1knowledge_1_1KnowledgeReferenceSettings.html">KnowledgeReferenceSettings</a> &amp;settings=<a class="el" href="../../da/dc7/classmadara_1_1knowledge_1_1KnowledgeReferenceSettings.html">KnowledgeReferenceSettings</a>(false))</td></tr>
 <tr class="memdesc:a300f75ec3fa03ccf289cd2134b1e5632"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a value at a specified index within a knowledge array.  <a href="#a300f75ec3fa03ccf289cd2134b1e5632">More...</a><br /></td></tr>
 <tr class="separator:a300f75ec3fa03ccf289cd2134b1e5632"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -328,25 +331,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acdd5f9e2106db5421e4c538e04ce6781"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#acdd5f9e2106db5421e4c538e04ce6781">save_as_json</a> (const std::string &amp;filename) const </td></tr>
 <tr class="memdesc:acdd5f9e2106db5421e4c538e04ce6781"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the context to a file as JSON.  <a href="#acdd5f9e2106db5421e4c538e04ce6781">More...</a><br /></td></tr>
 <tr class="separator:acdd5f9e2106db5421e4c538e04ce6781"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0188ce2c33f2cc595aecf808e9a8d96b"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#a0188ce2c33f2cc595aecf808e9a8d96b">save_as_json</a> (const <a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;settings) const </td></tr>
+<tr class="memitem:a0188ce2c33f2cc595aecf808e9a8d96b"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#a0188ce2c33f2cc595aecf808e9a8d96b">save_as_json</a> (const <a class="el" href="../../df/dc0/classmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;settings) const </td></tr>
 <tr class="memdesc:a0188ce2c33f2cc595aecf808e9a8d96b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the context to a file as JSON.  <a href="#a0188ce2c33f2cc595aecf808e9a8d96b">More...</a><br /></td></tr>
 <tr class="separator:a0188ce2c33f2cc595aecf808e9a8d96b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af048ea5ef0b1418419e6ea47ec187540"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#af048ea5ef0b1418419e6ea47ec187540">save_as_karl</a> (const std::string &amp;filename) const </td></tr>
 <tr class="memdesc:af048ea5ef0b1418419e6ea47ec187540"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the context to a file as karl assignments, rather than binary.  <a href="#af048ea5ef0b1418419e6ea47ec187540">More...</a><br /></td></tr>
 <tr class="separator:af048ea5ef0b1418419e6ea47ec187540"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63c1dc0b5f8252e7b8b0d39b74a7faae"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#a63c1dc0b5f8252e7b8b0d39b74a7faae">save_as_karl</a> (const <a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;settings) const </td></tr>
+<tr class="memitem:a63c1dc0b5f8252e7b8b0d39b74a7faae"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#a63c1dc0b5f8252e7b8b0d39b74a7faae">save_as_karl</a> (const <a class="el" href="../../df/dc0/classmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;settings) const </td></tr>
 <tr class="memdesc:a63c1dc0b5f8252e7b8b0d39b74a7faae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the context to a file as karl assignments, rather than binary.  <a href="#a63c1dc0b5f8252e7b8b0d39b74a7faae">More...</a><br /></td></tr>
 <tr class="separator:a63c1dc0b5f8252e7b8b0d39b74a7faae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab17a7dcf906270c817130063a79f7e7f"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#ab17a7dcf906270c817130063a79f7e7f">save_checkpoint</a> (const std::string &amp;filename, bool reset_modifieds=true)</td></tr>
 <tr class="memdesc:ab17a7dcf906270c817130063a79f7e7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves a checkpoint of a list of changes to a file.  <a href="#ab17a7dcf906270c817130063a79f7e7f">More...</a><br /></td></tr>
 <tr class="separator:ab17a7dcf906270c817130063a79f7e7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac87782215aa02032871f3e1c520c8837"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#ac87782215aa02032871f3e1c520c8837">save_checkpoint</a> (const <a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;settings) const </td></tr>
-<tr class="memdesc:ac87782215aa02032871f3e1c520c8837"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves a checkpoint of a list of changes to a file.  <a href="#ac87782215aa02032871f3e1c520c8837">More...</a><br /></td></tr>
-<tr class="separator:ac87782215aa02032871f3e1c520c8837"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf83a2ed5155f539c474122f7b1da56f"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#abf83a2ed5155f539c474122f7b1da56f">save_checkpoint</a> (<a class="el" href="../../df/dc0/classmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;settings) const </td></tr>
+<tr class="memdesc:abf83a2ed5155f539c474122f7b1da56f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves a checkpoint of a list of changes to a file.  <a href="#abf83a2ed5155f539c474122f7b1da56f">More...</a><br /></td></tr>
+<tr class="separator:abf83a2ed5155f539c474122f7b1da56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4353fd9d2b45a665a8acdf0ea84215a"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#ae4353fd9d2b45a665a8acdf0ea84215a">save_context</a> (const std::string &amp;filename) const </td></tr>
 <tr class="memdesc:ae4353fd9d2b45a665a8acdf0ea84215a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the context to a file.  <a href="#ae4353fd9d2b45a665a8acdf0ea84215a">More...</a><br /></td></tr>
 <tr class="separator:ae4353fd9d2b45a665a8acdf0ea84215a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9fa806bcee8184b24e3afe27252bd35"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#ad9fa806bcee8184b24e3afe27252bd35">save_context</a> (<a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;settings) const </td></tr>
+<tr class="memitem:ad9fa806bcee8184b24e3afe27252bd35"><td class="memItemLeft" align="right" valign="top">int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#ad9fa806bcee8184b24e3afe27252bd35">save_context</a> (<a class="el" href="../../df/dc0/classmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;settings) const </td></tr>
 <tr class="memdesc:ad9fa806bcee8184b24e3afe27252bd35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the context to a file.  <a href="#ad9fa806bcee8184b24e3afe27252bd35">More...</a><br /></td></tr>
 <tr class="separator:ad9fa806bcee8184b24e3afe27252bd35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4714428056126b92f954576eca9659fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d43/namespacemadara_1_1knowledge.html#afa3b76b5e804a5f38db4062762ae3ab6">VariableReferences</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#a4714428056126b92f954576eca9659fe">save_modifieds</a> (void) const </td></tr>
@@ -739,7 +742,7 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01591">1591</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01604">1604</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -1118,7 +1121,7 @@ Private Attributes</h2></td></tr>
 <p>Retrieves a stringified list of all modified variables that are ready to send over transport on next send_modifieds call. </p>
 <dl class="section return"><dt>Returns</dt><dd>stringified list of the modified knowledge records </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01636">1636</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01649">1649</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -1510,7 +1513,7 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01720">1720</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01733">1733</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -1635,7 +1638,7 @@ Private Attributes</h2></td></tr>
 <p>Returns the unique host and ephemeral binding for this Knowlede Base. </p>
 <dl class="section return"><dt>Returns</dt><dd>host:port identifier for this knowledge base </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01657">1657</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01670">1670</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -1721,7 +1724,7 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01705">1705</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01718">1718</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -1825,7 +1828,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>total bytes read </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01951">1951</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01964">1964</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -1879,7 +1882,7 @@ Private Attributes</h2></td></tr>
  -2 if file read failed<br />
  &gt;0 if successful (number of bytes written) </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01972">1972</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01985">1985</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -1890,7 +1893,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">int64_t madara::knowledge::KnowledgeBase::load_context </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../df/dc0/classmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;&#160;</td>
           <td class="paramname"><em>checkpoint_settings</em>, </td>
         </tr>
         <tr>
@@ -1919,7 +1922,7 @@ Private Attributes</h2></td></tr>
  -2 if file read failed<br />
  &gt;0 if successful (number of bytes written) </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01993">1993</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l02006">2006</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -2357,6 +2360,26 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="afdee3a850d38d020b6571540a9055e2e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void madara::knowledge::KnowledgeBase::reset_checkpoint </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Resets the local changed map, which tracks checkpointing modifieds. </p>
+
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01591">1591</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a300f75ec3fa03ccf289cd2134b1e5632"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2476,7 +2499,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>total bytes written </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01841">1841</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01854">1854</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -2487,7 +2510,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">int64_t madara::knowledge::KnowledgeBase::save_as_json </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../df/dc0/classmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;&#160;</td>
           <td class="paramname"><em>settings</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -2503,7 +2526,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>total bytes written </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01859">1859</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01872">1872</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -2530,7 +2553,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>total bytes written </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01877">1877</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01890">1890</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -2541,7 +2564,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">int64_t madara::knowledge::KnowledgeBase::save_as_karl </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../df/dc0/classmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;&#160;</td>
           <td class="paramname"><em>settings</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -2557,7 +2580,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>total bytes written </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01895">1895</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01908">1908</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -2595,18 +2618,18 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>total bytes written </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01914">1914</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01927">1927</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac87782215aa02032871f3e1c520c8837"></a>
+<a class="anchor" id="abf83a2ed5155f539c474122f7b1da56f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">int64_t madara::knowledge::KnowledgeBase::save_checkpoint </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../df/dc0/classmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;&#160;</td>
           <td class="paramname"><em>settings</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -2625,7 +2648,7 @@ Private Attributes</h2></td></tr>
  -2 if file write failed<br />
  &gt;0 if successful (number of bytes written) </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01933">1933</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01946">1946</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -2652,7 +2675,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>total bytes written </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01804">1804</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01817">1817</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -2663,7 +2686,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">int64_t madara::knowledge::KnowledgeBase::save_context </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../df/dc0/classmadara_1_1knowledge_1_1CheckpointSettings.html">CheckpointSettings</a> &amp;&#160;</td>
           <td class="paramname"><em>settings</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -2681,7 +2704,7 @@ Private Attributes</h2></td></tr>
  -2 if file write failed<br />
  &gt;0 if successful (number of bytes written) </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01822">1822</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01835">1835</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -2703,7 +2726,7 @@ Private Attributes</h2></td></tr>
 <p>This does not clear the modified list. This feature is useful if you want to remember what has been modified and then resend later, e.g., if you believe packets may be dropped and want to resend information. Use this function in conjunction with </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="../../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html#a1b16e908e37a2786be815e2af3641759" title="Adds a list of VariableReferences to the current modified list. ">add_modifieds</a> to remodify </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>a vector of VariableReferences to the current modified list </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01604">1604</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01617">1617</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -2741,7 +2764,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>number of transports the modifications were sent to </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01621">1621</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01634">1634</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -4142,7 +4165,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>unique host id (same as host param if host is not "") </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l02025">2025</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l02038">2038</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -4180,7 +4203,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>entries in the resulting map </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01728">1728</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01741">1741</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -4247,7 +4270,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>entries in the resulting map </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01747">1747</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01760">1760</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -4275,7 +4298,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A new map with just entries starting with prefix </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01772">1772</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01785">1785</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -4304,7 +4327,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A new map with just entries starting with prefix </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01788">1788</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01801">1801</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -4408,7 +4431,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>entries in the resulting vector </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01684">1684</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l01697">1697</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -4574,7 +4597,7 @@ Private Attributes</h2></td></tr>
 
 <p>Wait for a change to happen to the context (e.g., from transports) </p>
 
-<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l02012">2012</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html#l02025">2025</a> of file <a class="el" href="../../db/dde/KnowledgeBase_8cpp_source.html">KnowledgeBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -4636,7 +4659,7 @@ Private Attributes</h2></td></tr>
 
 <p>A knowledge base can also be a facade for another knowledge base. </p>
 
-<p>Definition at line <a class="el" href="../../d1/de5/KnowledgeBase_8h_source.html#l01290">1290</a> of file <a class="el" href="../../d1/de5/KnowledgeBase_8h_source.html">KnowledgeBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/de5/KnowledgeBase_8h_source.html#l01295">1295</a> of file <a class="el" href="../../d1/de5/KnowledgeBase_8h_source.html">KnowledgeBase.h</a>.</p>
 
 </div>
 </div>
@@ -4660,7 +4683,7 @@ Private Attributes</h2></td></tr>
 
 <p>Pointer to actual implementation, i.e., the "bridge", which is reference counted to automate memory management. </p>
 
-<p>Definition at line <a class="el" href="../../d1/de5/KnowledgeBase_8h_source.html#l01286">1286</a> of file <a class="el" href="../../d1/de5/KnowledgeBase_8h_source.html">KnowledgeBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/de5/KnowledgeBase_8h_source.html#l01291">1291</a> of file <a class="el" href="../../d1/de5/KnowledgeBase_8h_source.html">KnowledgeBase.h</a>.</p>
 
 </div>
 </div>
@@ -4675,7 +4698,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/da9/namespacemadara.html">madara</a></li><li class="navelem"><a class="el" href="../../df/d43/namespacemadara_1_1knowledge.html">knowledge</a></li><li class="navelem"><a class="el" href="../../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html">KnowledgeBase</a></li>
-    <li class="footer">Generated on Fri Apr 20 2018 18:16:21 for MADARA by
+    <li class="footer">Generated on Tue May 1 2018 02:15:10 for MADARA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

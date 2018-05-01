@@ -5,7 +5,7 @@ var dir_0ee7ef483ad9c1c99b2c44de72e506ad =
     [ "AggregateFilter.cpp", "de/d29/knowledge_2AggregateFilter_8cpp.html", "de/d29/knowledge_2AggregateFilter_8cpp" ],
     [ "AggregateFilter.h", "dc/db8/knowledge_2AggregateFilter_8h.html", "dc/db8/knowledge_2AggregateFilter_8h" ],
     [ "CheckpointSettings.h", "de/d2f/CheckpointSettings_8h.html", [
-      [ "CheckpointSettings", "d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html", "d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings" ]
+      [ "CheckpointSettings", "df/dc0/classmadara_1_1knowledge_1_1CheckpointSettings.html", "df/dc0/classmadara_1_1knowledge_1_1CheckpointSettings" ]
     ] ],
     [ "CompiledExpression.cpp", "da/dd9/CompiledExpression_8cpp.html", null ],
     [ "CompiledExpression.h", "db/d77/CompiledExpression_8h.html", [

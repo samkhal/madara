@@ -3,7 +3,7 @@ var namespacemadara_1_1knowledge =
     [ "containers", "d8/dfd/namespacemadara_1_1knowledge_1_1containers.html", "d8/dfd/namespacemadara_1_1knowledge_1_1containers" ],
     [ "rcw", "d6/dfb/namespacemadara_1_1knowledge_1_1rcw.html", "d6/dfb/namespacemadara_1_1knowledge_1_1rcw" ],
     [ "AggregateFilter", "de/dc4/classmadara_1_1knowledge_1_1AggregateFilter.html", "de/dc4/classmadara_1_1knowledge_1_1AggregateFilter" ],
-    [ "CheckpointSettings", "d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html", "d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings" ],
+    [ "CheckpointSettings", "df/dc0/classmadara_1_1knowledge_1_1CheckpointSettings.html", "df/dc0/classmadara_1_1knowledge_1_1CheckpointSettings" ],
     [ "CompiledExpression", "d0/d30/classmadara_1_1knowledge_1_1CompiledExpression.html", "d0/d30/classmadara_1_1knowledge_1_1CompiledExpression" ],
     [ "ContextGuard", "d8/d37/classmadara_1_1knowledge_1_1ContextGuard.html", "d8/d37/classmadara_1_1knowledge_1_1ContextGuard" ],
     [ "EvalSettings", "d3/d0d/structmadara_1_1knowledge_1_1EvalSettings.html", "d3/d0d/structmadara_1_1knowledge_1_1EvalSettings" ],

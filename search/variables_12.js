@@ -11,6 +11,7 @@ var searchData=
   ['thread_5finfo_5f',['thread_info_',['../d8/d72/classmadara_1_1knowledge_1_1TimedExecutor.html#affcd12be40c53cde1a75b94a47492435',1,'madara::knowledge::TimedExecutor']]],
   ['threads_5f',['threads_',['../d8/d72/classmadara_1_1knowledge_1_1TimedExecutor.html#a8a18d3ca2348cf9e7f36f5fe2fad8e5d',1,'madara::knowledge::TimedExecutor::threads_()'],['../d8/de5/classmadara_1_1threads_1_1Threader.html#a8233593b543a45b441e4e28554817873',1,'madara::threads::Threader::threads_()']]],
   ['threads_5fref_5f',['threads_ref_',['../d8/d72/classmadara_1_1knowledge_1_1TimedExecutor.html#a02ba88a3ea941ff73010b69eb87feede',1,'madara::knowledge::TimedExecutor']]],
+  ['threadsafecontext',['ThreadSafeContext',['../df/dc0/classmadara_1_1knowledge_1_1CheckpointSettings.html#a52c9359c080cdb99f6bb412326cfae38',1,'madara::knowledge::CheckpointSettings']]],
   ['tickets',['tickets',['../d5/de8/classStrideTask.html#a642f50c9b4f41d3a64f55387c3e11759',1,'StrideTask']]],
   ['timestamp',['timestamp',['../d8/d83/classmadara_1_1transport_1_1MessageHeader.html#a13799ae216e2a349d7c44980d560d626',1,'madara::transport::MessageHeader']]],
   ['timestamp_5fformat_5f',['timestamp_format_',['../de/de4/classmadara_1_1logger_1_1Logger.html#a98b83fb944bd602767331e8c746d9dad',1,'madara::logger::Logger']]],

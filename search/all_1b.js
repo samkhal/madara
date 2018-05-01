@@ -16,6 +16,7 @@ var searchData=
   ['_7ebroadcasttransport',['~BroadcastTransport',['../d2/dfe/classmadara_1_1transport_1_1BroadcastTransport.html#a3e0dc2b1d926e6f665a72fb821c341c4',1,'madara::transport::BroadcastTransport']]],
   ['_7ebufferfilter',['~BufferFilter',['../d7/d0f/classmadara_1_1filters_1_1BufferFilter.html#ad34070e18ad1659bee0e667f15eb8d70',1,'madara::filters::BufferFilter']]],
   ['_7ebuffervector',['~BufferVector',['../d1/d19/classmadara_1_1knowledge_1_1containers_1_1BufferVector.html#a24ba13f2207e9d58b5a9ba4f981f4328',1,'madara::knowledge::containers::BufferVector']]],
+  ['_7echeckpointsettings',['~CheckpointSettings',['../df/dc0/classmadara_1_1knowledge_1_1CheckpointSettings.html#a0ed7c6b2733795a49cd9789acdb20dce',1,'madara::knowledge::CheckpointSettings']]],
   ['_7eclearrecords',['~ClearRecords',['../d6/d6f/classmadara_1_1filters_1_1ClearRecords.html#a0299d0f0708eb0dfc8baf301a7a059fd',1,'madara::filters::ClearRecords']]],
   ['_7eclearvariable',['~ClearVariable',['../d3/d16/classmadara_1_1expression_1_1ClearVariable.html#a13c1fe1bca60bd491b90cfa8b7f88650',1,'madara::expression::ClearVariable']]],
   ['_7ecollection',['~Collection',['../d5/d89/classmadara_1_1knowledge_1_1containers_1_1Collection.html#a8d163cfa475a111dbd2bfc652d7567ec',1,'madara::knowledge::containers::Collection']]],

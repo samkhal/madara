@@ -11,7 +11,7 @@ var searchData=
   ['fileheader',['FileHeader',['../d9/d60/classmadara_1_1knowledge_1_1FileHeader.html#ab06a6c3a5dcbe5aac6a8cfcae48f0891',1,'madara::knowledge::FileHeader']]],
   ['fileheader_2ecpp',['FileHeader.cpp',['../d8/d9a/FileHeader_8cpp.html',1,'']]],
   ['fileheader_2eh',['FileHeader.h',['../d3/d9a/FileHeader_8h.html',1,'']]],
-  ['filename',['filename',['../d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html#ad06a1a49268e75be7747b9e5fe33d381',1,'madara::knowledge::CheckpointSettings']]],
+  ['filename',['filename',['../df/dc0/classmadara_1_1knowledge_1_1CheckpointSettings.html#ad06a1a49268e75be7747b9e5fe33d381',1,'madara::knowledge::CheckpointSettings']]],
   ['files',['Files',['../db/dbf/classmadara_1_1knowledge_1_1Files.html',1,'madara::knowledge']]],
   ['files',['Files',['../db/dbf/classmadara_1_1knowledge_1_1Files.html#a315bd336d59660d26eae5e2a663c4c1f',1,'madara::knowledge::Files']]],
   ['files_2ecpp',['Files.cpp',['../d1/d19/Files_8cpp.html',1,'']]],

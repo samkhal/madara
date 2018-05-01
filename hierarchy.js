@@ -79,7 +79,7 @@ var hierarchy =
       [ "madara::knowledge::rcw::Tracker< T, VariableReference, true, true, typename std::enable_if< supports_get_value< T >::value &&supports_knowledge_cast< T >::value &&supports_self_eq< T >::value &&!supports_is_dirty< T >::value >::type >", "de/dce/classmadara_1_1knowledge_1_1rcw_1_1Tracker_3_01T_00_01VariableReference_00_01true_00_01true_00_08023656a52dc85b130d216f2ef267ace.html", null ]
     ] ],
     [ "madara::filters::BufferFilter", "d7/d0f/classmadara_1_1filters_1_1BufferFilter.html", null ],
-    [ "madara::knowledge::CheckpointSettings", "d1/d44/structmadara_1_1knowledge_1_1CheckpointSettings.html", null ],
+    [ "madara::knowledge::CheckpointSettings", "df/dc0/classmadara_1_1knowledge_1_1CheckpointSettings.html", null ],
     [ "madara::knowledge::CompiledExpression", "d0/d30/classmadara_1_1knowledge_1_1CompiledExpression.html", null ],
     [ "madara::expression::ComponentNode", "db/d23/classmadara_1_1expression_1_1ComponentNode.html", [
       [ "madara::expression::CompositeForLoop", "d6/d09/classmadara_1_1expression_1_1CompositeForLoop.html", null ],
