@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MADARA
-   &#160;<span id="projectnumber">3.1.7</span>
+   &#160;<span id="projectnumber">3.1.8</span>
    </div>
   </td>
  </tr>
@@ -105,7 +105,9 @@ $(document).ready(function(){initNavTree('d5/d7d/KnowledgeRecord_8inl.html','../
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">KnowledgeRecord.inl File Reference</div>  </div>
 </div><!--header-->
@@ -236,10 +238,31 @@ This graph shows which files directly or indirectly include this file:</div>
 </div>
 <p><a href="../../d5/d7d/KnowledgeRecord_8inl_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d0/da9/namespacemadara"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/da9/namespacemadara.html">madara</a></td></tr>
+<tr class="memdesc:d0/da9/namespacemadara"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copyright (c) 2015 Carnegie Mellon University. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:df/d43/namespacemadara_1_1knowledge"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d43/namespacemadara_1_1knowledge.html">madara::knowledge</a></td></tr>
+<tr class="memdesc:df/d43/namespacemadara_1_1knowledge"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides functions and classes for the distributed knowledge base. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a4b7ddf30702acb6f57dab70739da1275"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d7d/KnowledgeRecord_8inl.html#a4b7ddf30702acb6f57dab70739da1275">_KNOWLEDGE_RECORD_INL_</a></td></tr>
 <tr class="separator:a4b7ddf30702acb6f57dab70739da1275"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ae6e59168509a491dfb3d74f8cd688cbd"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ae6e59168509a491dfb3d74f8cd688cbd"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d43/namespacemadara_1_1knowledge.html#ae6e59168509a491dfb3d74f8cd688cbd">madara::knowledge::destruct</a> (T &amp;x)</td></tr>
+<tr class="separator:ae6e59168509a491dfb3d74f8cd688cbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20ee7257ffc59634a1c085c215d296b3"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d43/namespacemadara_1_1knowledge.html#a20ee7257ffc59634a1c085c215d296b3">madara::knowledge::max_quality</a> (const KnowledgeRecords &amp;records)</td></tr>
+<tr class="memdesc:a20ee7257ffc59634a1c085c215d296b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the maximum quality within the records.  <a href="../../df/d43/namespacemadara_1_1knowledge.html#a20ee7257ffc59634a1c085c215d296b3">More...</a><br /></td></tr>
+<tr class="separator:a20ee7257ffc59634a1c085c215d296b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56c2805e69f1d3a2fa9415e9688bd305"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d43/namespacemadara_1_1knowledge.html#a56c2805e69f1d3a2fa9415e9688bd305">madara::knowledge::operator&lt;&lt;</a> (std::ostream &amp;stream, const <a class="el" href="../../d9/d61/VariableCompareNode_8cpp.html#a4de49817ed4ade7cbb3b08a5c7b9dcd6">KnowledgeRecord</a> &amp;rhs)</td></tr>
+<tr class="memdesc:a56c2805e69f1d3a2fa9415e9688bd305"><td class="mdescLeft">&#160;</td><td class="mdescRight">output stream buffering  <a href="../../df/d43/namespacemadara_1_1knowledge.html#a56c2805e69f1d3a2fa9415e9688bd305">More...</a><br /></td></tr>
+<tr class="separator:a56c2805e69f1d3a2fa9415e9688bd305"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>James Edmondson <a href="#" onclick="location.href='mai'+'lto:'+'jed'+'mo'+'nds'+'on'+'@gm'+'ai'+'l.c'+'om'; return false;">jedmo<span style="display: none;">.nosp@m.</span>ndso<span style="display: none;">.nosp@m.</span>n@gma<span style="display: none;">.nosp@m.</span>il.c<span style="display: none;">.nosp@m.</span>om</a></dd></dl>
@@ -267,7 +290,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="../../dir_81813d25d32ad4956e594fea3120bc8f.html">madara</a></li><li class="navelem"><a class="el" href="../../dir_0ee7ef483ad9c1c99b2c44de72e506ad.html">knowledge</a></li><li class="navelem"><a class="el" href="../../d5/d7d/KnowledgeRecord_8inl.html">KnowledgeRecord.inl</a></li>
-    <li class="footer">Generated on Tue May 1 2018 02:15:07 for MADARA by
+    <li class="footer">Generated on Wed May 9 2018 18:17:19 for MADARA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

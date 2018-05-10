@@ -95,6 +95,7 @@ var dir_fcbc2b8a579a36d4599a3b2a327edbf3 =
     [ "Queue.h", "df/db0/Queue_8h.html", [
       [ "Queue", "d8/dd1/classmadara_1_1knowledge_1_1containers_1_1Queue.html", "d8/dd1/classmadara_1_1knowledge_1_1containers_1_1Queue" ]
     ] ],
+    [ "Queue.inl", "d0/d49/Queue_8inl.html", null ],
     [ "String.cpp", "d7/db3/String_8cpp.html", null ],
     [ "String.h", "d9/dba/String_8h.html", [
       [ "String", "d3/da3/classmadara_1_1knowledge_1_1containers_1_1String.html", "d3/da3/classmadara_1_1knowledge_1_1containers_1_1String" ]

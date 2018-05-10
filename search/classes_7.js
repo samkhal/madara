@@ -13,6 +13,7 @@ var searchData=
   ['inithandler_3c_20builder_3c_20t_2c_20k_2c_20const_2c_20rd_2c_20wr_2c_20prefix_2c_20init_20_3e_2c_20builder_3c_20t_2c_20k_2c_20const_2c_20rd_2c_20wr_2c_20prefix_2c_20true_20_3e_2c_20t_20_3e',['InitHandler&lt; Builder&lt; T, K, Const, RD, WR, Prefix, Init &gt;, Builder&lt; T, K, Const, RD, WR, Prefix, true &gt;, T &gt;',['../d3/d7d/classmadara_1_1knowledge_1_1rcw_1_1Transaction_1_1InitHandler.html',1,'madara::knowledge::rcw::Transaction']]],
   ['inorderiteratorimpl',['InOrderIteratorImpl',['../de/d7d/classmadara_1_1expression_1_1InOrderIteratorImpl.html',1,'madara::expression']]],
   ['integer',['Integer',['../d3/d0b/classmadara_1_1knowledge_1_1containers_1_1Integer.html',1,'madara::knowledge::containers']]],
+  ['integers_5ft',['integers_t',['../df/d8b/structmadara_1_1knowledge_1_1tags_1_1integers__t.html',1,'madara::knowledge::tags']]],
   ['integerstaged',['IntegerStaged',['../dd/d2a/classmadara_1_1knowledge_1_1containers_1_1IntegerStaged.html',1,'madara::knowledge::containers']]],
   ['integervector',['IntegerVector',['../d8/d56/classmadara_1_1knowledge_1_1containers_1_1IntegerVector.html',1,'madara::knowledge::containers']]],
   ['integervector2d',['IntegerVector2D',['../d9/dd2/classmadara_1_1knowledge_1_1containers_1_1IntegerVector2D.html',1,'madara::knowledge::containers']]],

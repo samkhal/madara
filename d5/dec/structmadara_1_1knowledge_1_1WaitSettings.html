@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MADARA
-   &#160;<span id="projectnumber">3.1.7</span>
+   &#160;<span id="projectnumber">3.1.8</span>
    </div>
   </td>
  </tr>
@@ -191,7 +191,7 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a70edab7f388cbae6fac13aa32feb2226"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggle whether to signal changes have happened.  <a href="#a70edab7f388cbae6fac13aa32feb2226">More...</a><br /></td></tr>
 <tr class="separator:a70edab7f388cbae6fac13aa32feb2226"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb02e36f49e6cce3567aa22556a6e4d4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html#afb02e36f49e6cce3567aa22556a6e4d4">track_local_changes</a></td></tr>
-<tr class="memdesc:afb02e36f49e6cce3567aa22556a6e4d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggle for keeping track of modifications to local variables.  <a href="#afb02e36f49e6cce3567aa22556a6e4d4">More...</a><br /></td></tr>
+<tr class="memdesc:afb02e36f49e6cce3567aa22556a6e4d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggle for checkpointing support.  <a href="#afb02e36f49e6cce3567aa22556a6e4d4">More...</a><br /></td></tr>
 <tr class="separator:afb02e36f49e6cce3567aa22556a6e4d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb95f4a005baf196d4e1e01c697c5516"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d74/classmadara_1_1knowledge_1_1KnowledgeUpdateSettings.html#acb95f4a005baf196d4e1e01c697c5516">treat_globals_as_locals</a></td></tr>
 <tr class="memdesc:acb95f4a005baf196d4e1e01c697c5516"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggle whether updates to global variables are treated as local variables and not marked as modified to the transport.  <a href="#acb95f4a005baf196d4e1e01c697c5516">More...</a><br /></td></tr>
@@ -440,7 +440,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>Default clock increment. </p>
 
-<p>Definition at line <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html#l00134">134</a> of file <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html">KnowledgeUpdateSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html#l00136">136</a> of file <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html">KnowledgeUpdateSettings.h</a>.</p>
 
 </div>
 </div>
@@ -804,9 +804,10 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Toggle for keeping track of modifications to local variables. </p>
+<p>Toggle for checkpointing support. </p>
+<p>If this is true, all changes will be added to the local changes map in the knowledge base, which is used by save_checkpoint to create diffs of knowledge </p>
 
-<p>Definition at line <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html#l00129">129</a> of file <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html">KnowledgeUpdateSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html#l00131">131</a> of file <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html">KnowledgeUpdateSettings.h</a>.</p>
 
 </div>
 </div>
@@ -855,7 +856,7 @@ Static Public Attributes</h2></td></tr>
 <p>Toggle whether updates to local variables are treated as global variables that should be sent over the transport. </p>
 <p>It should be stressed that this is dangerous and should only be used for debugging. If you toggle this to true, all local variables will be sent over the network where they will overwrite local variables in remote systems, unless the remote system filters out the local variable changes with an on-receive filter </p>
 
-<p>Definition at line <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html#l00146">146</a> of file <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html">KnowledgeUpdateSettings.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html#l00148">148</a> of file <a class="el" href="../../d6/d7e/KnowledgeUpdateSettings_8h_source.html">KnowledgeUpdateSettings.h</a>.</p>
 
 </div>
 </div>
@@ -869,7 +870,7 @@ Static Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/da9/namespacemadara.html">madara</a></li><li class="navelem"><a class="el" href="../../df/d43/namespacemadara_1_1knowledge.html">knowledge</a></li><li class="navelem"><a class="el" href="../../d5/dec/structmadara_1_1knowledge_1_1WaitSettings.html">WaitSettings</a></li>
-    <li class="footer">Generated on Tue May 1 2018 02:15:10 for MADARA by
+    <li class="footer">Generated on Wed May 9 2018 18:17:22 for MADARA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -1,3 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$db/daa/classmadara_1_1utility_1_1ScopedArray.html" title="This template class provides transparent reference counting of its template parameter T..." alt="" coords="5,5,224,32"/>
+<area shape="rect" id="node1" href="$da/d78/structmadara_1_1utility_1_1Refcounter_1_1Shim.html" title="A shim class that keeps track of the reference count and a pointer to the type T that&#39;s reference cou..." alt="" coords="5,5,181,47"/>
 </map>

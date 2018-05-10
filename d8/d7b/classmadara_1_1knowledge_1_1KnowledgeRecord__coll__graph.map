@@ -1,10 +1,5 @@
 <map id="madara::knowledge::KnowledgeRecord" name="madara::knowledge::KnowledgeRecord">
-<area shape="rect" id="node2" href="$de/de4/classmadara_1_1logger_1_1Logger.html" title="A multi&#45;threaded logger for logging to one or more destinations. " alt="" coords="545,56,700,83"/>
-<area shape="rect" id="node4" title="STL class. " alt="" coords="235,65,315,92"/>
-<area shape="rect" id="node5" title="STL class. " alt="" coords="5,58,132,99"/>
-<area shape="rect" id="node6" href="$db/daa/classmadara_1_1utility_1_1ScopedArray.html" title="madara::utility::ScopedArray\l\&lt; double \&gt;" alt="" coords="529,107,716,149"/>
-<area shape="rect" id="node7" href="$dd/d7d/structmadara_1_1utility_1_1ScopedArray_1_1Shim.html" title="A shim class that keeps track of the reference count and a pointer to the type T that&#39;s reference cou..." alt="" coords="181,206,368,247"/>
-<area shape="rect" id="node8" href="$db/daa/classmadara_1_1utility_1_1ScopedArray.html" title="madara::utility::ScopedArray\l\&lt; char \&gt;" alt="" coords="529,173,716,214"/>
-<area shape="rect" id="node9" href="$db/daa/classmadara_1_1utility_1_1ScopedArray.html" title="madara::utility::ScopedArray\l\&lt; Integer \&gt;" alt="" coords="529,238,716,279"/>
-<area shape="rect" id="node10" href="$db/daa/classmadara_1_1utility_1_1ScopedArray.html" title="madara::utility::ScopedArray\l\&lt; unsigned char \&gt;" alt="" coords="529,303,716,345"/>
+<area shape="rect" id="node2" href="$de/de4/classmadara_1_1logger_1_1Logger.html" title="A multi&#45;threaded logger for logging to one or more destinations. " alt="" coords="51,200,206,227"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="175,96,255,123"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="152,5,279,47"/>
 </map>

@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['madara_5fdouble_5fprecision',['madara_double_precision',['../dc/d21/KnowledgeRecord_8cpp.html#a97ba102b497cedf103cbb73ceea3b190',1,'KnowledgeRecord.cpp']]],
-  ['madara_5fuse_5fscientific',['madara_use_scientific',['../dc/d21/KnowledgeRecord_8cpp.html#a9a0a4f3c0b4e16c5d50ba3d753a4f349',1,'KnowledgeRecord.cpp']]],
   ['main_5floop',['main_loop',['../de/d19/classmadara_1_1expression_1_1Interpreter.html#a869ff20a30ec62da270676c9dcf5a0f7',1,'madara::expression::Interpreter']]],
   ['make_5fin_5forder_5ftree_5fiterator',['make_in_order_tree_iterator',['../da/ddb/classmadara_1_1expression_1_1ExpressionTreeIteratorFactory.html#a060b1ee77cb10d88204c5a256b3a76ad',1,'madara::expression::ExpressionTreeIteratorFactory']]],
   ['make_5flevel_5forder_5ftree_5fiterator',['make_level_order_tree_iterator',['../da/ddb/classmadara_1_1expression_1_1ExpressionTreeIteratorFactory.html#a3e0bd4a2651074a0e4e60480ad001f86',1,'madara::expression::ExpressionTreeIteratorFactory']]],

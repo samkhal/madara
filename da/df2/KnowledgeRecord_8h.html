@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MADARA
-   &#160;<span id="projectnumber">3.1.7</span>
+   &#160;<span id="projectnumber">3.1.8</span>
    </div>
   </td>
  </tr>
@@ -108,7 +108,8 @@ $(document).ready(function(){initNavTree('da/df2/KnowledgeRecord_8h.html','../..
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">KnowledgeRecord.h File Reference</div>  </div>
 </div><!--header-->
@@ -116,9 +117,10 @@ $(document).ready(function(){initNavTree('da/df2/KnowledgeRecord_8h.html','../..
 <div class="textblock"><code>#include &lt;string&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;map&gt;</code><br />
+<code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;type_traits&gt;</code><br />
 <code>#include &quot;madara/MADARA_export.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../df/dd8/stdint_8h_source.html">madara/utility/stdint.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d7b/ScopedArray_8h_source.html">madara/utility/ScopedArray.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/dca/Refcounter_8h_source.html">madara/utility/Refcounter.h</a>&quot;</code><br />
 <code>#include &quot;ace/os_include/sys/os_types.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/ddd/GlobalLogger_8h_source.html">madara/logger/GlobalLogger.h</a>&quot;</code><br />
@@ -129,22 +131,20 @@ Include dependency graph for KnowledgeRecord.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d2/de2/KnowledgeRecord_8h__incl.png" border="0" usemap="#include_2madara_2knowledge_2KnowledgeRecord_8h" alt=""/></div>
 <map name="include_2madara_2knowledge_2KnowledgeRecord_8h" id="include_2madara_2knowledge_2KnowledgeRecord_8h">
-<area shape="rect" id="node6" href="../../df/dd8/stdint_8h.html" title="madara/utility/stdint.h" alt="" coords="1533,587,1679,613"/>
-<area shape="rect" id="node7" href="../../d7/d7b/ScopedArray_8h.html" title="madara/utility/ScopedArray.h" alt="" coords="2211,102,2401,129"/>
-<area shape="rect" id="node9" href="../../d9/dca/Refcounter_8h.html" title="madara/utility/Refcounter.h" alt="" coords="1003,184,1182,211"/>
-<area shape="rect" id="node12" href="../../d9/ddd/GlobalLogger_8h.html" title="madara/logger/GlobalLogger.h" alt="" coords="478,102,673,129"/>
-<area shape="rect" id="node17" href="../../d3/dd6/inttypes_8h.html" title="madara/utility/inttypes.h" alt="" coords="652,259,813,285"/>
-<area shape="rect" id="node20" href="../../d5/d7d/KnowledgeRecord_8inl.html" title="KnowledgeRecord.inl" alt="" coords="1399,102,1544,129"/>
-<area shape="rect" id="node8" href="../../dd/ddd/ScopedArray_8inl.html" title="madara/utility/ScopedArray.inl" alt="" coords="2209,184,2405,211"/>
-<area shape="rect" id="node10" href="../../d1/de3/Refcounter_8cpp.html" title="madara/utility/Refcounter.cpp" alt="" coords="996,259,1189,285"/>
-<area shape="rect" id="node13" href="../../dd/da4/Logger_8h.html" title="Logger.h" alt="" coords="501,184,573,211"/>
-<area shape="rect" id="node18" href="../../d2/d8d/Logger_8inl.html" title="Logger.inl" alt="" coords="497,259,576,285"/>
-<area shape="rect" id="node23" href="../../d7/d23/Utility_8h.html" title="madara/utility/Utility.h" alt="" coords="1599,184,1749,211"/>
-<area shape="rect" id="node26" href="../../d1/d11/WaitSettings_8h.html" title="madara/knowledge/WaitSettings.h" alt="" coords="1366,259,1587,285"/>
-<area shape="rect" id="node30" href="../../dd/d88/Utility_8inl.html" title="Utility.inl" alt="" coords="2060,259,2133,285"/>
-<area shape="rect" id="node27" href="../../dd/d5b/EvalSettings_8h.html" title="madara/knowledge/EvalSettings.h" alt="" coords="1167,333,1387,360"/>
-<area shape="rect" id="node28" href="../../d6/d7e/KnowledgeUpdateSettings_8h.html" title="madara/knowledge/Knowledge\lUpdateSettings.h" alt="" coords="1196,408,1395,449"/>
-<area shape="rect" id="node29" href="../../d9/d12/KnowledgeReferenceSettings_8h.html" title="madara/knowledge/Knowledge\lReferenceSettings.h" alt="" coords="1216,497,1415,539"/>
+<area shape="rect" id="node8" href="../../df/dd8/stdint_8h.html" title="madara/utility/stdint.h" alt="" coords="1439,587,1585,613"/>
+<area shape="rect" id="node9" href="../../d9/dca/Refcounter_8h.html" title="madara/utility/Refcounter.h" alt="" coords="948,184,1127,211"/>
+<area shape="rect" id="node12" href="../../d9/ddd/GlobalLogger_8h.html" title="madara/logger/GlobalLogger.h" alt="" coords="485,102,680,129"/>
+<area shape="rect" id="node17" href="../../d3/dd6/inttypes_8h.html" title="madara/utility/inttypes.h" alt="" coords="679,259,841,285"/>
+<area shape="rect" id="node20" href="../../d5/d7d/KnowledgeRecord_8inl.html" title="KnowledgeRecord.inl" alt="" coords="1670,102,1815,129"/>
+<area shape="rect" id="node10" href="../../d1/de3/Refcounter_8cpp.html" title="madara/utility/Refcounter.cpp" alt="" coords="941,259,1134,285"/>
+<area shape="rect" id="node13" href="../../dd/da4/Logger_8h.html" title="Logger.h" alt="" coords="528,184,600,211"/>
+<area shape="rect" id="node18" href="../../d2/d8d/Logger_8inl.html" title="Logger.inl" alt="" coords="525,259,603,285"/>
+<area shape="rect" id="node23" href="../../d7/d23/Utility_8h.html" title="madara/utility/Utility.h" alt="" coords="1833,184,1983,211"/>
+<area shape="rect" id="node26" href="../../d1/d11/WaitSettings_8h.html" title="madara/knowledge/WaitSettings.h" alt="" coords="1343,259,1564,285"/>
+<area shape="rect" id="node30" href="../../dd/d88/Utility_8inl.html" title="Utility.inl" alt="" coords="2089,259,2162,285"/>
+<area shape="rect" id="node27" href="../../dd/d5b/EvalSettings_8h.html" title="madara/knowledge/EvalSettings.h" alt="" coords="991,333,1211,360"/>
+<area shape="rect" id="node28" href="../../d6/d7e/KnowledgeUpdateSettings_8h.html" title="madara/knowledge/Knowledge\lUpdateSettings.h" alt="" coords="1062,408,1261,449"/>
+<area shape="rect" id="node29" href="../../d9/d12/KnowledgeReferenceSettings_8h.html" title="madara/knowledge/Knowledge\lReferenceSettings.h" alt="" coords="1062,497,1261,539"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -258,8 +258,18 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbb/structmadara_1_1knowledge_1_1tags_1_1binary__t.html">madara::knowledge::tags::binary_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df5/structmadara_1_1knowledge_1_1tags_1_1doubles__t.html">madara::knowledge::tags::doubles_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/structmadara_1_1knowledge_1_1tags_1_1integers__t.html">madara::knowledge::tags::integers_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html">madara::knowledge::KnowledgeRecord</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class encapsulates an entry in a <a class="el" href="../../da/d1c/classmadara_1_1knowledge_1_1KnowledgeBase.html" title="This class provides a distributed knowledge base to users. ">KnowledgeBase</a>.  <a href="../../d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dca/structmadara_1_1knowledge_1_1tags_1_1shared__t.html">madara::knowledge::tags::shared_t&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d36/structmadara_1_1knowledge_1_1tags_1_1string__t.html">madara::knowledge::tags::string_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -269,6 +279,9 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:df/d43/namespacemadara_1_1knowledge"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d43/namespacemadara_1_1knowledge.html">madara::knowledge</a></td></tr>
 <tr class="memdesc:df/d43/namespacemadara_1_1knowledge"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides functions and classes for the distributed knowledge base. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d8/d0f/namespacemadara_1_1knowledge_1_1tags"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0f/namespacemadara_1_1knowledge_1_1tags.html">madara::knowledge::tags</a></td></tr>
+<tr class="memdesc:d8/d0f/namespacemadara_1_1knowledge_1_1tags"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tags to specify what type to construct in <a class="el" href="../../d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html" title="This class encapsulates an entry in a KnowledgeBase. ">KnowledgeRecord</a> forwarding constructors. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -293,53 +306,34 @@ Functions</h2></td></tr>
 <tr class="memitem:a20ee7257ffc59634a1c085c215d296b3"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d43/namespacemadara_1_1knowledge.html#a20ee7257ffc59634a1c085c215d296b3">madara::knowledge::max_quality</a> (const KnowledgeRecords &amp;records)</td></tr>
 <tr class="memdesc:a20ee7257ffc59634a1c085c215d296b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the maximum quality within the records.  <a href="../../df/d43/namespacemadara_1_1knowledge.html#a20ee7257ffc59634a1c085c215d296b3">More...</a><br /></td></tr>
 <tr class="separator:a20ee7257ffc59634a1c085c215d296b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92dbb33c02c0a74c9a9dbf0d33dd6bb0"><td class="memItemLeft" align="right" valign="top">MADARA_Export std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df2/KnowledgeRecord_8h.html#a92dbb33c02c0a74c9a9dbf0d33dd6bb0">operator&lt;&lt;</a> (std::ostream &amp;stream, const <a class="el" href="../../d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html">madara::knowledge::KnowledgeRecord</a> &amp;rhs)</td></tr>
-<tr class="memdesc:a92dbb33c02c0a74c9a9dbf0d33dd6bb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">output stream buffering  <a href="#a92dbb33c02c0a74c9a9dbf0d33dd6bb0">More...</a><br /></td></tr>
-<tr class="separator:a92dbb33c02c0a74c9a9dbf0d33dd6bb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a237cf70cd7e89f868d54e0eb257e6760"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a237cf70cd7e89f868d54e0eb257e6760"><td class="memTemplItemLeft" align="right" valign="top">constexpr shared_t&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d0f/namespacemadara_1_1knowledge_1_1tags.html#a237cf70cd7e89f868d54e0eb257e6760">madara::knowledge::tags::shared</a> (T)</td></tr>
+<tr class="memdesc:a237cf70cd7e89f868d54e0eb257e6760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to signal in-place shared_ptr construction in <a class="el" href="../../d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html" title="This class encapsulates an entry in a KnowledgeBase. ">KnowledgeRecord</a> Example: tags::shared(tags::integers)  <a href="../../d8/d0f/namespacemadara_1_1knowledge_1_1tags.html#a237cf70cd7e89f868d54e0eb257e6760">More...</a><br /></td></tr>
+<tr class="separator:a237cf70cd7e89f868d54e0eb257e6760"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:acfa2d343e2df901c6485b3b0f88981de"><td class="memItemLeft" align="right" valign="top">static constexpr struct <a class="el" href="../../db/dbb/structmadara_1_1knowledge_1_1tags_1_1binary__t.html">madara::knowledge::tags::binary_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0f/namespacemadara_1_1knowledge_1_1tags.html#acfa2d343e2df901c6485b3b0f88981de">madara::knowledge::tags::binary</a></td></tr>
+<tr class="separator:acfa2d343e2df901c6485b3b0f88981de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbab8114b68e9bf4d5d847974b6db9dd"><td class="memItemLeft" align="right" valign="top">static constexpr struct <a class="el" href="../../d2/df5/structmadara_1_1knowledge_1_1tags_1_1doubles__t.html">madara::knowledge::tags::doubles_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0f/namespacemadara_1_1knowledge_1_1tags.html#abbab8114b68e9bf4d5d847974b6db9dd">madara::knowledge::tags::doubles</a></td></tr>
+<tr class="separator:abbab8114b68e9bf4d5d847974b6db9dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1f195386dd5f198d65c5e44e48bdcc4"><td class="memItemLeft" align="right" valign="top">static constexpr struct <a class="el" href="../../df/d8b/structmadara_1_1knowledge_1_1tags_1_1integers__t.html">madara::knowledge::tags::integers_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0f/namespacemadara_1_1knowledge_1_1tags.html#aa1f195386dd5f198d65c5e44e48bdcc4">madara::knowledge::tags::integers</a></td></tr>
+<tr class="separator:aa1f195386dd5f198d65c5e44e48bdcc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ec5cdb0d18395c0eff67f2990704d52"><td class="memItemLeft" align="right" valign="top">static constexpr struct <a class="el" href="../../d6/d36/structmadara_1_1knowledge_1_1tags_1_1string__t.html">madara::knowledge::tags::string_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0f/namespacemadara_1_1knowledge_1_1tags.html#a7ec5cdb0d18395c0eff67f2990704d52">madara::knowledge::tags::string</a></td></tr>
+<tr class="separator:a7ec5cdb0d18395c0eff67f2990704d52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>James Edmondson <a href="#" onclick="location.href='mai'+'lto:'+'jed'+'mo'+'nds'+'on'+'@gm'+'ai'+'l.c'+'om'; return false;">jedmo<span style="display: none;">.nosp@m.</span>ndso<span style="display: none;">.nosp@m.</span>n@gma<span style="display: none;">.nosp@m.</span>il.c<span style="display: none;">.nosp@m.</span>om</a></dd></dl>
 <p>This file contains the KnowledgeRecord class, helper typdefs and functions </p>
 
 <p>Definition in file <a class="el" href="../../da/df2/KnowledgeRecord_8h_source.html">KnowledgeRecord.h</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a92dbb33c02c0a74c9a9dbf0d33dd6bb0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MADARA_Export std::ostream&amp; operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>stream</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html">madara::knowledge::KnowledgeRecord</a> &amp;&#160;</td>
-          <td class="paramname"><em>rhs</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>output stream buffering </p>
-
-<p>Definition at line <a class="el" href="../../dc/d21/KnowledgeRecord_8cpp_source.html#l01838">1838</a> of file <a class="el" href="../../dc/d21/KnowledgeRecord_8cpp_source.html">KnowledgeRecord.cpp</a>.</p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="../../dir_81813d25d32ad4956e594fea3120bc8f.html">madara</a></li><li class="navelem"><a class="el" href="../../dir_0ee7ef483ad9c1c99b2c44de72e506ad.html">knowledge</a></li><li class="navelem"><a class="el" href="../../da/df2/KnowledgeRecord_8h.html">KnowledgeRecord.h</a></li>
-    <li class="footer">Generated on Tue May 1 2018 02:15:07 for MADARA by
+    <li class="footer">Generated on Wed May 9 2018 18:17:19 for MADARA by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

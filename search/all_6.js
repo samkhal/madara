@@ -6,7 +6,7 @@ var searchData=
   ['file_5fsize',['file_size',['../de/d04/namespacemadara_1_1utility.html#a18744580ed62f35cef5dab93e8eac31b',1,'madara::utility']]],
   ['file_5fto_5fstring',['file_to_string',['../de/d04/namespacemadara_1_1utility.html#a30722a9b0be94b428221b35afa71f043',1,'madara::utility']]],
   ['file_5ftype',['file_type',['../d9/d60/classmadara_1_1knowledge_1_1FileHeader.html#ad4a68c5382f0799ec46c3c90384080b6',1,'madara::knowledge::FileHeader']]],
-  ['file_5fvalue_5f',['file_value_',['../d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#a616e7edb10470f7adec64e1414839096',1,'madara::knowledge::KnowledgeRecord']]],
+  ['file_5fvalue_5f',['file_value_',['../d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#a2cc12d2d29c9f3879ec4c62b8fab5c15',1,'madara::knowledge::KnowledgeRecord']]],
   ['fileheader',['FileHeader',['../d9/d60/classmadara_1_1knowledge_1_1FileHeader.html',1,'madara::knowledge']]],
   ['fileheader',['FileHeader',['../d9/d60/classmadara_1_1knowledge_1_1FileHeader.html#ab06a6c3a5dcbe5aac6a8cfcae48f0891',1,'madara::knowledge::FileHeader']]],
   ['fileheader_2ecpp',['FileHeader.cpp',['../d8/d9a/FileHeader_8cpp.html',1,'']]],
@@ -44,7 +44,7 @@ var searchData=
   ['forloop',['ForLoop',['../de/d7f/classmadara_1_1expression_1_1ForLoop.html',1,'madara::expression']]],
   ['forloop',['ForLoop',['../de/d7f/classmadara_1_1expression_1_1ForLoop.html#a6095d1c3c34d090a5d25e43274a6bb56',1,'madara::expression::ForLoop']]],
   ['frag',['frag',['../d5/de9/namespacemadara_1_1transport.html#a1cc3c98e6b1ac062a26def879c440525',1,'madara::transport']]],
-  ['fragment',['Fragment',['../d4/dee/classmadara_1_1expression_1_1Fragment.html#a418ff7a7d4a765b50fd099469b28d099',1,'madara::expression::Fragment::Fragment()'],['../d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#afc8514fb7efb4c4fc494f9a0f257288e',1,'madara::knowledge::KnowledgeRecord::fragment()']]],
+  ['fragment',['Fragment',['../d4/dee/classmadara_1_1expression_1_1Fragment.html#a418ff7a7d4a765b50fd099469b28d099',1,'madara::expression::Fragment::Fragment()'],['../d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#a53c955a50b1440a1adf2be92b839e33e',1,'madara::knowledge::KnowledgeRecord::fragment()']]],
   ['fragment',['Fragment',['../d4/dee/classmadara_1_1expression_1_1Fragment.html',1,'madara::expression']]],
   ['fragment_5fmap',['fragment_map',['../d1/d4e/classmadara_1_1transport_1_1TransportSettings.html#a1f8f912a1716d36d3028007683b08cfd',1,'madara::transport::TransportSettings']]],
   ['fragment_5fmessage_5fheader_5ftest',['fragment_message_header_test',['../d6/d41/classmadara_1_1transport_1_1FragmentMessageHeader.html#a7f27a567812d4fd77752f60c0214f92d',1,'madara::transport::FragmentMessageHeader']]],
@@ -74,5 +74,5 @@ var searchData=
   ['functions_2ecpp',['Functions.cpp',['../db/db8/Functions_8cpp.html',1,'']]],
   ['functions_2eh',['Functions.h',['../d8/db9/Functions_8h.html',1,'']]],
   ['functions_5f',['functions_',['../de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html#a8de7235ae98caaceda7ef619d5b88284',1,'madara::knowledge::ThreadSafeContext']]],
-  ['functor',['functor',['../de/dc4/classmadara_1_1knowledge_1_1AggregateFilter.html#ad784f6448c770798b47efeb0a936ab28',1,'madara::knowledge::AggregateFilter::functor()'],['../d2/d83/classmadara_1_1knowledge_1_1Function.html#a7f8755ba1c0873e34680b33a53dd589f',1,'madara::knowledge::Function::functor()'],['../de/dc4/classmadara_1_1knowledge_1_1AggregateFilter.html#aba03fde57e8cb8b2eee3784e7db3fa7aa0be5db62b3fc926cd747ee8a50eb3314',1,'madara::knowledge::AggregateFilter::FUNCTOR()'],['../d2/d83/classmadara_1_1knowledge_1_1Function.html#a2d215a1c1b73276fae1daefcd3bbacc4a1eb34e12456cd1247ea41f932646051c',1,'madara::knowledge::Function::FUNCTOR()']]]
+  ['functor',['FUNCTOR',['../de/dc4/classmadara_1_1knowledge_1_1AggregateFilter.html#aba03fde57e8cb8b2eee3784e7db3fa7aa0be5db62b3fc926cd747ee8a50eb3314',1,'madara::knowledge::AggregateFilter::FUNCTOR()'],['../d2/d83/classmadara_1_1knowledge_1_1Function.html#a2d215a1c1b73276fae1daefcd3bbacc4a1eb34e12456cd1247ea41f932646051c',1,'madara::knowledge::Function::FUNCTOR()'],['../de/dc4/classmadara_1_1knowledge_1_1AggregateFilter.html#ad784f6448c770798b47efeb0a936ab28',1,'madara::knowledge::AggregateFilter::functor()'],['../d2/d83/classmadara_1_1knowledge_1_1Function.html#a7f8755ba1c0873e34680b33a53dd589f',1,'madara::knowledge::Function::functor()']]]
 ];

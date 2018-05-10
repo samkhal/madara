@@ -1,24 +1,19 @@
 <map id="madara::transport::QoSTransportSettings" name="madara::transport::QoSTransportSettings">
-<area shape="rect" id="node2" href="$d1/d4e/classmadara_1_1transport_1_1TransportSettings.html" title="Holds basic transport settings. " alt="" coords="1017,207,1149,249"/>
-<area shape="rect" id="node4" title="STL class. " alt="" coords="291,416,371,443"/>
-<area shape="rect" id="node17" href="$de/de4/classmadara_1_1logger_1_1Logger.html" title="A multi&#45;threaded logger for logging to one or more destinations. " alt="" coords="619,409,774,436"/>
-<area shape="rect" id="node5" title="STL class. " alt="" coords="5,409,132,450"/>
-<area shape="rect" id="node7" title="STL class. " alt="" coords="269,45,392,72"/>
-<area shape="rect" id="node33" title="STL class. " alt="" coords="282,96,379,123"/>
-<area shape="rect" id="node13" href="$de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html" title="This class stores variables and their values for use by any entity needing state information in a thr..." alt="" coords="1889,501,2032,542"/>
-<area shape="rect" id="node12" href="$de/d32/classmadara_1_1knowledge_1_1KnowledgeRecordFilters.html" title="Provides map of data types to a filter chain to apply to the data. " alt="" coords="2205,214,2369,255"/>
-<area shape="rect" id="node15" href="$d2/d83/classmadara_1_1knowledge_1_1Function.html" title="This class stores a function definition. " alt="" coords="1345,533,1488,574"/>
-<area shape="rect" id="node16" href="$d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html" title="This class encapsulates an entry in a KnowledgeBase. " alt="" coords="1011,886,1154,927"/>
-<area shape="rect" id="node25" href="$d5/d32/classmadara_1_1expression_1_1ExpressionTree.html" title="Encapsulates a MADARA KaRL expression into an evaluatable tree. " alt="" coords="1015,581,1151,622"/>
-<area shape="rect" id="node19" href="$db/daa/classmadara_1_1utility_1_1ScopedArray.html" title="madara::utility::ScopedArray\l\&lt; double \&gt;" alt="" coords="603,951,790,993"/>
-<area shape="rect" id="node20" href="$dd/d7d/structmadara_1_1utility_1_1ScopedArray_1_1Shim.html" title="A shim class that keeps track of the reference count and a pointer to the type T that&#39;s reference cou..." alt="" coords="237,989,424,1030"/>
-<area shape="rect" id="node21" href="$db/daa/classmadara_1_1utility_1_1ScopedArray.html" title="madara::utility::ScopedArray\l\&lt; char \&gt;" alt="" coords="603,1017,790,1058"/>
-<area shape="rect" id="node22" href="$db/daa/classmadara_1_1utility_1_1ScopedArray.html" title="madara::utility::ScopedArray\l\&lt; Integer \&gt;" alt="" coords="603,1082,790,1123"/>
-<area shape="rect" id="node23" href="$db/daa/classmadara_1_1utility_1_1ScopedArray.html" title="madara::utility::ScopedArray\l\&lt; unsigned char \&gt;" alt="" coords="603,886,790,927"/>
-<area shape="rect" id="node24" href="$d9/d7f/classmadara_1_1filters_1_1RecordFilter.html" title="Abstract base class for implementing individual record filters via a functor interface. " alt="" coords="991,521,1175,548"/>
-<area shape="rect" id="node26" href="$d0/ddb/classmadara_1_1utility_1_1Refcounter.html" title="madara::utility::Refcounter\l\&lt; madara::expression::Component\lNode \&gt;" alt="" coords="585,749,808,805"/>
-<area shape="rect" id="node27" href="$da/d78/structmadara_1_1utility_1_1Refcounter_1_1Shim.html" title="A shim class that keeps track of the reference count and a pointer to the type T that&#39;s reference cou..." alt="" coords="243,757,419,798"/>
-<area shape="rect" id="node30" href="$de/d19/classmadara_1_1expression_1_1Interpreter.html" title="Parses incoming expression strings into a parse tree and generates an expression tree from the parse ..." alt="" coords="1613,583,1749,625"/>
-<area shape="rect" id="node35" href="$de/dc4/classmadara_1_1knowledge_1_1AggregateFilter.html" title="This class stores a function definition. " alt="" coords="1610,211,1753,253"/>
-<area shape="rect" id="node36" href="$db/dff/classmadara_1_1filters_1_1AggregateFilter.html" title="Abstract base class for implementing aggregate record filters via a functor interface. " alt="" coords="1331,211,1503,253"/>
+<area shape="rect" id="node2" href="$d1/d4e/classmadara_1_1transport_1_1TransportSettings.html" title="Holds basic transport settings. " alt="" coords="1006,151,1138,193"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="285,299,365,325"/>
+<area shape="rect" id="node17" href="$de/de4/classmadara_1_1logger_1_1Logger.html" title="A multi&#45;threaded logger for logging to one or more destinations. " alt="" coords="609,623,763,649"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="5,291,132,333"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="264,125,387,152"/>
+<area shape="rect" id="node28" title="STL class. " alt="" coords="277,804,374,831"/>
+<area shape="rect" id="node13" href="$de/d3d/classmadara_1_1knowledge_1_1ThreadSafeContext.html" title="This class stores variables and their values for use by any entity needing state information in a thr..." alt="" coords="1879,482,2021,523"/>
+<area shape="rect" id="node12" href="$de/d32/classmadara_1_1knowledge_1_1KnowledgeRecordFilters.html" title="Provides map of data types to a filter chain to apply to the data. " alt="" coords="2195,482,2359,523"/>
+<area shape="rect" id="node15" href="$d2/d83/classmadara_1_1knowledge_1_1Function.html" title="This class stores a function definition. " alt="" coords="1335,465,1477,506"/>
+<area shape="rect" id="node16" href="$d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html" title="This class encapsulates an entry in a KnowledgeBase. " alt="" coords="1001,473,1143,514"/>
+<area shape="rect" id="node20" href="$d5/d32/classmadara_1_1expression_1_1ExpressionTree.html" title="Encapsulates a MADARA KaRL expression into an evaluatable tree. " alt="" coords="1004,675,1140,717"/>
+<area shape="rect" id="node19" href="$d9/d7f/classmadara_1_1filters_1_1RecordFilter.html" title="Abstract base class for implementing individual record filters via a functor interface. " alt="" coords="980,412,1164,439"/>
+<area shape="rect" id="node21" href="$d0/ddb/classmadara_1_1utility_1_1Refcounter.html" title="madara::utility::Refcounter\l\&lt; madara::expression::Component\lNode \&gt;" alt="" coords="575,724,797,780"/>
+<area shape="rect" id="node22" href="$da/d78/structmadara_1_1utility_1_1Refcounter_1_1Shim.html" title="A shim class that keeps track of the reference count and a pointer to the type T that&#39;s reference cou..." alt="" coords="237,738,413,779"/>
+<area shape="rect" id="node25" href="$de/d19/classmadara_1_1expression_1_1Interpreter.html" title="Parses incoming expression strings into a parse tree and generates an expression tree from the parse ..." alt="" coords="1603,694,1739,735"/>
+<area shape="rect" id="node30" href="$de/dc4/classmadara_1_1knowledge_1_1AggregateFilter.html" title="This class stores a function definition. " alt="" coords="1599,843,1742,885"/>
+<area shape="rect" id="node31" href="$db/dff/classmadara_1_1filters_1_1AggregateFilter.html" title="Abstract base class for implementing aggregate record filters via a functor interface. " alt="" coords="1320,843,1492,885"/>
 </map>

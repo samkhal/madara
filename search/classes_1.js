@@ -6,6 +6,7 @@ var searchData=
   ['basecontainer',['BaseContainer',['../d9/d19/classmadara_1_1knowledge_1_1containers_1_1BaseContainer.html',1,'madara::knowledge::containers']]],
   ['basethread',['BaseThread',['../de/dcd/classmadara_1_1threads_1_1BaseThread.html',1,'madara::threads']]],
   ['basetracker',['BaseTracker',['../d8/d42/classmadara_1_1knowledge_1_1rcw_1_1BaseTracker.html',1,'madara::knowledge::rcw']]],
+  ['binary_5ft',['binary_t',['../db/dbb/structmadara_1_1knowledge_1_1tags_1_1binary__t.html',1,'madara::knowledge::tags']]],
   ['both',['Both',['../d6/d94/classmadara_1_1expression_1_1Both.html',1,'madara::expression']]],
   ['broadcasttransport',['BroadcastTransport',['../d2/dfe/classmadara_1_1transport_1_1BroadcastTransport.html',1,'madara::transport']]],
   ['broadcasttransportreadthread',['BroadcastTransportReadThread',['../d8/dfa/classmadara_1_1transport_1_1BroadcastTransportReadThread.html',1,'madara::transport']]],

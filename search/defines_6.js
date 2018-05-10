@@ -8,6 +8,7 @@ var searchData=
   ['madara_5ferror',['MADARA_ERROR',['../d0/d16/LogMacros_8h.html#a63b1cc9b92bd7c9e4f9cc18e4a144e2e',1,'LogMacros.h']]],
   ['madara_5ferror_5fbreak',['MADARA_ERROR_BREAK',['../d0/d16/LogMacros_8h.html#a0ce2f00d3f3337b30a47bdb12178c090',1,'LogMacros.h']]],
   ['madara_5ferror_5freturn',['MADARA_ERROR_RETURN',['../d0/d16/LogMacros_8h.html#aea7a8bef0a2a65dc78a6b54f6ab44961',1,'LogMacros.h']]],
+  ['madara_5fextern_5fc',['MADARA_EXTERN_C',['../da/d4d/SimTime_8h.html#ace2d3ba04ca1de967fe754884f5a136a',1,'SimTime.h']]],
   ['madara_5fidentifier',['MADARA_IDENTIFIER',['../d8/d84/MessageHeader_8h.html#a4161567a0a50d786b8da073ccf1267e8',1,'MessageHeader.h']]],
   ['madara_5fidentifier_5flength',['MADARA_IDENTIFIER_LENGTH',['../d8/d84/MessageHeader_8h.html#a3afca6d701e6717005c4142fc8260c9b',1,'MessageHeader.h']]],
   ['madara_5flog_5fdetailed_5ftrace',['MADARA_LOG_DETAILED_TRACE',['../d0/d16/LogMacros_8h.html#a17fb7c09201c40eb98fb9e4de1f3651c',1,'LogMacros.h']]],

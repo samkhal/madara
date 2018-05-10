@@ -6,7 +6,6 @@ var searchData=
   ['less_5fthan',['LESS_THAN',['../d8/d0d/classmadara_1_1expression_1_1VariableCompareNode.html#a9e7ce413650f378f49ef245af45a4a98a9aa7f0b513005399a5df45f81c0770a5',1,'madara::expression::VariableCompareNode']]],
   ['less_5fthan_5fequal',['LESS_THAN_EQUAL',['../d8/d0d/classmadara_1_1expression_1_1VariableCompareNode.html#a9e7ce413650f378f49ef245af45a4a98a67847696632c04fcd642a469c005d167',1,'madara::expression::VariableCompareNode']]],
   ['lesser_5fthan_5fequal',['LESSER_THAN_EQUAL',['../d6/d89/namespacemadara_1_1expression.html#a9188b96b7f95ed5c9d54738a7b9384dfa605be998ddaf7472b280980684dfa4f9',1,'madara::expression']]],
-  ['local_5fscope',['LOCAL_SCOPE',['../d0/d9a/classmadara_1_1knowledge_1_1KnowledgeRecord.html#a49568d8c01a3592ae6f851d078e8e26da734cbaa522c3c628aca8727b52dfc526',1,'madara::knowledge::KnowledgeRecord']]],
   ['log_5falways',['LOG_ALWAYS',['../db/dc6/namespacemadara_1_1logger.html#a908c3b54626c0ed29f33174c60eb8dd8a772a266bf56c8cdca9d21d4480f0228c',1,'madara::logger']]],
   ['log_5fdetailed',['LOG_DETAILED',['../db/dc6/namespacemadara_1_1logger.html#a908c3b54626c0ed29f33174c60eb8dd8aabf8553bafa085d37fdf74a5cd3ba0d7',1,'madara::logger']]],
   ['log_5fdetailed_5ftrace',['LOG_DETAILED_TRACE',['../de/d04/namespacemadara_1_1utility.html#aaf1d95ba1f37121f6ca3f7fa9fd743beae1e92a9c78a68de01633aafa7bd6380f',1,'madara::utility']]],

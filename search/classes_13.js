@@ -7,6 +7,6 @@ var searchData=
   ['udptransport',['UdpTransport',['../d3/d0a/classmadara_1_1transport_1_1UdpTransport.html',1,'madara::transport']]],
   ['udptransportreadthread',['UdpTransportReadThread',['../dc/dd5/classmadara_1_1transport_1_1UdpTransportReadThread.html',1,'madara::transport']]],
   ['unaryoperator',['UnaryOperator',['../d1/dc6/classmadara_1_1expression_1_1UnaryOperator.html',1,'madara::expression']]],
-  ['underflow',['Underflow',['../dc/d33/classmadara_1_1utility_1_1LStack_1_1Underflow.html',1,'madara::utility::LStack']]],
-  ['underflow',['Underflow',['../d3/d8e/classmadara_1_1utility_1_1LQueue_1_1Underflow.html',1,'madara::utility::LQueue']]]
+  ['underflow',['Underflow',['../d3/d8e/classmadara_1_1utility_1_1LQueue_1_1Underflow.html',1,'madara::utility::LQueue']]],
+  ['underflow',['Underflow',['../dc/d33/classmadara_1_1utility_1_1LStack_1_1Underflow.html',1,'madara::utility::LStack']]]
 ];

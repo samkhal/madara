@@ -2,7 +2,7 @@ var classmadara_1_1threads_1_1WorkerThread =
 [
     [ "WorkerThread", "d3/da1/classmadara_1_1threads_1_1WorkerThread.html#a38a94a306b5a3c172dabcda0793b2254", null ],
     [ "WorkerThread", "d3/da1/classmadara_1_1threads_1_1WorkerThread.html#a49fe8c6e4c74041d5282304a1eea6305", null ],
-    [ "WorkerThread", "d3/da1/classmadara_1_1threads_1_1WorkerThread.html#a69f6118871074c6578d365b2143aa408", null ],
+    [ "WorkerThread", "d3/da1/classmadara_1_1threads_1_1WorkerThread.html#a9811bd331a09d0a5e55f9afd27e7fc4b", null ],
     [ "~WorkerThread", "d3/da1/classmadara_1_1threads_1_1WorkerThread.html#a028d7996474c4c8ba540fea357e1bb47", null ],
     [ "change_frequency", "d3/da1/classmadara_1_1threads_1_1WorkerThread.html#ac10cad9054bd0aa940e520c0462f352f", null ],
     [ "operator=", "d3/da1/classmadara_1_1threads_1_1WorkerThread.html#a82afb609add23327846e44424b9f65dc", null ],

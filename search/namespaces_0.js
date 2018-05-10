@@ -10,6 +10,7 @@ var searchData=
   ['madara',['madara',['../d0/da9/namespacemadara.html',1,'']]],
   ['rcw',['rcw',['../d6/dfb/namespacemadara_1_1knowledge_1_1rcw.html',1,'madara::knowledge']]],
   ['ssl',['ssl',['../d5/d8a/namespacemadara_1_1filters_1_1ssl.html',1,'madara::filters']]],
+  ['tags',['tags',['../d8/d0f/namespacemadara_1_1knowledge_1_1tags.html',1,'madara::knowledge']]],
   ['threads',['threads',['../db/d6e/namespacemadara_1_1threads.html',1,'madara']]],
   ['transport',['transport',['../d5/de9/namespacemadara_1_1transport.html',1,'madara']]],
   ['utility',['utility',['../de/d04/namespacemadara_1_1utility.html',1,'madara']]]
