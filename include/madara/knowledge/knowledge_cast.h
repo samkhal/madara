@@ -128,6 +128,8 @@ inline auto knowledge_cast(type<std::vector<T>>, const KnowledgeRecord &in) ->
   return {std::begin(vec), std::end(vec)};
 }
 
+/// Internal implementation details. Users of MADARA should not directly use
+/// the contents of this namespace.
 namespace impl {
   template<typename T>
   inline auto size(const T &c) -> decltype(c.size()) {
@@ -234,9 +236,32 @@ inline auto knowledge_cast(const KnowledgeRecord &in, T &out) ->
   return (out = knowledge_cast(type<T>{}, in));
 }
 
+namespace impl {
+  template <typename T>
+  struct is_basic_string : std::false_type {};
+
+  template<typename CharT, typename Traits, typename Allocator>
+  struct is_basic_string<std::basic_string<CharT, Traits, Allocator>> :
+    std::true_type {};
+}
+
+template<typename CharT, typename Traits, typename Allocator>
+inline std::basic_string<CharT, Traits, Allocator> &knowledge_cast(
+    const KnowledgeRecord &in,
+    std::basic_string<CharT, Traits, Allocator> & out)
+{
+  static_assert(std::is_same<std::string,
+      std::basic_string<CharT, Traits, Allocator>>::value,
+      "knowledge_cast only supports std::string, "
+      "not other std::basic_string types");
+  return (out = knowledge_cast(type<std::string>{}, in));
+}
+
 template<typename T>
 inline auto knowledge_cast(const KnowledgeRecord &in, T &out) ->
-  typename std::enable_if<impl::supports_target_container<T&>::value,
+  typename std::enable_if<
+      impl::supports_target_container<T&>::value &&
+      !impl::is_basic_string<T>::value,
     decltype(out)>::type
 {
   auto ints = impl::share_array<T>(in);
@@ -354,6 +379,11 @@ inline const KnowledgeRecord &knowledge_cast(const KnowledgeRecord &in)
       decltype(l op knowledge_cast<T>(r)) \
   { \
     return l op knowledge_cast<T>(r); \
+  } \
+ \
+  inline bool operator op (const KnowledgeRecord &l, nullptr_t) \
+  { \
+    return l op 0; \
   } \
  \
   inline bool operator op (const KnowledgeRecord &l, const char *r) \
